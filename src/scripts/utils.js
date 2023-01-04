@@ -1,6 +1,5 @@
 import config from './config';
 import * as PIXI from 'pixi.js';
-import conversionUtils from './conversionUtils';
 export default
     {
         resizeToFitMaxAR(size, element, res) {
@@ -123,7 +122,7 @@ export default
             // Check sign of given number
             var hours = Math.floor(number / 60);
             var minutes = number % 60;
-            if(minutes == 0){
+            if (minutes == 0) {
                 minutes += '0'
             }
             return hours + ":" + minutes;
@@ -528,10 +527,10 @@ export default
             }
             return 0;
         },
-        distSort(point, array){
+        distSort(point, array) {
 
             array.forEach(element => {
-                element._playerDist = this.distance(element.transform.position.x,element.transform.position.y,point.x, point.y)
+                element._playerDist = this.distance(element.transform.position.x, element.transform.position.y, point.x, point.y)
             });
 
             array.sort(this.playerDistCompare)

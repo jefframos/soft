@@ -8,7 +8,8 @@ export default class StackView extends PIXI.Container {
         this.stackModel = stackModel;
         this.cards = [];
 
-        this.baseCard = new CardView('square_0007')
+        this.baseCard = new CardView()
+        this.baseCard.tint = 0x747F7F;
         this.addChild(this.baseCard);
         this.stackContainer = new PIXI.Container();
         this.addChild(this.stackContainer);
@@ -22,17 +23,18 @@ export default class StackView extends PIXI.Container {
         this.quantityLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
         this.addChild(this.quantityLabel)
         this.quantityLabel.x = 50
-        this.quantityLabel.y = 150
-        this.quantityLabel.anchor.set(0.5)
+        this.quantityLabel.y = 180
+        this.quantityLabel.anchor.set(0.5, 0)
     }
     reset() {
         this.stackContainer.children = [];
         this.cards = [];
+        this.quantityLabel.text = this.cards.length;
     }
     drawStack(stack) {
         for (var i = 0; i < stack.cards.length; i++) {
             this.cards.push(new CardView());
-            this.cards[i].y = i * 3
+            this.cards[i].y = i * 5
             this.cards[i].updateTexture(stack.cards[i].spriteId)
             this.stackContainer.addChild(this.cards[i]);
 
@@ -72,7 +74,7 @@ export default class StackView extends PIXI.Container {
         for (var i = 0; i < this.cards.length; i++) {
             if (this.cards[i].visible) {
                 this.cards[i].x = 0
-                this.cards[i].y = ++posAccum * 3
+                this.cards[i].y = ++posAccum * 5
             }
         }
     }

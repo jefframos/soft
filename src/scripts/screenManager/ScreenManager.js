@@ -47,7 +47,6 @@ export default class ScreenManager extends PIXI.Container {
 		this.currentScreen = tempScreen;
 		this.currentScreen.build(param);
 		this.currentScreen.transitionIn();
-		console.log(this.currentScreen)
 		this.screensContainer.addChild(this.currentScreen);
 		if (!this.resolution) {
 			this.resolution = { width: innerWidth, height: innerHeight };

@@ -1,9 +1,15 @@
 
 export default class Pool {
+    static _instance;
+    static get instance() {
+        if (!Pool._instance) {
+            Pool._instance = new Pool();
+        }
+        return Pool._instance;
+    }
     constructor() {
         this.pool = {};
     }
-    static Debug = false;
     getElement(constructor) {
 
         if (this.pool[constructor.name]) {

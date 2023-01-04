@@ -1,17 +1,14 @@
 import * as PIXI from 'pixi.js';
 import * as signals from 'signals';
-
-import TweenLite from 'gsap';
 import utils from '../../utils';
-import config from '../../config';
 
 export default class UIButton1 extends PIXI.Container {
-	constructor(icon, iconColor = 0xFFFFFF, width = 65, height = 65, texture = config.assets.button.primarySquare) {
+	constructor(icon, buttonColor = 0xFFFFFF, width = 65, height = 65, texture = 'button-1w') {
 		super();
-		this.build(icon, iconColor, width, height, texture)
+		this.build(icon, buttonColor, width, height, texture)
 		return this;
 	}
-	build(icon, iconColor = 0xFFFFFF, width = 65, height = 65, texture = config.assets.button.primarySquare) {
+	build(icon, buttonColor = 0xFFFFFF, width = 65, height = 65, texture = 'button-1w') {
 		this.w = width;
 		this.h = height;
 
@@ -30,16 +27,15 @@ export default class UIButton1 extends PIXI.Container {
 				this.icon = PIXI.Sprite.from(icon);
 			}
 		}
-		this.icon.tint = iconColor;
 		this.enabled = true;
 
 		this.backShape = new PIXI.NineSlicePlane(
-			PIXI.Texture.from(texture), 0, 0, 0, 0)
+			PIXI.Texture.from(texture), 10, 10, 10, 10)
 		this.backShape.width = width
 		this.backShape.height = height
 		this.backShape.pivot.set(width / 2, height / 2)
+		this.backShape.tint = buttonColor;
 
-		config.addPaddingSquareButton(this.backShape)
 		this.icon.anchor.set(0.5);
 		this.updateIconScale();
 		this.mainContainer.addChild(this.backShape);
@@ -53,17 +49,8 @@ export default class UIButton1 extends PIXI.Container {
 		this.interactive = true;
 		this.buttonMode = true;
 	}
-	addBadge(texture, scale = 0.8) {
-		this.badge = PIXI.Sprite.from(texture);
-		this.badge.scale.set(scale);
-		this.badge.anchor.set(this.badge.width * scale / this.badge.width);
-		this.badge.x = this.backShape.width / 2 - 4//- this.badge.width
-		this.badge.y = -this.backShape.height / 2 + this.badge.height / 2 + 8
-		this.mainContainer.addChild(this.badge);
 
-	}
 	touchStart() {
-		//this.backShape.scale.set(1.1)
 	}
 	changePivot(x, y) {
 
@@ -71,41 +58,6 @@ export default class UIButton1 extends PIXI.Container {
 
 		this.icon.x = this.w * x + this.w / 2
 		this.icon.y = this.h * y + this.h / 2
-	}
-	disableState(color, texture) {
-
-		if (texture)
-			this.backShape.texture = PIXI.Texture.from(texture)
-		this.icon.alpha = 0.5
-		// this.backShape.tint = color;
-		//this.alpha = 0.5
-	}
-	enableState(color, texture) {
-
-		if (texture)
-			this.backShape.texture = PIXI.Texture.from(texture)
-		this.icon.alpha = 1
-		//this.alpha = 1
-		// this.backShape.tint = color;
-	}
-	addFrontShape() {
-		this.backShape.y = -10
-
-	}
-	resize(width, height) {
-		if (!width || !height) {
-			return
-		}
-
-
-
-
-		this.backShape.width = width
-		this.backShape.height = height
-		this.backShape.pivot.set(width / 2)
-
-
-		this.updateIconScale();
 	}
 	updateIconScale(scale = 0.7) {
 
@@ -136,7 +88,6 @@ export default class UIButton1 extends PIXI.Container {
 		this.enabled = false;
 		this.icon.tint = 0;
 
-		this.backShape.texture = new PIXI.Texture.from(config.assets.button.greySquare);
 
 	}
 	enable() {
@@ -147,10 +98,7 @@ export default class UIButton1 extends PIXI.Container {
 	}
 	click() {
 		if (!this.enabled) return
-		//this.backShape.scale.set(1)
-		// SOUND_MANAGER.play('Tap-01', 0.1)
 		this.onClick.dispatch();
-		// //window.SOUND_MANAGER.play('tap2', { volume: 0.5 })
 	}
 	updateTextColor(color) {
 		if (this.buttonLabel) {
@@ -165,55 +113,10 @@ export default class UIButton1 extends PIXI.Container {
 		this.mainContainer.addChild(this.icon);
 
 	}
-	updateMenuColors(textColor, backgroundColor) {
 
-		this.icon.tint = backgroundColor;
-
-		if (this.backLabelLeft) {
-			this.backLabelLeft.tint = backgroundColor;
-		}
-
-		if (this.buttonLabel) {
-			this.buttonLabel.style.fill = textColor;
-		}
-
-		this.backShape.tint = textColor;
-	}
-	addLabelRight(label, color = 0xFFFFFF) {
-		this.buttonLabel = new PIXI.Text(label, { font: '18px', fill: color, align: 'left', fontWeight: '300', fontFamily: MAIN_FONT });
-		this.buttonLabel.pivot.x = 0//this.buttonLabel.width;
-		this.buttonLabel.pivot.y = this.buttonLabel.height / 2;
-		this.buttonLabel.x = this.mainContainer.width * 0.5 + 5;
-		this.buttonLabel.y = this.backShape.width * 0.5;
-		this.addChild(this.buttonLabel);
-	}
-	addLabelLeft(label, color = 0xFFFFFF) {
-		this.buttonLabel = new PIXI.Text(label, { font: '18px', fill: color, align: 'right', fontWeight: '300', fontFamily: MAIN_FONT });
-		this.buttonLabel.pivot.x = this.buttonLabel.width;
-		this.buttonLabel.pivot.y = this.buttonLabel.height / 2;
-		this.buttonLabel.x = -this.mainContainer.width * 0.5 - 5;
-		this.buttonLabel.y = this.backShape.width * 0.5;
-		this.addChild(this.buttonLabel);
-	}
-	addLabelLeftMenu(label) {
-		this.buttonLabel = new PIXI.Text(label, {
-			font: '32px', fill: this.backShape.tint, align: 'right', fontWeight: '800', fontFamily: MAIN_FONT
-		});
-		this.buttonLabel.pivot.x = this.buttonLabel.width;
-		this.buttonLabel.pivot.y = this.buttonLabel.height / 2;
-		this.buttonLabel.x = -this.mainContainer.width * 0.55;
-
-		if (!this.backLabelLeft) {
-			this.backLabelLeft = new PIXI.mesh.NineSlicePlane(
-				PIXI.Texture.from('smallButton.png'), 10, 10, 10, 10)
-			this.backLabelLeft.tint = this.icon.tint;
-		}
-
-		this.backLabelLeft.width = this.buttonLabel.width - this.buttonLabel.x;
-		this.backLabelLeft.height = this.backShape.height;
-		this.backLabelLeft.x = - this.backLabelLeft.width - this.backShape.width / 2
-		this.backLabelLeft.y = -this.backLabelLeft.height / 2// - this.backShape.height / 2
-		this.addChildAt(this.backLabelLeft, 0);
+	addLabel(label, style) {
+		this.buttonLabel = new PIXI.Text(label, style);
+		this.buttonLabel.anchor.set(0.5)
 		this.addChild(this.buttonLabel);
 	}
 	updateTexture(texture) {

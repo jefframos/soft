@@ -1,13 +1,12 @@
 import * as PIXI from 'pixi.js';
 import config from './config';
-import utils from './utils';
 
 export default class Game {
-    static GlobalScale = {x:1, y:1}
-    static GlobalContainerPosition = {x:0, y:0}
+    static GlobalScale = { x: 1, y: 1 }
+    static GlobalContainerPosition = { x: 0, y: 0 }
     constructor(config, screenManager) {
-        Game.GlobalScale = {x:1, y:1}
-        Game.GlobalContainerPosition = {x:0, y:0}
+        Game.GlobalScale = { x: 1, y: 1 }
+        Game.GlobalContainerPosition = { x: 0, y: 0 }
         this.screenManager = screenManager;
 
         if (!window.isMobile) {
@@ -203,15 +202,15 @@ export default class Game {
 
 
             Game.GlobalScale.x = config.width / this.innerResolution.width
-            Game.GlobalScale.y =  config.height / this.innerResolution.height
+            Game.GlobalScale.y = config.height / this.innerResolution.height
 
             Game.GlobalContainerPosition.x = this.screenManager.x
             Game.GlobalContainerPosition.y = this.screenManager.y
-            
 
 
 
-            
+
+
             // 	//console.log(window.appScale)
             window.isPortrait = this.innerResolution.width < this.innerResolution.height * 1.2
 

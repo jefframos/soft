@@ -24,13 +24,12 @@ export default class Demo2 extends Screen {
             fontSize: 24,
             dropShadowDistance: 3,
             fill: "#ffcd1a",
-            fontWeight: "bold",
-            letterSpacing: 5,
+            letterSpacing: 3,
             strokeThickness: 3,
         })
 
 
-        let closeButton = new UIButton1('icon_close', 0xFFFFFF, 80, 80)
+        let closeButton = new UIButton1('icon-home', 0xFF4858, 80, 80)
         closeButton.onClick.add(() => {
             this.screenManager.backScreen();
         })
@@ -38,19 +37,17 @@ export default class Demo2 extends Screen {
         closeButton.y = 50
         this.addChild(closeButton);
 
-
         this.textBoxes = [];
 
-        this.spawnTextTimer = 3;
+        this.spawnTextTimer = 2;
         this.currentSpawnTextTimer = 0.1;
-
     }
 
     addTextBox(source) {
         let bracketsIndex = source.indexOf('{')
 
         let brackets = []
-
+        let stringIndex = 0;
         this.textStructure = [];
         if (bracketsIndex == -1) {
             this.textStructure.push({ type: 'text', source: source })
@@ -84,7 +81,6 @@ export default class Demo2 extends Screen {
 
         let boxList = new PIXI.Container();
 
-
         let xPos = 0;
         let offsetY = 0;
         let lineHeight = 45;
@@ -115,7 +111,7 @@ export default class Demo2 extends Screen {
             }
         }
 
-        boxList.lifeSpan = this.spawnTextTimer;
+        boxList.lifeSpan = this.spawnTextTimer * 1.5;
         this.container.addChild(boxList)
         this.textBoxes.push(boxList);
 
@@ -129,11 +125,11 @@ export default class Demo2 extends Screen {
         let str = '';
         for (let index = 0; index < length; index++) {
             let type = Math.random()
-            if (type < 0.3) {
+            if (type < 0.2) {
                 let spriteID = Math.ceil(Math.random() * 150)
                 let id = spriteID < 10 ? '00' + spriteID : spriteID < 100 ? '0' + spriteID : spriteID.toString();
                 str += '{' + id + '} '
-            } else if (type < 0.75) {
+            } else if (type < 0.9) {
                 str += this.loremArray[Math.floor(Math.random() * this.loremArray.length)] + ' '
             } else {
                 str += this.emojiArray[Math.floor(Math.random() * this.emojiArray.length)] + ' '

@@ -1,24 +1,8 @@
 {"frames": {
 
-"shadow - Copy.png":
-{
-	"frame": {"x":1,"y":1,"w":64,"h":61},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":64,"h":61},
-	"sourceSize": {"w":64,"h":64}
-},
-"shadow.png":
-{
-	"frame": {"x":67,"y":1,"w":64,"h":61},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":1,"w":64,"h":61},
-	"sourceSize": {"w":64,"h":64}
-},
 "shoot.png":
 {
-	"frame": {"x":133,"y":60,"w":7,"h":1},
+	"frame": {"x":12,"y":49,"w":7,"h":1},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":1},
@@ -26,7 +10,7 @@
 },
 "spark2.png":
 {
-	"frame": {"x":133,"y":49,"w":9,"h":9},
+	"frame": {"x":1,"y":49,"w":9,"h":9},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":9},
@@ -34,7 +18,7 @@
 },
 "star1.png":
 {
-	"frame": {"x":133,"y":26,"w":21,"h":21},
+	"frame": {"x":1,"y":26,"w":21,"h":21},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":1,"w":21,"h":21},
@@ -42,7 +26,7 @@
 },
 "star2.png":
 {
-	"frame": {"x":133,"y":1,"w":23,"h":23},
+	"frame": {"x":1,"y":1,"w":23,"h":23},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":23},
@@ -56,8 +40,8 @@
 	"version": "1.0",
 	"image": "particles.png",
 	"format": "RGBA8888",
-	"size": {"w":157,"h":63},
+	"size": {"w":25,"h":59},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:addfeacff132401b6637e143b113bbfa:3b60a0dc6fb45919f89a9f8b762f0756:767f0aa26e08023d62afa20c0c952bea$"
+	"smartupdate": "$TexturePacker:SmartUpdate:e62d9d5a5add42d90837c1c85f34993f:b9f06757e6c84c81aeb1423ac6e98ec8:767f0aa26e08023d62afa20c0c952bea$"
 }
 }

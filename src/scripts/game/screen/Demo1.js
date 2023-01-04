@@ -4,6 +4,7 @@ import CardStack from "../demo1/CardStack";
 import CardView from "../demo1/CardView";
 import Screen from '../../screenManager/Screen'
 import StackView from '../demo1/StackView';
+import CardTweenTransition from '../demo1/CardTweenTransition';
 import CardTransition from '../demo1/CardTransition';
 import config from '../../config';
 import UIButton1 from '../../game/ui/UIButton1'
@@ -14,18 +15,18 @@ export default class Demo1 extends Screen {
     constructor(label) {
         super(label);
 
-
-
         this.container = new PIXI.Container()
         this.addChild(this.container);
 
         this.cardStack = new CardStack();
         this.cardStackView = new StackView(this.cardStack)
         this.container.addChild(this.cardStackView)
+        this.cardStackView._name = 'normal'
 
         this.cemiteryStack = new CardStack();
         this.cemiteryStackView = new StackView(this.cemiteryStack)
         this.container.addChild(this.cemiteryStackView)
+        this.cemiteryStackView._name = 'cemitery'
 
         this.trantitionType = Demo1.FROM_STACK;
         this.cardTransition = new CardTransition()
@@ -36,34 +37,62 @@ export default class Demo1 extends Screen {
         this.transitionTime = 1;
         this.transitionCounter = this.transitionTime;
 
+        this.cardTransitionTween = new CardTweenTransition()
+        this.cardTransitionTween.onCompleteTransition.add(this.completeTransition.bind(this))
+        this.addChild(this.cardTransitionTween);
 
-        let closeButton = new UIButton1('icon_close', 0xFFFFFF, 80, 80)
+        this.currentTransition = this.cardTransition;
+
+        let closeButton = new UIButton1('icon-home', 0xFF4858, 80, 80)
         closeButton.onClick.add(() => {
             this.screenManager.backScreen();
         })
         closeButton.x = 50
         closeButton.y = 50
         this.addChild(closeButton);
-    }
-    build() {
 
+        this.movableDecks = { active: false, sin: 0 };
+
+
+        this.helpLabel = new PIXI.BitmapText("Positions are different everytime\nthis screen is opened", { fontName: 'counter' });
+        this.addChild(this.helpLabel)
+        this.helpLabel.x = 100;
+        this.helpLabel.y = 25
+    }
+    build(params = {}) {
         this.cardTransition.reset();
+        this.cardTransitionTween.reset();
+
+        this.transitionTime = params.drawTime ? params.drawTime : 1;
+        if (params.transition == 'tween') {
+            this.currentTransition = this.cardTransitionTween;
+            this.movableDecks.active = false;
+
+            this.cardStackView.x = 50;
+            this.cardStackView.y = Math.random() * 300 + 100;
+
+            this.cemiteryStackView.x = config.width - 150;
+            this.cemiteryStackView.y = Math.random() * 300 + 100;
+
+        } else {
+            this.currentTransition = this.cardTransition;
+            this.movableDecks.active = true;
+
+            this.cardStackView.x = 50;
+            this.cardStackView.y = config.height - 250;
+        }
+
         this.cardStack.reset();
         this.cardStackView.reset();
         this.cemiteryStack.reset();
         this.cemiteryStackView.reset();
 
-        this.transitionTime = 1;
         this.transitionCounter = this.transitionTime;
 
         this.cardStack.populate(144);
         this.cardStackView.drawStack(this.cardStack);
 
-        this.cardStackView.x = 0;
-        this.cardStackView.y = Math.random() * (config.height - 260) + 100;
 
-        this.cemiteryStackView.x = config.width - 100;
-        this.cemiteryStackView.y = Math.random() * (config.height - 260) + 100;
 
     }
     completeTransition(card, targetView) {
@@ -81,7 +110,7 @@ export default class Demo1 extends Screen {
         let originTransition = { x: fromStack.x, y: fromStack.y }
         let targetPosition = { x: toStack.x, y: toStack.y };
 
-        this.cardTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
+        this.currentTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
     }
     sortTransition() {
         if (this.trantitionType == Demo1.FROM_STACK) {
@@ -103,6 +132,16 @@ export default class Demo1 extends Screen {
         if (this.transitionCounter <= 0) {
             this.transitionCounter = this.transitionTime;
             this.sortTransition();
+        }
+        if (this.movableDecks.active) {
+            this.movableDecks.sin += delta * 2;
+            this.cemiteryStackView.x = config.width / 2 + Math.cos(this.movableDecks.sin) * 200;
+            this.cemiteryStackView.y = config.height / 2 + Math.sin(this.movableDecks.sin) * 200 - 150;
+
+            this.cardStackView.x = config.width / 2 + Math.cos(this.movableDecks.sin) * 200;
+        }
+        if (this.currentTransition.update) {
+            this.currentTransition.update(delta);
         }
     }
 }

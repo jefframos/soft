@@ -2,7 +2,7 @@
 import * as PIXI from 'pixi.js';
 
 export default class CardView extends PIXI.NineSlicePlane {
-    constructor(texture = 'square_0002', width = 100, height = 150) {
+    constructor(texture = 'button-1w', width = 100, height = 150) {
         super(PIXI.Texture.from(texture), 20, 20, 20, 20)
         this.width = width
         this.height = height
@@ -10,7 +10,7 @@ export default class CardView extends PIXI.NineSlicePlane {
         this.cardImage = new PIXI.Sprite();
 
         this.addChild(this.cardImage);
-
+        this.tint = 0xD9436B;
         this.cardImage.anchor.set(0.5)
         this.cardImage.scale.set(0.5)
         this.cardImage.x = width / 2

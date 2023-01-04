@@ -8,6 +8,8 @@ import MainScreenManager from './game/screen/MainScreenManager';
 import signals from 'signals';
 import config from './config';
 
+window.iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+window.isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i);
 
 window.onAdds = new signals.Signal();
 window.onStopAdds = new signals.Signal();
