@@ -1,11 +1,4 @@
-# Fast-prototype-starter WORK IN PROGRESS
-
-description here of all the features comming soon:
-
-
- https://www.facebook.com/embed/instantgames/572860816402905/player?game_url=https://localhost:8080/
-
-
+# Fast-prototype-starter
 
 - auto minify json
 - auto convert wav in .mp3 & .ogg
