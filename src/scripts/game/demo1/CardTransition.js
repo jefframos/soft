@@ -49,8 +49,8 @@ export default class CardTransition extends PIXI.Container {
                 continue;
             }
 
-            let angle = Math.atan2(transition.targetStack.y - transition.card.y, transition.targetStack.x - transition.card.x);
-            let distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.x, transition.targetStack.y);
+            let angle = Math.atan2(transition.targetStack.globalTopPosition.y - transition.card.y, transition.targetStack.globalTopPosition.x - transition.card.x);
+            let distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.globalTopPosition.x, transition.targetStack.globalTopPosition.y);
 
             transition.velocity.x = Math.cos(angle) * (distance / transition.currentDuration) * delta
             transition.velocity.y = Math.sin(angle) * (distance / transition.currentDuration) * delta

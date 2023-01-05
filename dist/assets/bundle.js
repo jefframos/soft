@@ -62907,10 +62907,10 @@ var Demo1 = function (_Screen) {
                                 this.movableDecks.active = false;
 
                                 this.cardStackView.x = 50;
-                                this.cardStackView.y = Math.random() * 300 + 100;
+                                this.cardStackView.y = 900;
 
                                 this.cemiteryStackView.x = _config2.default.width - 150;
-                                this.cemiteryStackView.y = Math.random() * 300 + 100;
+                                this.cemiteryStackView.y = Math.random() * 300 + 600;
                         } else {
                                 this.currentTransition = this.cardTransition;
                                 this.movableDecks.active = true;
@@ -62932,8 +62932,9 @@ var Demo1 = function (_Screen) {
         }, {
                 key: "completeTransition",
                 value: function completeTransition(card, targetView) {
-                        this.cardStackView.refreshStackView();
-                        this.cemiteryStackView.refreshStackView();
+                        this.cardStackView.refreshStackView(true);
+                        this.cemiteryStackView.refreshStackView(true);
+
                         targetView.addCard(card);
                 }
         }, {
@@ -62945,8 +62946,8 @@ var Demo1 = function (_Screen) {
                         var card = fromStack.popCard();
 
                         //start transition from stack to stack
-                        var originTransition = { x: fromStack.x, y: fromStack.y };
-                        var targetPosition = { x: toStack.x, y: toStack.y };
+                        var originTransition = { x: fromStack.x + fromStack.topPosition.x, y: fromStack.y + fromStack.topPosition.y };
+                        var targetPosition = { x: toStack.x + toStack.topPosition.x, y: toStack.y + toStack.topPosition.y };
 
                         this.currentTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
                 }
@@ -62976,10 +62977,11 @@ var Demo1 = function (_Screen) {
                         }
                         if (this.movableDecks.active) {
                                 this.movableDecks.sin += delta * 2;
-                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200;
-                                this.cemiteryStackView.y = _config2.default.height / 2 + Math.sin(this.movableDecks.sin) * 200 - 150;
+                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 150;
+                                this.cemiteryStackView.y = _config2.default.height / 2 + Math.sin(this.movableDecks.sin) * 200;
 
-                                this.cardStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200;
+                                this.cardStackView.x = 150 + Math.sin(this.movableDecks.sin) * 50;
+                                this.cardStackView.y = 800;
                         }
                         if (this.currentTransition.update) {
                                 this.currentTransition.update(delta);
@@ -63033,7 +63035,7 @@ var CardStack = function () {
     (0, _createClass3.default)(CardStack, [{
         key: "populate",
         value: function populate(total) {
-            for (var i = 0; i < total; i++) {
+            for (var i = 0; i < total - 1; i++) {
                 this.addCard(i + 1);
             }
             _utils2.default.shuffle(this.cards);
@@ -63211,13 +63213,15 @@ var StackView = function (_PIXI$Container) {
 
         _this.currentFrontCardIndex = 0;
 
-        _this.cardsShowing = 5;
+        _this.cardsShowing = 144;
 
         _this.quantityLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
         _this.addChild(_this.quantityLabel);
         _this.quantityLabel.x = 50;
-        _this.quantityLabel.y = 180;
+        _this.quantityLabel.y = 0;
         _this.quantityLabel.anchor.set(0.5, 0);
+
+        _this.topPosition = { x: 0, y: 0 };
         return _this;
     }
 
@@ -63227,6 +63231,7 @@ var StackView = function (_PIXI$Container) {
             this.stackContainer.children = [];
             this.cards = [];
             this.quantityLabel.text = this.cards.length;
+            this.quantityLabel.y = 0;
         }
     }, {
         key: 'drawStack',
@@ -63282,9 +63287,13 @@ var StackView = function (_PIXI$Container) {
             for (var i = 0; i < this.cards.length; i++) {
                 if (this.cards[i].visible) {
                     this.cards[i].x = 0;
-                    this.cards[i].y = ++posAccum * 5;
+                    this.cards[i].y = ++posAccum * -5;
+
+                    this.topPosition.x = this.cards[i].x;
+                    this.topPosition.y = this.cards[i].y;
                 }
             }
+            this.quantityLabel.y = this.topPosition.y;
         }
     }, {
         key: 'refreshVisbles',
@@ -63296,6 +63305,11 @@ var StackView = function (_PIXI$Container) {
                     this.cards[i].visible = true;
                 }
             }
+        }
+    }, {
+        key: 'globalTopPosition',
+        get: function get() {
+            return { x: this.topPosition.x + this.x, y: this.topPosition.y + this.y };
         }
     }]);
     return StackView;
@@ -63527,8 +63541,8 @@ var CardTransition = function (_PIXI$Container) {
                     continue;
                 }
 
-                var angle = Math.atan2(transition.targetStack.y - transition.card.y, transition.targetStack.x - transition.card.x);
-                var distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.x, transition.targetStack.y);
+                var angle = Math.atan2(transition.targetStack.globalTopPosition.y - transition.card.y, transition.targetStack.globalTopPosition.x - transition.card.x);
+                var distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.globalTopPosition.x, transition.targetStack.globalTopPosition.y);
 
                 transition.velocity.x = Math.cos(angle) * (distance / transition.currentDuration) * delta;
                 transition.velocity.y = Math.sin(angle) * (distance / transition.currentDuration) * delta;
@@ -63709,6 +63723,7 @@ var Demo2 = function (_Screen) {
                     boxList.addChild(text);
                     xPos += text.width;
                 } else if (this.textStructure[_index].type == 'sprite') {
+                    //i know im repeating code here
                     var sprite = new PIXI.Sprite();
                     sprite.texture = PIXI.Texture.from(this.textStructure[_index].source);
                     if (xPos + sprite.width > _config2.default.width) {
@@ -63768,7 +63783,6 @@ var Demo2 = function (_Screen) {
                 var element = this.textBoxes[index];
 
                 if (index > 0) {
-
                     element.y = _utils2.default.lerp(element.y, this.textBoxes[index - 1].y + this.textBoxes[index - 1].height + 50, 0.5);
                 } else {
 
@@ -63913,6 +63927,10 @@ var Demo3 = function (_Screen) {
                 _this.particleContainerSmall.frequency = 0.2;
                 _this.particleContainerSmall.maxParticles = 10;
 
+                _this.blueFireEmitter = new _ParticleEmitter2.default(_this.container);
+                _this.blueFireEmitter.frequency = 1 / 60;
+                _this.blueFireEmitter.maxParticles = 1200;
+
                 _this.particleContainerSmall.x = _config2.default.width * 0.25;
                 _this.particleContainerSmall.y = _config2.default.height * 0.75;
 
@@ -63943,6 +63961,20 @@ var Demo3 = function (_Screen) {
                 _this.smallFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [1, 3] });
                 _this.smallFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
                 _this.smallFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0xff0000, endValue: 0xffff00 });
+
+                _this.blueFireDescriptor = new _ParticleDescriptor2.default({
+                        velocityX: [-10, 10],
+                        velocityY: [-80, -25],
+                        gravity: [-20, -60],
+                        scale: [8, 3],
+                        lifeSpan: [2, 5],
+                        blendMode: PIXI.BLEND_MODES.ADD,
+                        texture: PIXI.Texture.from('star1')
+                });
+
+                _this.blueFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [8, 3] });
+                _this.blueFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
+                _this.blueFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0x11c0ff, endValue: 0xffff00 });
 
                 _this.emitTime = 0;
 
@@ -63989,15 +64021,18 @@ var Demo3 = function (_Screen) {
                         if (params.single) {
                                 this.particleContainerEmitter.active = false;
                                 this.containerEmitter.active = false;
+                                this.blueFireEmitter.active = false;
                         } else {
                                 this.particleContainerEmitter.active = true;
                                 this.containerEmitter.active = true;
+                                this.blueFireEmitter.active = true;
                         }
 
                         this.particleContainerEmitter.reset();
                         this.containerEmitter.reset();
                         this.containerEmitterSmall.reset();
                         this.particleContainerSmall.reset();
+                        this.blueFireEmitter.reset();
                 }
         }, {
                 key: 'update',
@@ -64011,6 +64046,9 @@ var Demo3 = function (_Screen) {
 
                         this.containerEmitter.x = _config2.default.width * 0.75 + Math.cos(this.emittersRotation) * 100;
                         this.containerEmitter.y = _config2.default.height * 0.35 + Math.sin(this.emittersRotation) * 100;
+
+                        this.blueFireEmitter.x = _config2.default.width / 2 + Math.cos(this.emittersRotation) * _config2.default.width / 2;
+                        this.blueFireEmitter.y = _config2.default.height;
 
                         this.particleCounter1.visible = this.particleContainerEmitter.active;
                         this.particleCounter1small.visible = this.particleContainerSmall.active;
@@ -64036,11 +64074,15 @@ var Demo3 = function (_Screen) {
                         if (this.particleContainerSmall.canEmit) {
                                 this.particleContainerSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
                         }
+                        if (this.blueFireEmitter.canEmit) {
+                                this.blueFireEmitter.emit(this.blueFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
+                        }
 
                         this.particleContainerEmitter.update(delta);
                         this.containerEmitter.update(delta);
                         this.containerEmitterSmall.update(delta);
                         this.particleContainerSmall.update(delta);
+                        this.blueFireEmitter.update(delta);
                 }
         }]);
         return Demo3;
@@ -64631,7 +64673,7 @@ var MenuScene = function (_Screen) {
                 _this.topLabel.sin = 0;
 
                 var demo1Button = _this.menuList.addElement(new _UIButton2.default(null, 0x05EC15, 400, 100));
-                demo1Button.addLabel('Cards using TweenLite\n(Boring)', _this.buttonLabel1);
+                demo1Button.addLabel('Cards using TweenLite\n', _this.buttonLabel1);
                 demo1Button.onClick.add(function () {
                         _this.onRedirect.dispatch(0, { transition: 'tween' });
                 });
@@ -64654,7 +64696,7 @@ var MenuScene = function (_Screen) {
                         _this.onRedirect.dispatch(1);
                 });
                 var demo3Button = _this.menuList.addElement(new _UIButton2.default(null, 0xF05832, 400, 100));
-                demo3Button.addLabel('Single Particle\n10 Sprites', _this.buttonLabel1);
+                demo3Button.addLabel('Fire using\n10 Sprites', _this.buttonLabel1);
                 demo3Button.onClick.add(function () {
                         _this.onRedirect.dispatch(2, { single: true });
                 });

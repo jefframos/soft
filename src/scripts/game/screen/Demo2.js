@@ -97,6 +97,7 @@ export default class Demo2 extends Screen {
                 boxList.addChild(text)
                 xPos += text.width;
             } else if (this.textStructure[index].type == 'sprite') {
+                //i know im repeating code here
                 let sprite = new PIXI.Sprite();
                 sprite.texture = PIXI.Texture.from(this.textStructure[index].source)
                 if (xPos + sprite.width > config.width) {
@@ -153,7 +154,6 @@ export default class Demo2 extends Screen {
             const element = this.textBoxes[index];
 
             if (index > 0) {
-
                 element.y = utils.lerp(element.y, this.textBoxes[index - 1].y + this.textBoxes[index - 1].height + 50, 0.5);
             } else {
 

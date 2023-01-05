@@ -69,10 +69,10 @@ export default class Demo1 extends Screen {
             this.movableDecks.active = false;
 
             this.cardStackView.x = 50;
-            this.cardStackView.y = Math.random() * 300 + 100;
+            this.cardStackView.y = 900;
 
             this.cemiteryStackView.x = config.width - 150;
-            this.cemiteryStackView.y = Math.random() * 300 + 100;
+            this.cemiteryStackView.y = Math.random() * 300 + 600;
 
         } else {
             this.currentTransition = this.cardTransition;
@@ -96,8 +96,9 @@ export default class Demo1 extends Screen {
 
     }
     completeTransition(card, targetView) {
-        this.cardStackView.refreshStackView()
-        this.cemiteryStackView.refreshStackView()
+        this.cardStackView.refreshStackView(true)
+        this.cemiteryStackView.refreshStackView(true)
+
         targetView.addCard(card);
     }
     sendCard(fromStack, toStack) {
@@ -107,8 +108,8 @@ export default class Demo1 extends Screen {
         let card = fromStack.popCard();
 
         //start transition from stack to stack
-        let originTransition = { x: fromStack.x, y: fromStack.y }
-        let targetPosition = { x: toStack.x, y: toStack.y };
+        let originTransition = { x: fromStack.x + fromStack.topPosition.x, y: fromStack.y + fromStack.topPosition.y }
+        let targetPosition = { x: toStack.x + toStack.topPosition.x, y: toStack.y + toStack.topPosition.y };
 
         this.currentTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
     }
@@ -135,10 +136,11 @@ export default class Demo1 extends Screen {
         }
         if (this.movableDecks.active) {
             this.movableDecks.sin += delta * 2;
-            this.cemiteryStackView.x = config.width / 2 + Math.cos(this.movableDecks.sin) * 200;
-            this.cemiteryStackView.y = config.height / 2 + Math.sin(this.movableDecks.sin) * 200 - 150;
+            this.cemiteryStackView.x = config.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 150;
+            this.cemiteryStackView.y = config.height / 2 + Math.sin(this.movableDecks.sin) * 200;
 
-            this.cardStackView.x = config.width / 2 + Math.cos(this.movableDecks.sin) * 200;
+            this.cardStackView.x = 150 + Math.sin(this.movableDecks.sin) * 50;
+            this.cardStackView.y = 800;
         }
         if (this.currentTransition.update) {
             this.currentTransition.update(delta);

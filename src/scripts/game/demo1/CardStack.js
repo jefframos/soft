@@ -6,7 +6,7 @@ export default class CardStack {
     }
 
     populate(total) {
-        for (let i = 0; i < total; i++) {
+        for (let i = 0; i < total - 1; i++) {
             this.addCard(i + 1);
         }
         utils.shuffle(this.cards);

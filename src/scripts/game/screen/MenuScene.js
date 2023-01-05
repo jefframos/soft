@@ -59,7 +59,7 @@ export default class MenuScene extends Screen {
         this.topLabel.sin = 0;
 
         let demo1Button = this.menuList.addElement(new UIButton1(null, 0x05EC15, 400, 100));
-        demo1Button.addLabel('Cards using TweenLite\n(Boring)', this.buttonLabel1)
+        demo1Button.addLabel('Cards using TweenLite\n', this.buttonLabel1)
         demo1Button.onClick.add(() => {
             this.onRedirect.dispatch(0, { transition: 'tween' })
         })
@@ -82,7 +82,7 @@ export default class MenuScene extends Screen {
             this.onRedirect.dispatch(1)
         })
         let demo3Button = this.menuList.addElement(new UIButton1(null, 0xF05832, 400, 100));
-        demo3Button.addLabel('Single Particle\n10 Sprites', this.buttonLabel1)
+        demo3Button.addLabel('Fire using\n10 Sprites', this.buttonLabel1)
         demo3Button.onClick.add(() => {
             this.onRedirect.dispatch(2, { single: true })
         })

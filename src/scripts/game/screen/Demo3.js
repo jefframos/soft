@@ -62,6 +62,11 @@ export default class Demo3 extends Screen {
         this.particleContainerSmall.maxParticles = 10;
 
 
+        this.blueFireEmitter = new ParticleEmmiter(this.container);
+        this.blueFireEmitter.frequency = 1 / 60;
+        this.blueFireEmitter.maxParticles = 1200;
+
+
         this.particleContainerSmall.x = config.width * 0.25;
         this.particleContainerSmall.y = config.height * 0.75;
 
@@ -99,6 +104,21 @@ export default class Demo3 extends Screen {
         this.smallFireDescriptor.addBaseBehaviours(SinoidBehaviour, { speed: 1, length: [5, 10] })
         this.smallFireDescriptor.addBaseBehaviours(ColorBehaviour, { time: [1, 3], startValue: 0xff0000, endValue: 0xffff00 })
 
+        this.blueFireDescriptor = new ParticleDescriptor(
+            {
+                velocityX: [-10, 10],
+                velocityY: [-80, -25],
+                gravity: [-20, -60],
+                scale: [8, 3],
+                lifeSpan: [2, 5],
+                blendMode: PIXI.BLEND_MODES.ADD,
+                texture: PIXI.Texture.from('star1')
+            }
+        )
+
+        this.blueFireDescriptor.addBaseBehaviours(AlphaBehaviour, { time: [8, 3] })
+        this.blueFireDescriptor.addBaseBehaviours(SinoidBehaviour, { speed: 1, length: [5, 10] })
+        this.blueFireDescriptor.addBaseBehaviours(ColorBehaviour, { time: [1, 3], startValue: 0x11c0ff, endValue: 0xffff00 })
 
         this.emitTime = 0
 
@@ -141,15 +161,18 @@ export default class Demo3 extends Screen {
         if (params.single) {
             this.particleContainerEmitter.active = false;
             this.containerEmitter.active = false;
+            this.blueFireEmitter.active = false;
         } else {
             this.particleContainerEmitter.active = true;
             this.containerEmitter.active = true;
+            this.blueFireEmitter.active = true;
         }
 
         this.particleContainerEmitter.reset();
         this.containerEmitter.reset();
         this.containerEmitterSmall.reset();
         this.particleContainerSmall.reset();
+        this.blueFireEmitter.reset();
     }
 
     update(delta) {
@@ -163,6 +186,10 @@ export default class Demo3 extends Screen {
 
         this.containerEmitter.x = config.width * 0.75 + Math.cos(this.emittersRotation) * 100;
         this.containerEmitter.y = config.height * 0.35 + Math.sin(this.emittersRotation) * 100;
+
+
+        this.blueFireEmitter.x = config.width / 2 + Math.cos(this.emittersRotation) * config.width / 2;
+        this.blueFireEmitter.y = config.height;
 
 
         this.particleCounter1.visible = this.particleContainerEmitter.active;
@@ -189,10 +216,14 @@ export default class Demo3 extends Screen {
         if (this.particleContainerSmall.canEmit) {
             this.particleContainerSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1)
         }
+        if (this.blueFireEmitter.canEmit) {
+            this.blueFireEmitter.emit(this.blueFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1)
+        }
 
         this.particleContainerEmitter.update(delta);
         this.containerEmitter.update(delta);
         this.containerEmitterSmall.update(delta);
         this.particleContainerSmall.update(delta);
+        this.blueFireEmitter.update(delta);
     }
 }
