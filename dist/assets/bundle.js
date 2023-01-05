@@ -58797,7 +58797,7 @@ module.exports = exports["default"];
 /* 167 */
 /***/ (function(module, exports) {
 
-module.exports = {"default":["image/particles/particles.json","image/texture/texture.json","image/ui/ui.json","image/entities/entities.json"]}
+module.exports = {"default":["image/ui/ui.json","image/texture/texture.json","image/particles/particles.json","image/entities/entities.json"]}
 
 /***/ }),
 /* 168 */
@@ -62977,11 +62977,11 @@ var Demo1 = function (_Screen) {
                         }
                         if (this.movableDecks.active) {
                                 this.movableDecks.sin += delta * 2;
-                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 150;
+                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 50;
                                 this.cemiteryStackView.y = _config2.default.height / 2 + Math.sin(this.movableDecks.sin) * 200;
 
-                                this.cardStackView.x = 150 + Math.sin(this.movableDecks.sin) * 50;
-                                this.cardStackView.y = 800;
+                                this.cardStackView.x = 50 + Math.sin(this.movableDecks.sin) * 50;
+                                this.cardStackView.y = 850;
                         }
                         if (this.currentTransition.update) {
                                 this.currentTransition.update(delta);
