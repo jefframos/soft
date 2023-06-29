@@ -23,6 +23,7 @@ export default class Pool {
         }
 
         let newElement = new constructor();
+        //console.log(constructor.name)
         if (Pool.Debug) {
             if (newElement.setDebug) {
                 newElement.setDebug()

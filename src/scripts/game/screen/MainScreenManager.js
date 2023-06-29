@@ -1,13 +1,14 @@
 import * as PIXI from 'pixi.js';
 import * as dat from 'dat.gui';
 
-import ScreenManager from '../../screenManager/ScreenManager';
-import ScreenTransition from './ScreenTransition';
-import config from '../../config';
 import Demo1 from './Demo1';
 import Demo2 from './Demo2';
 import Demo3 from './Demo3';
+import Game from '../../Game';
 import MenuScene from './MenuScene';
+import ScreenManager from '../../screenManager/ScreenManager';
+import ScreenTransition from './ScreenTransition';
+import config from '../../config';
 import utils from '../../utils';
 
 export default class MainScreenManager extends ScreenManager {
@@ -41,6 +42,7 @@ export default class MainScreenManager extends ScreenManager {
         });
 
 
+
         this.fpsLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
         this.addChild(this.fpsLabel)
 
@@ -54,8 +56,6 @@ export default class MainScreenManager extends ScreenManager {
         this.demo1 = new Demo1('demo1')
         this.addScreen(this.demo1);
 
-        this.demo2 = new Demo2('demo2')
-        this.addScreen(this.demo2);
 
         this.demo3 = new Demo3('demo3')
         this.addScreen(this.demo3);
@@ -65,7 +65,7 @@ export default class MainScreenManager extends ScreenManager {
         this.menu.onRedirect.add((id, param) => {
             this.change(this.demos[id], param)
 
-            if (id == 2) {
+            if (id == 1) {
                 utils.addColorTween(this.backgroundColor, this.backgroundColor.tint, 0, 1)
             } else {
                 utils.addColorTween(this.backgroundColor, this.backgroundColor.tint, 0x52CDDA, 1)
@@ -73,7 +73,7 @@ export default class MainScreenManager extends ScreenManager {
         })
 
 
-        this.demos = ['demo1', 'demo2', 'demo3']
+        this.demos = ['demo1', 'demo3']
         this.timeScale = 1;
         this.isPaused = false;
 

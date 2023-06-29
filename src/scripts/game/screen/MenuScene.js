@@ -1,9 +1,9 @@
 import * as PIXI from 'pixi.js';
 
 import Screen from '../../screenManager/Screen'
-import config from '../../config';
-import UIList from '../../game/ui/uiElements/UIList'
 import UIButton1 from '../../game/ui/UIButton1'
+import UIList from '../../game/ui/uiElements/UIList'
+import config from '../../config';
 import signals from 'signals';
 
 export default class MenuScene extends Screen {
@@ -59,38 +59,33 @@ export default class MenuScene extends Screen {
         this.topLabel.sin = 0;
 
         let demo1Button = this.menuList.addElement(new UIButton1(null, 0x05EC15, 400, 100));
-        demo1Button.addLabel('Cards using TweenLite\n', this.buttonLabel1)
+        demo1Button.addLabel('Card transition\nusing TweenLite', this.buttonLabel1)
         demo1Button.onClick.add(() => {
             this.onRedirect.dispatch(0, { transition: 'tween' })
         })
 
         let demo1Button2 = this.menuList.addElement(new UIButton1(null, 0xBD8AF2, 400, 100));
-        demo1Button2.addLabel('Cards not using TweenLite\n(Cool)', this.buttonLabel1)
+        demo1Button2.addLabel('Card transition not\nusing TweenLite\n(Cool)', this.buttonLabel1)
         demo1Button2.onClick.add(() => {
             this.onRedirect.dispatch(0, { transition: 'update' })
         })
 
         let demo1Button3 = this.menuList.addElement(new UIButton1(null, 0xD9436B, 400, 100));
-        demo1Button3.addLabel('Cards not using TweenLite\n(AND SUPER FAST)', this.buttonLabel1)
+        demo1Button3.addLabel('Card transition not\nusing TweenLite\n(AND SUPER FAST)', this.buttonLabel1)
         demo1Button3.onClick.add(() => {
             this.onRedirect.dispatch(0, { transition: 'update', drawTime: 0.1 })
         })
 
-        let demo2Button = this.menuList.addElement(new UIButton1(null, 0xDBD800, 400, 100));
-        demo2Button.addLabel('Label Maker', this.buttonLabel1)
-        demo2Button.onClick.add(() => {
-            this.onRedirect.dispatch(1)
-        })
         let demo3Button = this.menuList.addElement(new UIButton1(null, 0xF05832, 400, 100));
         demo3Button.addLabel('Fire using\n10 Sprites', this.buttonLabel1)
         demo3Button.onClick.add(() => {
-            this.onRedirect.dispatch(2, { single: true })
+            this.onRedirect.dispatch(1, { single: true })
         })
 
         let demo3Button2 = this.menuList.addElement(new UIButton1(null, 0xD9436B, 400, 100));
         demo3Button2.addLabel('More Particles', this.buttonLabel1)
         demo3Button2.onClick.add(() => {
-            this.onRedirect.dispatch(2, { single: false })
+            this.onRedirect.dispatch(1, { single: false })
         })
 
         this.menuList.updateVerticalList()

@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/assets/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 94);
+/******/ 	return __webpack_require__(__webpack_require__.s = 95);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -87,7 +87,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(70);
+var _defineProperty = __webpack_require__(71);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -11149,7 +11149,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VERSION", function() { return VERSION; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filters", function() { return filters; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useDeprecated", function() { return useDeprecated; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pixi_polyfill__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pixi_polyfill__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pixi_utils__ = __webpack_require__(7);
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_1__pixi_utils__; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pixi_accessibility__ = __webpack_require__(59);
@@ -11238,15 +11238,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Ticker", function() { return __WEBPACK_IMPORTED_MODULE_13__pixi_ticker__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TickerPlugin", function() { return __WEBPACK_IMPORTED_MODULE_13__pixi_ticker__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "UPDATE_PRIORITY", function() { return __WEBPACK_IMPORTED_MODULE_13__pixi_ticker__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pixi_filter_alpha__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pixi_filter_blur__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pixi_filter_color_matrix__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pixi_filter_displacement__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pixi_filter_fxaa__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pixi_filter_noise__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pixi_mixin_cache_as_bitmap__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pixi_mixin_get_child_by_name__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pixi_mixin_get_global_position__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pixi_filter_alpha__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pixi_filter_blur__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pixi_filter_color_matrix__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pixi_filter_displacement__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pixi_filter_fxaa__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pixi_filter_noise__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pixi_mixin_cache_as_bitmap__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pixi_mixin_get_child_by_name__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pixi_mixin_get_global_position__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pixi_constants__ = __webpack_require__(13);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ALPHA_MODES", function() { return __WEBPACK_IMPORTED_MODULE_23__pixi_constants__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BLEND_MODES", function() { return __WEBPACK_IMPORTED_MODULE_23__pixi_constants__["b"]; });
@@ -11300,7 +11300,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MeshBatchUvs", function() { return __WEBPACK_IMPORTED_MODULE_27__pixi_mesh__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MeshGeometry", function() { return __WEBPACK_IMPORTED_MODULE_27__pixi_mesh__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MeshMaterial", function() { return __WEBPACK_IMPORTED_MODULE_27__pixi_mesh__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pixi_mesh_extras__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pixi_mesh_extras__ = __webpack_require__(123);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NineSlicePlane", function() { return __WEBPACK_IMPORTED_MODULE_28__pixi_mesh_extras__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PlaneGeometry", function() { return __WEBPACK_IMPORTED_MODULE_28__pixi_mesh_extras__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RopeGeometry", function() { return __WEBPACK_IMPORTED_MODULE_28__pixi_mesh_extras__["c"]; });
@@ -11311,7 +11311,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Runner", function() { return __WEBPACK_IMPORTED_MODULE_29__pixi_runner__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pixi_sprite__ = __webpack_require__(26);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Sprite", function() { return __WEBPACK_IMPORTED_MODULE_30__pixi_sprite__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pixi_sprite_animated__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pixi_sprite_animated__ = __webpack_require__(124);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnimatedSprite", function() { return __WEBPACK_IMPORTED_MODULE_31__pixi_sprite_animated__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pixi_text__ = __webpack_require__(37);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TEXT_GRADIENT", function() { return __WEBPACK_IMPORTED_MODULE_32__pixi_text__["a"]; });
@@ -12819,10 +12819,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uid", function() { return uid; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pixi_settings__ = __webpack_require__(9);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "isMobile", function() { return __WEBPACK_IMPORTED_MODULE_0__pixi_settings__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_eventemitter3__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_eventemitter3__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_eventemitter3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_eventemitter3__);
 /* harmony reexport (default from non-hamory) */ __webpack_require__.d(__webpack_exports__, "EventEmitter", function() { return __WEBPACK_IMPORTED_MODULE_1_eventemitter3___default.a; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_earcut__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_earcut__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_earcut___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_earcut__);
 /* harmony reexport (default from non-hamory) */ __webpack_require__.d(__webpack_exports__, "earcut", function() { return __WEBPACK_IMPORTED_MODULE_2_earcut___default.a; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_url__ = __webpack_require__(58);
@@ -15665,7 +15665,7 @@ var Transform = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return isMobile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return settings; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ismobilejs__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ismobilejs__ = __webpack_require__(102);
 /*!
  * @pixi/settings - v5.3.12
  * Compiled Wed, 23 Mar 2022 18:34:28 UTC
@@ -19631,7 +19631,7 @@ var Power4 = globals.Power4;
 var TweenPlugin = globals.TweenPlugin;
 var EventDispatcher = nonGlobals.events.EventDispatcher;
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(176)(module), __webpack_require__(21)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(194)(module), __webpack_require__(21)))
 
 /***/ }),
 /* 12 */
@@ -20118,8 +20118,8 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 exports.default = {
-	width: 750 * 0.9,
-	height: 1334 * 0.9
+	width: 750,
+	height: 1334
 };
 module.exports = exports["default"];
 
@@ -20141,7 +20141,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 var global = __webpack_require__(15);
 var core = __webpack_require__(12);
-var ctx = __webpack_require__(71);
+var ctx = __webpack_require__(72);
 var hide = __webpack_require__(23);
 var PROTOTYPE = 'prototype';
 
@@ -20207,7 +20207,7 @@ module.exports = $export;
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(27);
-var IE8_DOM_DEFINE = __webpack_require__(72);
+var IE8_DOM_DEFINE = __webpack_require__(73);
 var toPrimitive = __webpack_require__(39);
 var dP = Object.defineProperty;
 
@@ -22268,7 +22268,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*jslint onevar:true, undef:true, newcap:true,
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Loader; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return LoaderResource; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return TextureLoader; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resource_loader__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resource_loader__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pixi_core__ = __webpack_require__(2);
 /*!
  * @pixi/loaders - v5.3.12
@@ -22673,7 +22673,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _defineProperty2 = __webpack_require__(182);
+var _defineProperty2 = __webpack_require__(176);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -22681,7 +22681,7 @@ var _typeof2 = __webpack_require__(43);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _isNan = __webpack_require__(183);
+var _isNan = __webpack_require__(177);
 
 var _isNan2 = _interopRequireDefault(_isNan);
 
@@ -26699,7 +26699,7 @@ var PROTOTYPE = 'prototype';
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(73)('iframe');
+  var iframe = __webpack_require__(74)('iframe');
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
@@ -26736,7 +26736,7 @@ module.exports = Object.create || function create(O, Properties) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(79);
+var $keys = __webpack_require__(80);
 var enumBugKeys = __webpack_require__(49);
 
 module.exports = Object.keys || function keys(O) {
@@ -26805,7 +26805,7 @@ var createDesc = __webpack_require__(31);
 var toIObject = __webpack_require__(20);
 var toPrimitive = __webpack_require__(39);
 var has = __webpack_require__(19);
-var IE8_DOM_DEFINE = __webpack_require__(72);
+var IE8_DOM_DEFINE = __webpack_require__(73);
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(18) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -26820,6 +26820,109 @@ exports.f = __webpack_require__(18) ? gOPD : function getOwnPropertyDescriptor(O
 
 /***/ }),
 /* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ParticleBehaviour = function () {
+    function ParticleBehaviour() {
+        (0, _classCallCheck3.default)(this, ParticleBehaviour);
+
+
+        this.property = 'alpha';
+        this.type = 'sprite';
+
+        this.time = 3;
+        this.delay = 0;
+
+        this.startValue = 0;
+        this.endValue = 1;
+
+        this.currentTime = 0;
+        this.currentValue = 0;
+
+        this.normalValue = 0;
+    }
+
+    (0, _createClass3.default)(ParticleBehaviour, [{
+        key: 'reset',
+        value: function reset() {
+            this.currentTime = 0;
+        }
+    }, {
+        key: 'build',
+        value: function build(params) {}
+    }, {
+        key: 'update',
+        value: function update(delta) {
+            if (this.currentTime > this.time) {
+                return;
+            }
+            this.normalValue = ParticleBehaviour.easeOutCubic(this.currentTime / this.time, 0, 1, 1);
+
+            if (typeof this.currentValue === 'number') {
+                this.currentValue = this.normalValue * (this.endValue - this.startValue) + this.startValue;
+            }
+            this.currentTime += delta;
+        }
+    }], [{
+        key: 'linearTween',
+        value: function linearTween(t, b, c, d) {
+            return c * t / d + b;
+        }
+    }, {
+        key: 'easeOutCubic',
+        value: function easeOutCubic(t, b, c, d) {
+            t /= d;
+            t--;
+            return c * (t * t * t + 1) + b;
+        }
+    }, {
+        key: 'easeInExpo',
+        value: function easeInExpo(t, b, c, d) {
+            return c * Math.pow(2, 10 * (t / d - 1)) + b;
+        }
+    }, {
+        key: 'easeInCirc',
+        value: function easeInCirc(t, b, c, d) {
+            t /= d;
+            return -c * (Math.sqrt(1 - t * t) - 1) + b;
+        }
+    }, {
+        key: 'findValue',
+        value: function findValue(data) {
+            if (Array.isArray(data)) {
+                if (data.length == 1) {
+                    return data[0];
+                }
+                return Math.random() * (data[1] - data[0]) + data[0];
+            }
+            return data;
+        }
+    }]);
+    return ParticleBehaviour;
+}();
+
+exports.default = ParticleBehaviour;
+module.exports = exports['default'];
+
+/***/ }),
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27672,109 +27775,6 @@ var TimelineLite = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["m" /* globals */
 
 
 /***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ParticleBehaviour = function () {
-    function ParticleBehaviour() {
-        (0, _classCallCheck3.default)(this, ParticleBehaviour);
-
-
-        this.property = 'alpha';
-        this.type = 'sprite';
-
-        this.time = 3;
-        this.delay = 0;
-
-        this.startValue = 0;
-        this.endValue = 1;
-
-        this.currentTime = 0;
-        this.currentValue = 0;
-
-        this.normalValue = 0;
-    }
-
-    (0, _createClass3.default)(ParticleBehaviour, [{
-        key: 'reset',
-        value: function reset() {
-            this.currentTime = 0;
-        }
-    }, {
-        key: 'build',
-        value: function build(params) {}
-    }, {
-        key: 'update',
-        value: function update(delta) {
-            if (this.currentTime > this.time) {
-                return;
-            }
-            this.normalValue = ParticleBehaviour.easeOutCubic(this.currentTime / this.time, 0, 1, 1);
-
-            if (typeof this.currentValue === 'number') {
-                this.currentValue = this.normalValue * (this.endValue - this.startValue) + this.startValue;
-            }
-            this.currentTime += delta;
-        }
-    }], [{
-        key: 'linearTween',
-        value: function linearTween(t, b, c, d) {
-            return c * t / d + b;
-        }
-    }, {
-        key: 'easeOutCubic',
-        value: function easeOutCubic(t, b, c, d) {
-            t /= d;
-            t--;
-            return c * (t * t * t + 1) + b;
-        }
-    }, {
-        key: 'easeInExpo',
-        value: function easeInExpo(t, b, c, d) {
-            return c * Math.pow(2, 10 * (t / d - 1)) + b;
-        }
-    }, {
-        key: 'easeInCirc',
-        value: function easeInCirc(t, b, c, d) {
-            t /= d;
-            return -c * (Math.sqrt(1 - t * t) - 1) + b;
-        }
-    }, {
-        key: 'findValue',
-        value: function findValue(data) {
-            if (Array.isArray(data)) {
-                if (data.length == 1) {
-                    return data[0];
-                }
-                return Math.random() * (data[1] - data[0]) + data[0];
-            }
-            return data;
-        }
-    }]);
-    return ParticleBehaviour;
-}();
-
-exports.default = ParticleBehaviour;
-module.exports = exports['default'];
-
-/***/ }),
 /* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -27934,8 +27934,8 @@ function isMobile(param) {
 
 
 
-var punycode = __webpack_require__(104);
-var util = __webpack_require__(106);
+var punycode = __webpack_require__(105);
+var util = __webpack_require__(107);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -28010,7 +28010,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(107);
+    querystring = __webpack_require__(108);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -39543,10 +39543,303 @@ var BitmapFontLoader = /** @class */ (function () {
 /* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(125), __esModule: true };
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+        value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _config = __webpack_require__(14);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Game = function () {
+        function Game(config, screenManager) {
+                (0, _classCallCheck3.default)(this, Game);
+
+                Game.GlobalScale = { x: 1, y: 1 };
+                Game.GlobalContainerPosition = { x: 0, y: 0 };
+                this.screenManager = screenManager;
+
+                if (!window.isMobile) {
+                        config.width *= 1.1;
+                        config.height *= 1.1;
+                }
+
+                var Renderer = config.webgl ? PIXI.autoDetectRenderer : PIXI.CanvasRenderer;
+
+                this.desktopResolution = {
+                        width: config.width,
+                        height: config.height
+                };
+
+                this.ratio = config.width / config.height;
+                window.renderer = new PIXI.Application({
+                        width: config.width,
+                        height: config.height,
+                        resolution: Math.max(window.devicePixelRatio, 2),
+                        antialias: false,
+                        backgroundColor: 0x151510
+                });
+                document.body.appendChild(window.renderer.view);
+
+                this.stage = new PIXI.Container();
+                window.renderer.stage.addChild(this.stage);
+
+                this.frameskip = 1;
+                this.lastUpdate = Date.now();
+
+                this.forceResizeTimer = 5;
+
+                this.latestWidth = 0;
+
+                this.borders = {
+                        topLeft: { x: 0, y: 0 },
+                        bottomLeft: { x: 0, y: 0 },
+                        topRight: { x: 0, y: 0 },
+                        bottomRight: { x: 0, y: 0 }
+                };
+
+                this.makeLoader();
+                this.resize();
+        }
+
+        (0, _createClass3.default)(Game, [{
+                key: 'makeLoader',
+                value: function makeLoader() {
+                        this.loaderContainer = new PIXI.Container();
+                        var backLoader = new PIXI.Graphics().beginFill(0).drawRect(0, 0, 300, 30);
+                        this.fillLoader = new PIXI.Graphics().beginFill(0xff296D).drawRect(0, 0, 300, 30);
+                        this.loaderContainer.addChild(backLoader);
+                        this.loaderContainer.addChild(this.fillLoader);
+                        this.fillLoader.scale.x = 0;
+                        // this.logo = new PIXI.Sprite.from('logoTransparent.png')
+                        // this.logo.anchor.set(0.5)
+                        // this.logo.x = 150
+                        // this.logo.y = -200
+                        // this.loaderContainer.addChild(this.logo)
+                        this.stage.addChild(this.loaderContainer);
+                }
+        }, {
+                key: 'updateLoader',
+                value: function updateLoader(progress) {
+                        this.fillLoader.scale.x = progress / 100;
+                        this.resize();
+                }
+        }, {
+                key: 'initialize',
+                value: function initialize() {
+                        var _this = this;
+
+                        this.stage.removeChild(this.loaderContainer);
+                        window.renderer.ticker.add(this._onTickEvent, this);
+                        setTimeout(function () {
+                                _this.resize();
+                        }, 10);
+                }
+        }, {
+                key: '_onTickEvent',
+                value: function _onTickEvent(deltaTime) {
+                        this.dt = deltaTime / 60;
+                        this.update();
+                        if (this.latestWidth != window.innerWidth) {
+                                this.resize();
+                        }
+                        if (this.forceResizeTimer > 0) {
+                                this.forceResizeTimer -= this.dt;
+                                //this.resize()
+                        }
+                }
+        }, {
+                key: 'resize',
+                value: function resize() {
+                        var w = window.innerHeight;
+                        var h = window.innerWidth;
+
+                        this.latestWidth = window.innerWidth;
+
+                        window.isPortrait = w < h;
+
+                        if (window.innerWidth / window.innerHeight >= this.ratio) {
+                                var w = window.innerHeight * this.ratio;
+                        } else {
+                                var h = window.innerWidth / this.ratio;
+                        }
+
+                        var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                        var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+                        var w = width;
+                        var h = height;
+                        //this.resolution = { width: window.outerWidth, height: window.outerHeight };
+                        this.resolution = { width: window.outerWidth, height: window.outerHeight };
+                        this.innerResolution = { width: w, height: h };
+
+                        window.renderer.view.style.position = 'absolute';
+
+                        window.renderer.view.style.width = this.innerResolution.width + 'px';
+                        window.renderer.view.style.height = this.innerResolution.height + 'px';
+
+                        var sclX = this.innerResolution.width / _config2.default.width;
+                        var sclY = this.innerResolution.height / _config2.default.height;
+
+                        var scl = Math.min(sclX, sclY);
+                        var newSize = {
+                                width: this.desktopResolution.width * scl,
+                                height: this.desktopResolution.height * scl
+                        };
+
+                        window.renderer.view.style.width = this.innerResolution.width + 'px';
+                        window.renderer.view.style.height = this.innerResolution.height + 'px';
+
+                        window.renderer.view.style.left = '0px'; //`${this.innerResolution.width / 2 - (newSize.width) / 2}px`;
+                        window.renderer.view.style.top = '0px'; //`${this.innerResolution.height / 2 - (newSize.height) / 2}px`;
+                        // window.renderer.view.style.width = `${this.innerResolution.width}px`;
+                        // window.renderer.view.style.height = `${this.innerResolution.height}px`;
+                        //window.renderer.view.style.left = `${window.innerWidth / 2 - (this.innerResolution.width) / 2}px`;
+
+
+                        // let sclX = this.innerResolution.width /this.desktopResolution.width //* this.ratio
+                        // let sclY =  this.innerResolution.height /this.desktopResolution.height //* this.ratio
+
+
+                        // console.log(sclX, sclY)
+
+                        // utils.resizeToFitAR
+                        // let scaleMin = 1//Math.min(sclX, sclY) * this.ratio;
+                        // if(sclX < sclY){
+                        //     scaleMin = sclX* this.ratio
+                        // }else{
+
+                        //     scaleMin = sclY* this.ratio
+                        // }
+
+
+                        //element.scale.set(min)
+
+                        if (this.loaderContainer && this.loaderContainer.parent) {
+                                var newScaleX = newSize.width / this.innerResolution.width;
+                                this.loaderContainer.scale.x = newScaleX; //this.ratio
+                                var newScaleY = newSize.height / this.innerResolution.height;
+                                this.loaderContainer.scale.y = newScaleY; //this.ratio
+
+
+                                this.loaderContainer.x = this.desktopResolution.width / 2 - this.desktopResolution.width / 2 * newScaleX + 150 * newScaleX;
+                                this.loaderContainer.y = _config2.default.height / 2 + 50;
+                        }
+
+                        if (this.screenManager) {
+                                //  let sclX = (this.innerResolution.width)/(this.desktopResolution.width) ;
+                                //  let sclY = (this.innerResolution.height)/(this.desktopResolution.height) ;
+                                //  let min = Math.min(sclX, sclY);
+                                // this.screenManager.scale.set(min)
+
+
+                                var _newScaleX = newSize.width / this.innerResolution.width;
+                                this.screenManager.scale.x = _newScaleX; //this.ratio
+                                var _newScaleY = newSize.height / this.innerResolution.height;
+                                this.screenManager.scale.y = _newScaleY; //this.ratio
+
+                                //console.log(newScaleX)
+                                // 	// this.screenManager.pivot.x = this.innerResolution.width / 2 // this.screenManager.scale.x
+                                this.screenManager.x = this.desktopResolution.width / 2 - this.desktopResolution.width / 2 * _newScaleX; ///- (this.innerResolution.width / 2 *newScaleX) // this.screenManager.scale.y
+                                this.screenManager.pivot.y = this.innerResolution.height / 2 - this.innerResolution.height / 2 / _newScaleY; // this.screenManager.scale.y
+
+                                // 	this.screenManager.x = 0//window.innerWidth/2 * sclX - this.desktopResolution.width/2* sclX//this.innerResolution.width / 2 // this.screenManager.scale.x
+                                // 	this.screenManager.y = 0// window.innerHeight/2 * sclY - this.desktopResolution.height/2* sclY // this.screenManager.scale.y
+
+
+                                Game.GlobalScale.x = _config2.default.width / this.innerResolution.width;
+                                Game.GlobalScale.y = _config2.default.height / this.innerResolution.height;
+
+                                Game.GlobalContainerPosition.x = this.screenManager.x;
+                                Game.GlobalContainerPosition.y = this.screenManager.y;
+
+                                // 	//console.log(window.appScale)
+                                window.isPortrait = this.innerResolution.width < this.innerResolution.height * 1.2;
+
+                                this.screenManager.resize(this.resolution, this.innerResolution);
+                                this.borders.topRight.x = _config2.default.width + this.screenManager.x / this.screenManager.scale.x;
+                                this.borders.bottomRight.x = _config2.default.width + this.screenManager.x / this.screenManager.scale.x;
+                                this.borders.bottomRight.y = _config2.default.height;
+                                this.borders.bottomLeft.y = _config2.default.height;
+                        }
+                }
+        }, {
+                key: 'getBorder',
+                value: function getBorder(type, parent) {
+                        var toGlobal = this.screenManager.toGlobal(this.borders[type]);
+                        return parent.toLocal(toGlobal);
+                }
+                /**
+                 * 
+                 *  let sclX = this.innerResolution.width / config.width
+                    let sclY = this.innerResolution.height / config.height
+                        let scl = Math.min(sclX, sclY)
+                    const newSize = {
+                        width: this.desktopResolution.width * scl,
+                        height: this.desktopResolution.height * scl,
+                    };
+                      window.renderer.view.style.width = `${newSize.width}px`;
+                    window.renderer.view.style.height = `${newSize.height}px`;
+                
+                    window.renderer.view.style.left = `${this.innerResolution.width / 2 - (newSize.width) / 2}px`;
+                    window.renderer.view.style.top = `${this.innerResolution.height / 2 - (newSize.height) / 2}px`;
+                 * 
+                 * 
+                 * 
+                 */
+
+        }, {
+                key: 'update',
+                value: function update() {
+                        this.screenManager.update(this.dt);
+                        // window.renderer.render(this.stage);
+                }
+        }, {
+                key: 'start',
+                value: function start() {
+                        //	this.animationLoop.start();
+                }
+        }, {
+                key: 'stop',
+                value: function stop() {
+                        //	this.animationLoop.stop();
+                }
+        }]);
+        return Game;
+}();
+
+Game.GlobalScale = { x: 1, y: 1 };
+Game.GlobalContainerPosition = { x: 0, y: 0 };
+exports.default = Game;
+module.exports = exports['default'];
 
 /***/ }),
 /* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(125), __esModule: true };
+
+/***/ }),
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
@@ -39572,16 +39865,16 @@ module.exports = function (fn, that, length) {
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = !__webpack_require__(18) && !__webpack_require__(28)(function () {
-  return Object.defineProperty(__webpack_require__(73)('div'), 'a', { get: function () { return 7; } }).a != 7;
+  return Object.defineProperty(__webpack_require__(74)('div'), 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(24);
@@ -39594,7 +39887,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
@@ -39605,12 +39898,12 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
 var has = __webpack_require__(19);
-var toObject = __webpack_require__(74);
+var toObject = __webpack_require__(75);
 var IE_PROTO = __webpack_require__(41)('IE_PROTO');
 var ObjectProto = Object.prototype;
 
@@ -39624,7 +39917,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
@@ -39640,20 +39933,20 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var LIBRARY = __webpack_require__(45);
 var $export = __webpack_require__(16);
-var redefine = __webpack_require__(78);
+var redefine = __webpack_require__(79);
 var hide = __webpack_require__(23);
 var has = __webpack_require__(19);
 var Iterators = __webpack_require__(46);
 var $iterCreate = __webpack_require__(135);
 var setToStringTag = __webpack_require__(50);
-var getPrototypeOf = __webpack_require__(75);
+var getPrototypeOf = __webpack_require__(76);
 var ITERATOR = __webpack_require__(25)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
@@ -39717,14 +40010,14 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(23);
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var has = __webpack_require__(19);
@@ -39747,7 +40040,7 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -39758,18 +40051,18 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(79);
+var $keys = __webpack_require__(80);
 var hiddenKeys = __webpack_require__(49).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -39778,14 +40071,528 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 83 */
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CardView = function (_PIXI$NineSlicePlane) {
+    (0, _inherits3.default)(CardView, _PIXI$NineSlicePlane);
+
+    function CardView() {
+        var texture = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'button-1w';
+        var width = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 100;
+        var height = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 150;
+        (0, _classCallCheck3.default)(this, CardView);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (CardView.__proto__ || (0, _getPrototypeOf2.default)(CardView)).call(this, PIXI.Texture.from(texture), 20, 20, 20, 20));
+
+        _this.width = width;
+        _this.height = height;
+
+        _this.cardImage = new PIXI.Sprite();
+
+        _this.addChild(_this.cardImage);
+        _this.tint = 0xD9436B;
+        _this.cardImage.anchor.set(0.5);
+        _this.cardImage.scale.set(0.5);
+        _this.cardImage.x = width / 2;
+        _this.cardImage.y = height / 2;
+
+        return _this;
+    }
+
+    (0, _createClass3.default)(CardView, [{
+        key: 'updateTexture',
+        value: function updateTexture(textureID) {
+            this.cardImage.texture = PIXI.Texture.from(textureID);
+        }
+    }]);
+    return CardView;
+}(PIXI.NineSlicePlane);
+
+exports.default = CardView;
+module.exports = exports['default'];
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var UIList = function (_PIXI$Container) {
+    (0, _inherits3.default)(UIList, _PIXI$Container);
+
+    function UIList() {
+        (0, _classCallCheck3.default)(this, UIList);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (UIList.__proto__ || (0, _getPrototypeOf2.default)(UIList)).call(this));
+
+        _this.container = new PIXI.Container();
+        _this.addChild(_this.container);
+        _this.elementsList = [];
+        _this.w = 0;
+        _this.h = 0;
+        return _this;
+    }
+    // listScl
+    // fitHeight
+    // fitWidth
+    // scaleContent
+    // scaleContentMax
+    // align
+
+
+    (0, _createClass3.default)(UIList, [{
+        key: 'debug',
+        value: function debug() {
+            this.debugGr = new PIXI.Graphics().beginFill(0xFF0000).drawRect(0, 0, this.w, this.h);
+            this.container.addChild(this.debugGr);
+            this.debugGr.alpha = 0.5;
+        }
+    }, {
+        key: 'removeElement',
+        value: function removeElement(element) {
+            this.container.removeChild(element);
+
+            var toRemove = -1;
+            for (var index = 0; index < this.elementsList.length; index++) {
+                if (element == this.elementsList[index]) {
+                    toRemove = index;
+                }
+            }
+            if (toRemove >= 0) {
+
+                this.elementsList.splice(toRemove, 1);
+            }
+        }
+    }, {
+        key: 'addElement',
+        value: function addElement(element) {
+            this.container.addChild(element);
+            this.elementsList.push(element);
+
+            return element;
+        }
+    }, {
+        key: 'updateHorizontalList',
+        value: function updateHorizontalList() {
+            var debug = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+            var listSizes = [];
+            var sum = 0;
+            var quant = 0;
+            for (var i = 0; i < this.elementsList.length; i++) {
+
+                if (this.elementsList[i].listScl) {
+                    listSizes.push(this.elementsList[i].listScl);
+                    sum += this.elementsList[i].listScl;
+                    quant++;
+                } else {
+                    listSizes.push(0);
+                }
+            }
+            var adjust = 1 - sum;
+            var scales = adjust / (this.elementsList.length - quant);
+            var chunkSize = 0;
+            for (var i = 0; i < this.elementsList.length; i++) {
+                if (listSizes[i] == 0) {
+                    listSizes[i] = scales;
+                }
+            }
+            var plus = 0;
+            var positions = [];
+            var stdH = 1;
+            var stdW = 1;
+            var pixig = void 0;
+            for (var i = 0; i < listSizes.length; i++) {
+                if (debug) {
+
+                    pixig = new PIXI.Graphics().beginFill(0xFF0000).drawCircle(0, 0, 5);
+                    this.container.addChild(pixig);
+                }
+                plus = 0;
+                var nextX = 0;
+                chunkSize = this.w * listSizes[i];
+                if (i == 0) {
+                    nextX = 0;
+                } else {
+                    nextX = positions[i - 1] + this.w * listSizes[i - 1];
+                }
+                positions.push(nextX);
+                if (this.elementsList[i].fitHeight) {
+                    stdH = this.elementsList[i].height / this.elementsList[i].scale.y;
+                    this.elementsList[i].scale.set(this.h / stdH * this.elementsList[i].fitHeight);
+                } else if (this.elementsList[i].fitWidth) {
+                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
+                    this.elementsList[i].scale.set(chunkSize / stdW * this.elementsList[i].fitWidth);
+                } else if (this.elementsList[i].scaleContent) {
+                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
+                    this.elementsList[i].scale.set(chunkSize / stdW);
+                } else if (this.elementsList[i].scaleContentMax && this.elementsList[i].width > chunkSize) {
+                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
+                    this.elementsList[i].scale.set(chunkSize / stdW);
+                }
+                var align = 0.5;
+                if (this.elementsList[i].align != undefined) {
+                    align = this.elementsList[i].align;
+                }
+
+                this.elementsList[i].x = nextX + chunkSize * align - this.elementsList[i].width * align;
+                if (debug) {
+
+                    pixig.x = this.elementsList[i].x;
+                }
+                this.elementsList[i].y = this.h / 2 - this.elementsList[i].height / 2;
+            }
+        }
+    }, {
+        key: 'removeAllElements',
+        value: function removeAllElements() {
+            while (this.container.children.length) {
+                this.container.removeChildAt(0);
+            }
+
+            this.elementsList = [];
+        }
+    }, {
+        key: 'updateVerticalList',
+        value: function updateVerticalList() {
+            var listSizes = [];
+            var sum = 0;
+            var quant = 0;
+            for (var i = 0; i < this.elementsList.length; i++) {
+
+                if (this.elementsList[i].listScl) {
+                    listSizes.push(this.elementsList[i].listScl);
+                    sum += this.elementsList[i].listScl;
+                    quant++;
+                } else {
+                    listSizes.push(0);
+                }
+            }
+            var adjust = 1 - sum;
+            var scales = adjust / (this.elementsList.length - quant);
+            var chunkSize = 0;
+            for (var i = 0; i < this.elementsList.length; i++) {
+                if (listSizes[i] == 0) {
+                    listSizes[i] = scales;
+                }
+            }
+            var plus = 0;
+            var positions = [];
+            var stdH = 1;
+            var stdW = 1;
+            for (var i = 0; i < listSizes.length; i++) {
+                // let pixig = new PIXI.Graphics().beginFill(0xFF0000).drawCircle(0, 0, 5)
+                // this.container.addChild(pixig)
+                plus = 0;
+                var nextX = 0;
+                chunkSize = this.h * listSizes[i];
+                if (i == 0) {
+                    nextX = 0;
+                } else {
+                    nextX = positions[i - 1] + this.h * listSizes[i - 1];
+                }
+                positions.push(nextX);
+                if (this.elementsList[i].fitHeight) {
+                    stdH = this.elementsList[i].height / this.elementsList[i].scale.y;
+                    this.elementsList[i].scale.set(chunkSize / stdH * this.elementsList[i].fitHeight);
+                } else if (this.elementsList[i].fitWidth) {
+                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
+                    this.elementsList[i].scale.set(this.w / stdW * this.elementsList[i].fitWidth);
+                } else if (this.elementsList[i].scaleContent) {
+                    stdW = this.elementsList[i].height / this.elementsList[i].scale.y;
+                    this.elementsList[i].scale.set(chunkSize / stdW);
+                } else if (this.elementsList[i].scaleContentMax && this.elementsList[i].height > chunkSize) {
+                    stdW = this.elementsList[i].height / this.elementsList[i].scale.y;
+                    this.elementsList[i].scale.set(chunkSize / stdW);
+                }
+                var align = 0.5;
+                if (this.elementsList[i].align != undefined) {
+                    align = this.elementsList[i].align;
+                }
+
+                var nextY = nextX + chunkSize * align - this.elementsList[i].height * align;
+                this.elementsList[i].y = nextY;
+                // pixig.x = nextX
+
+                this.elementsList[i].x = this.w / 2 - this.elementsList[i].width / 2;
+            }
+        }
+    }]);
+    return UIList;
+}(PIXI.Container);
+
+exports.default = UIList;
+module.exports = exports['default'];
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Pool = function () {
+    (0, _createClass3.default)(Pool, null, [{
+        key: "instance",
+        get: function get() {
+            if (!Pool._instance) {
+                Pool._instance = new Pool();
+            }
+            return Pool._instance;
+        }
+    }]);
+
+    function Pool() {
+        (0, _classCallCheck3.default)(this, Pool);
+
+        this.pool = {};
+    }
+
+    (0, _createClass3.default)(Pool, [{
+        key: "getElement",
+        value: function getElement(constructor) {
+
+            if (this.pool[constructor.name]) {
+                var elements = this.pool[constructor.name];
+                if (elements.length > 0) {
+                    var element = elements.pop();
+                    return element;
+                }
+            } else {
+                this.pool[constructor.name] = [];
+            }
+
+            var newElement = new constructor();
+            //console.log(constructor.name)
+            if (Pool.Debug) {
+                if (newElement.setDebug) {
+                    newElement.setDebug();
+                }
+            }
+            return newElement;
+        }
+    }, {
+        key: "returnElement",
+        value: function returnElement(element) {
+            if (!this.pool[element.constructor.name]) {
+                this.pool[element.constructor.name] = [];
+            }
+
+            this.pool[element.constructor.name].push(element);
+        }
+    }]);
+    return Pool;
+}();
+
+exports.default = Pool;
+module.exports = exports["default"];
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _Pool = __webpack_require__(86);
+
+var _Pool2 = _interopRequireDefault(_Pool);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ParticleDescriptor = function () {
+    function ParticleDescriptor(data) {
+        (0, _classCallCheck3.default)(this, ParticleDescriptor);
+
+        this.lifeSpan = 1;
+        this.direction = 0;
+        this.velocityX = 0;
+        this.velocityY = 0;
+
+        this.blendMode = PIXI.BLEND_MODES.NONE;
+
+        this.velocityOffsetX = 0;
+        this.velocityOffsetY = 0;
+
+        this.gravity = 0;
+        this.scale = 1;
+        this.texture = PIXI.Texture.from('spark2');
+        this.baseData = data;
+        this.baseBehaviours = [];
+        this.behaviours = [];
+
+        this.shouldDestroy = false;
+    }
+
+    (0, _createClass3.default)(ParticleDescriptor, [{
+        key: 'addBaseBehaviours',
+        value: function addBaseBehaviours(behavior, params) {
+            this.baseBehaviours.push({ behavior: behavior, params: params });
+        }
+    }, {
+        key: 'applyBaseData',
+        value: function applyBaseData() {
+            if (this.baseData) {
+                for (var key in this.baseData) {
+                    if (this[key] !== undefined) {
+                        if (Array.isArray(this.baseData[key])) {
+                            this[key] = Math.random() * (this.baseData[key][1] - this.baseData[key][0]) + this.baseData[key][0];
+                        } else {
+                            this[key] = this.baseData[key];
+                        }
+                    }
+                }
+            }
+        }
+    }, {
+        key: 'clone',
+        value: function clone(descriptor) {
+            var _this = this;
+
+            for (var key in this) {
+                this[key] = descriptor[key];
+            }
+            this.applyBaseData();
+            this.shouldDestroy = false;
+
+            this.behaviours = [];
+            descriptor.baseBehaviours.forEach(function (element) {
+                var behaviour = _Pool2.default.instance.getElement(element.behavior);
+                behaviour.build(element.params);
+                behaviour.reset();
+
+                _this.behaviours.push(behaviour);
+            });
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+            this.lifeSpan -= delta;
+            if (this.lifeSpan <= 0) {
+                this.shouldDestroy = true;
+            }
+
+            this.behaviours.forEach(function (element) {
+                element.update(delta);
+            });
+        }
+    }]);
+    return ParticleDescriptor;
+}();
+
+exports.default = ParticleDescriptor;
+module.exports = exports['default'];
+
+/***/ }),
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export TimelineMax */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TimelineMax; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TimelineLite_js__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TimelineLite_js__ = __webpack_require__(56);
 /* unused harmony reexport TimelineLite */
 /*!
  * VERSION: 2.1.3
@@ -40311,7 +41118,7 @@ var TimelineMax = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["m" /* globals */]
 
 
 /***/ }),
-/* 84 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43241,7 +44048,7 @@ var CSSPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["m" /* globals */].C
 
 
 /***/ }),
-/* 85 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43294,7 +44101,7 @@ var AttrPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["k" /* _gsScope */]
 
 
 /***/ }),
-/* 86 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43407,7 +44214,7 @@ var RoundPropsPlugin = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["k" /* _gsSco
 
 
 /***/ }),
-/* 87 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43502,7 +44309,7 @@ DirectionalRotationPlugin._autoCSS = true;
 
 
 /***/ }),
-/* 88 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44115,7 +44922,7 @@ DirectionalRotationPlugin._autoCSS = true;
 
 
 /***/ }),
-/* 89 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44513,520 +45320,7 @@ var ExpoScaleEase = __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["m" /* globals *
 
 
 /***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CardView = function (_PIXI$NineSlicePlane) {
-    (0, _inherits3.default)(CardView, _PIXI$NineSlicePlane);
-
-    function CardView() {
-        var texture = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'button-1w';
-        var width = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 100;
-        var height = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 150;
-        (0, _classCallCheck3.default)(this, CardView);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (CardView.__proto__ || (0, _getPrototypeOf2.default)(CardView)).call(this, PIXI.Texture.from(texture), 20, 20, 20, 20));
-
-        _this.width = width;
-        _this.height = height;
-
-        _this.cardImage = new PIXI.Sprite();
-
-        _this.addChild(_this.cardImage);
-        _this.tint = 0xD9436B;
-        _this.cardImage.anchor.set(0.5);
-        _this.cardImage.scale.set(0.5);
-        _this.cardImage.x = width / 2;
-        _this.cardImage.y = height / 2;
-
-        return _this;
-    }
-
-    (0, _createClass3.default)(CardView, [{
-        key: 'updateTexture',
-        value: function updateTexture(textureID) {
-            this.cardImage.texture = PIXI.Texture.from(textureID);
-        }
-    }]);
-    return CardView;
-}(PIXI.NineSlicePlane);
-
-exports.default = CardView;
-module.exports = exports['default'];
-
-/***/ }),
-/* 91 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var UIList = function (_PIXI$Container) {
-    (0, _inherits3.default)(UIList, _PIXI$Container);
-
-    function UIList() {
-        (0, _classCallCheck3.default)(this, UIList);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (UIList.__proto__ || (0, _getPrototypeOf2.default)(UIList)).call(this));
-
-        _this.container = new PIXI.Container();
-        _this.addChild(_this.container);
-        _this.elementsList = [];
-        _this.w = 0;
-        _this.h = 0;
-        return _this;
-    }
-    // listScl
-    // fitHeight
-    // fitWidth
-    // scaleContent
-    // scaleContentMax
-    // align
-
-
-    (0, _createClass3.default)(UIList, [{
-        key: 'debug',
-        value: function debug() {
-            this.debugGr = new PIXI.Graphics().beginFill(0xFF0000).drawRect(0, 0, this.w, this.h);
-            this.container.addChild(this.debugGr);
-            this.debugGr.alpha = 0.5;
-        }
-    }, {
-        key: 'removeElement',
-        value: function removeElement(element) {
-            this.container.removeChild(element);
-
-            var toRemove = -1;
-            for (var index = 0; index < this.elementsList.length; index++) {
-                if (element == this.elementsList[index]) {
-                    toRemove = index;
-                }
-            }
-            if (toRemove >= 0) {
-
-                this.elementsList.splice(toRemove, 1);
-            }
-        }
-    }, {
-        key: 'addElement',
-        value: function addElement(element) {
-            this.container.addChild(element);
-            this.elementsList.push(element);
-
-            return element;
-        }
-    }, {
-        key: 'updateHorizontalList',
-        value: function updateHorizontalList() {
-            var debug = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-            var listSizes = [];
-            var sum = 0;
-            var quant = 0;
-            for (var i = 0; i < this.elementsList.length; i++) {
-
-                if (this.elementsList[i].listScl) {
-                    listSizes.push(this.elementsList[i].listScl);
-                    sum += this.elementsList[i].listScl;
-                    quant++;
-                } else {
-                    listSizes.push(0);
-                }
-            }
-            var adjust = 1 - sum;
-            var scales = adjust / (this.elementsList.length - quant);
-            var chunkSize = 0;
-            for (var i = 0; i < this.elementsList.length; i++) {
-                if (listSizes[i] == 0) {
-                    listSizes[i] = scales;
-                }
-            }
-            var plus = 0;
-            var positions = [];
-            var stdH = 1;
-            var stdW = 1;
-            var pixig = void 0;
-            for (var i = 0; i < listSizes.length; i++) {
-                if (debug) {
-
-                    pixig = new PIXI.Graphics().beginFill(0xFF0000).drawCircle(0, 0, 5);
-                    this.container.addChild(pixig);
-                }
-                plus = 0;
-                var nextX = 0;
-                chunkSize = this.w * listSizes[i];
-                if (i == 0) {
-                    nextX = 0;
-                } else {
-                    nextX = positions[i - 1] + this.w * listSizes[i - 1];
-                }
-                positions.push(nextX);
-                if (this.elementsList[i].fitHeight) {
-                    stdH = this.elementsList[i].height / this.elementsList[i].scale.y;
-                    this.elementsList[i].scale.set(this.h / stdH * this.elementsList[i].fitHeight);
-                } else if (this.elementsList[i].fitWidth) {
-                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
-                    this.elementsList[i].scale.set(chunkSize / stdW * this.elementsList[i].fitWidth);
-                } else if (this.elementsList[i].scaleContent) {
-                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
-                    this.elementsList[i].scale.set(chunkSize / stdW);
-                } else if (this.elementsList[i].scaleContentMax && this.elementsList[i].width > chunkSize) {
-                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
-                    this.elementsList[i].scale.set(chunkSize / stdW);
-                }
-                var align = 0.5;
-                if (this.elementsList[i].align != undefined) {
-                    align = this.elementsList[i].align;
-                }
-
-                this.elementsList[i].x = nextX + chunkSize * align - this.elementsList[i].width * align;
-                if (debug) {
-
-                    pixig.x = this.elementsList[i].x;
-                }
-                this.elementsList[i].y = this.h / 2 - this.elementsList[i].height / 2;
-            }
-        }
-    }, {
-        key: 'removeAllElements',
-        value: function removeAllElements() {
-            while (this.container.children.length) {
-                this.container.removeChildAt(0);
-            }
-
-            this.elementsList = [];
-        }
-    }, {
-        key: 'updateVerticalList',
-        value: function updateVerticalList() {
-            var listSizes = [];
-            var sum = 0;
-            var quant = 0;
-            for (var i = 0; i < this.elementsList.length; i++) {
-
-                if (this.elementsList[i].listScl) {
-                    listSizes.push(this.elementsList[i].listScl);
-                    sum += this.elementsList[i].listScl;
-                    quant++;
-                } else {
-                    listSizes.push(0);
-                }
-            }
-            var adjust = 1 - sum;
-            var scales = adjust / (this.elementsList.length - quant);
-            var chunkSize = 0;
-            for (var i = 0; i < this.elementsList.length; i++) {
-                if (listSizes[i] == 0) {
-                    listSizes[i] = scales;
-                }
-            }
-            var plus = 0;
-            var positions = [];
-            var stdH = 1;
-            var stdW = 1;
-            for (var i = 0; i < listSizes.length; i++) {
-                // let pixig = new PIXI.Graphics().beginFill(0xFF0000).drawCircle(0, 0, 5)
-                // this.container.addChild(pixig)
-                plus = 0;
-                var nextX = 0;
-                chunkSize = this.h * listSizes[i];
-                if (i == 0) {
-                    nextX = 0;
-                } else {
-                    nextX = positions[i - 1] + this.h * listSizes[i - 1];
-                }
-                positions.push(nextX);
-                if (this.elementsList[i].fitHeight) {
-                    stdH = this.elementsList[i].height / this.elementsList[i].scale.y;
-                    this.elementsList[i].scale.set(chunkSize / stdH * this.elementsList[i].fitHeight);
-                } else if (this.elementsList[i].fitWidth) {
-                    stdW = this.elementsList[i].width / this.elementsList[i].scale.x;
-                    this.elementsList[i].scale.set(this.w / stdW * this.elementsList[i].fitWidth);
-                } else if (this.elementsList[i].scaleContent) {
-                    stdW = this.elementsList[i].height / this.elementsList[i].scale.y;
-                    this.elementsList[i].scale.set(chunkSize / stdW);
-                } else if (this.elementsList[i].scaleContentMax && this.elementsList[i].height > chunkSize) {
-                    stdW = this.elementsList[i].height / this.elementsList[i].scale.y;
-                    this.elementsList[i].scale.set(chunkSize / stdW);
-                }
-                var align = 0.5;
-                if (this.elementsList[i].align != undefined) {
-                    align = this.elementsList[i].align;
-                }
-
-                var nextY = nextX + chunkSize * align - this.elementsList[i].height * align;
-                this.elementsList[i].y = nextY;
-                // pixig.x = nextX
-
-                this.elementsList[i].x = this.w / 2 - this.elementsList[i].width / 2;
-            }
-        }
-    }]);
-    return UIList;
-}(PIXI.Container);
-
-exports.default = UIList;
-module.exports = exports['default'];
-
-/***/ }),
-/* 92 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Pool = function () {
-    (0, _createClass3.default)(Pool, null, [{
-        key: "instance",
-        get: function get() {
-            if (!Pool._instance) {
-                Pool._instance = new Pool();
-            }
-            return Pool._instance;
-        }
-    }]);
-
-    function Pool() {
-        (0, _classCallCheck3.default)(this, Pool);
-
-        this.pool = {};
-    }
-
-    (0, _createClass3.default)(Pool, [{
-        key: "getElement",
-        value: function getElement(constructor) {
-
-            if (this.pool[constructor.name]) {
-                var elements = this.pool[constructor.name];
-                if (elements.length > 0) {
-                    var element = elements.pop();
-                    return element;
-                }
-            } else {
-                this.pool[constructor.name] = [];
-            }
-
-            var newElement = new constructor();
-            if (Pool.Debug) {
-                if (newElement.setDebug) {
-                    newElement.setDebug();
-                }
-            }
-            return newElement;
-        }
-    }, {
-        key: "returnElement",
-        value: function returnElement(element) {
-            if (!this.pool[element.constructor.name]) {
-                this.pool[element.constructor.name] = [];
-            }
-
-            this.pool[element.constructor.name].push(element);
-        }
-    }]);
-    return Pool;
-}();
-
-exports.default = Pool;
-module.exports = exports["default"];
-
-/***/ }),
-/* 93 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _Pool = __webpack_require__(92);
-
-var _Pool2 = _interopRequireDefault(_Pool);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ParticleDescriptor = function () {
-    function ParticleDescriptor(data) {
-        (0, _classCallCheck3.default)(this, ParticleDescriptor);
-
-        this.lifeSpan = 1;
-        this.direction = 0;
-        this.velocityX = 0;
-        this.velocityY = 0;
-
-        this.blendMode = PIXI.BLEND_MODES.NONE;
-
-        this.velocityOffsetX = 0;
-        this.velocityOffsetY = 0;
-
-        this.gravity = 0;
-        this.scale = 1;
-        this.texture = PIXI.Texture.from('spark2');
-        this.baseData = data;
-        this.baseBehaviours = [];
-        this.behaviours = [];
-
-        this.shouldDestroy = false;
-    }
-
-    (0, _createClass3.default)(ParticleDescriptor, [{
-        key: 'addBaseBehaviours',
-        value: function addBaseBehaviours(behavior, params) {
-            this.baseBehaviours.push({ behavior: behavior, params: params });
-        }
-    }, {
-        key: 'applyBaseData',
-        value: function applyBaseData() {
-            if (this.baseData) {
-                for (var key in this.baseData) {
-                    if (this[key] !== undefined) {
-                        if (Array.isArray(this.baseData[key])) {
-                            this[key] = Math.random() * (this.baseData[key][1] - this.baseData[key][0]) + this.baseData[key][0];
-                        } else {
-                            this[key] = this.baseData[key];
-                        }
-                    }
-                }
-            }
-        }
-    }, {
-        key: 'clone',
-        value: function clone(descriptor) {
-            var _this = this;
-
-            for (var key in this) {
-                this[key] = descriptor[key];
-            }
-            this.applyBaseData();
-            this.shouldDestroy = false;
-
-            this.behaviours = [];
-            descriptor.baseBehaviours.forEach(function (element) {
-                var behaviour = _Pool2.default.instance.getElement(element.behavior);
-                behaviour.build(element.params);
-                behaviour.reset();
-
-                _this.behaviours.push(behaviour);
-            });
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-            this.lifeSpan -= delta;
-            if (this.lifeSpan <= 0) {
-                this.shouldDestroy = true;
-            }
-
-            this.behaviours.forEach(function (element) {
-                element.update(delta);
-            });
-        }
-    }]);
-    return ParticleDescriptor;
-}();
-
-exports.default = ParticleDescriptor;
-module.exports = exports['default'];
-
-/***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45036,7 +45330,7 @@ var _pixi = __webpack_require__(3);
 
 var PIXI = _interopRequireWildcard(_pixi);
 
-var _Game = __webpack_require__(124);
+var _Game = __webpack_require__(70);
 
 var _Game2 = _interopRequireDefault(_Game);
 
@@ -45197,13 +45491,13 @@ function tick() {
 tick();
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_es6_promise_polyfill__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_es6_promise_polyfill__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_es6_promise_polyfill___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_es6_promise_polyfill__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_object_assign__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_object_assign__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_object_assign__);
 /*!
  * @pixi/polyfill - v5.3.12
@@ -45321,7 +45615,7 @@ if (!window.Int32Array) {
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {var __WEBPACK_AMD_DEFINE_RESULT__;(function(global){
@@ -45672,10 +45966,10 @@ Promise.reject = function(reason){
 
 })(typeof window != 'undefined' ? window : typeof global != 'undefined' ? global : typeof self != 'undefined' ? self : this);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21), __webpack_require__(97).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21), __webpack_require__(98).setImmediate))
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var apply = Function.prototype.apply;
@@ -45728,7 +46022,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(98);
+__webpack_require__(99);
 // On some exotic environments, it's not clear which object `setimmeidate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -45742,7 +46036,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21)))
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -45932,10 +46226,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21), __webpack_require__(99)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(21), __webpack_require__(100)))
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -46125,7 +46419,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46222,7 +46516,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46234,7 +46528,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46577,7 +46871,7 @@ if (true) {
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47265,7 +47559,7 @@ earcut.flatten = function (data) {
 
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -47801,10 +48095,10 @@ earcut.flatten = function (data) {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(105)(module), __webpack_require__(21)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(106)(module), __webpack_require__(21)))
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -47832,7 +48126,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47855,18 +48149,18 @@ module.exports = {
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(108);
-exports.encode = exports.stringify = __webpack_require__(109);
+exports.decode = exports.parse = __webpack_require__(109);
+exports.encode = exports.stringify = __webpack_require__(110);
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47957,7 +48251,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48049,7 +48343,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48058,9 +48352,9 @@ var objectKeys = Object.keys || function (obj) {
 /* unused harmony export async */
 /* unused harmony export encodeBinary */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return index; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_parse_uri__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_parse_uri__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_parse_uri___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_parse_uri__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_mini_signals__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_mini_signals__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_mini_signals___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_mini_signals__);
 /*!
  * resource-loader - v3.0.1
@@ -50404,7 +50698,7 @@ Loader.use = function LoaderUseStatic(fn) {
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50456,7 +50750,7 @@ module.exports = (str, opts = {}) => {
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50628,7 +50922,7 @@ module.exports = exports['default'];
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50726,7 +51020,7 @@ var AlphaFilter = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51565,7 +51859,7 @@ var BlurFilter = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52106,7 +52400,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52251,7 +52545,7 @@ var DisplacementFilter = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52324,7 +52618,7 @@ var FXAAFilter = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52437,7 +52731,7 @@ var NoiseFilter = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52776,7 +53070,7 @@ __WEBPACK_IMPORTED_MODULE_2__pixi_display__["c" /* DisplayObject */].prototype._
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52832,7 +53126,7 @@ __WEBPACK_IMPORTED_MODULE_0__pixi_display__["b" /* Container */].prototype.getCh
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52875,7 +53169,7 @@ __WEBPACK_IMPORTED_MODULE_0__pixi_display__["c" /* DisplayObject */].prototype.g
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53620,7 +53914,7 @@ var NineSlicePlane = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54102,299 +54396,6 @@ var AnimatedSprite = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 124 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-        value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _config = __webpack_require__(14);
-
-var _config2 = _interopRequireDefault(_config);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Game = function () {
-        function Game(config, screenManager) {
-                (0, _classCallCheck3.default)(this, Game);
-
-                Game.GlobalScale = { x: 1, y: 1 };
-                Game.GlobalContainerPosition = { x: 0, y: 0 };
-                this.screenManager = screenManager;
-
-                if (!window.isMobile) {
-                        config.width *= 1.1;
-                        config.height *= 1.1;
-                }
-
-                var Renderer = config.webgl ? PIXI.autoDetectRenderer : PIXI.CanvasRenderer;
-
-                this.desktopResolution = {
-                        width: config.width,
-                        height: config.height
-                };
-
-                this.ratio = config.width / config.height;
-                window.renderer = new PIXI.Application({
-                        width: config.width,
-                        height: config.height,
-                        resolution: Math.max(window.devicePixelRatio, 2),
-                        antialias: false,
-                        backgroundColor: 0x151510
-                });
-                document.body.appendChild(window.renderer.view);
-
-                this.stage = new PIXI.Container();
-                window.renderer.stage.addChild(this.stage);
-
-                this.frameskip = 1;
-                this.lastUpdate = Date.now();
-
-                this.forceResizeTimer = 5;
-
-                this.latestWidth = 0;
-
-                this.borders = {
-                        topLeft: { x: 0, y: 0 },
-                        bottomLeft: { x: 0, y: 0 },
-                        topRight: { x: 0, y: 0 },
-                        bottomRight: { x: 0, y: 0 }
-                };
-
-                this.makeLoader();
-                this.resize();
-        }
-
-        (0, _createClass3.default)(Game, [{
-                key: 'makeLoader',
-                value: function makeLoader() {
-                        this.loaderContainer = new PIXI.Container();
-                        var backLoader = new PIXI.Graphics().beginFill(0).drawRect(0, 0, 300, 30);
-                        this.fillLoader = new PIXI.Graphics().beginFill(0xff296D).drawRect(0, 0, 300, 30);
-                        this.loaderContainer.addChild(backLoader);
-                        this.loaderContainer.addChild(this.fillLoader);
-                        this.fillLoader.scale.x = 0;
-                        // this.logo = new PIXI.Sprite.from('logoTransparent.png')
-                        // this.logo.anchor.set(0.5)
-                        // this.logo.x = 150
-                        // this.logo.y = -200
-                        // this.loaderContainer.addChild(this.logo)
-                        this.stage.addChild(this.loaderContainer);
-                }
-        }, {
-                key: 'updateLoader',
-                value: function updateLoader(progress) {
-                        this.fillLoader.scale.x = progress / 100;
-                        this.resize();
-                }
-        }, {
-                key: 'initialize',
-                value: function initialize() {
-                        var _this = this;
-
-                        this.stage.removeChild(this.loaderContainer);
-                        window.renderer.ticker.add(this._onTickEvent, this);
-                        setTimeout(function () {
-                                _this.resize();
-                        }, 10);
-                }
-        }, {
-                key: '_onTickEvent',
-                value: function _onTickEvent(deltaTime) {
-                        this.dt = deltaTime / 60;
-                        this.update();
-                        if (this.latestWidth != window.innerWidth) {
-                                this.resize();
-                        }
-                        if (this.forceResizeTimer > 0) {
-                                this.forceResizeTimer -= this.dt;
-                                //this.resize()
-                        }
-                }
-        }, {
-                key: 'resize',
-                value: function resize() {
-                        var w = window.innerHeight;
-                        var h = window.innerWidth;
-
-                        this.latestWidth = window.innerWidth;
-
-                        window.isPortrait = w < h;
-
-                        if (window.innerWidth / window.innerHeight >= this.ratio) {
-                                var w = window.innerHeight * this.ratio;
-                        } else {
-                                var h = window.innerWidth / this.ratio;
-                        }
-
-                        var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-                        var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-
-                        var w = width;
-                        var h = height;
-                        //this.resolution = { width: window.outerWidth, height: window.outerHeight };
-                        this.resolution = { width: window.outerWidth, height: window.outerHeight };
-                        this.innerResolution = { width: w, height: h };
-
-                        window.renderer.view.style.position = 'absolute';
-
-                        window.renderer.view.style.width = this.innerResolution.width + 'px';
-                        window.renderer.view.style.height = this.innerResolution.height + 'px';
-
-                        var sclX = this.innerResolution.width / _config2.default.width;
-                        var sclY = this.innerResolution.height / _config2.default.height;
-
-                        var scl = Math.min(sclX, sclY);
-                        var newSize = {
-                                width: this.desktopResolution.width * scl,
-                                height: this.desktopResolution.height * scl
-                        };
-
-                        window.renderer.view.style.width = this.innerResolution.width + 'px';
-                        window.renderer.view.style.height = this.innerResolution.height + 'px';
-
-                        window.renderer.view.style.left = '0px'; //`${this.innerResolution.width / 2 - (newSize.width) / 2}px`;
-                        window.renderer.view.style.top = '0px'; //`${this.innerResolution.height / 2 - (newSize.height) / 2}px`;
-                        // window.renderer.view.style.width = `${this.innerResolution.width}px`;
-                        // window.renderer.view.style.height = `${this.innerResolution.height}px`;
-                        //window.renderer.view.style.left = `${window.innerWidth / 2 - (this.innerResolution.width) / 2}px`;
-
-
-                        // let sclX = this.innerResolution.width /this.desktopResolution.width //* this.ratio
-                        // let sclY =  this.innerResolution.height /this.desktopResolution.height //* this.ratio
-
-
-                        // console.log(sclX, sclY)
-
-                        // utils.resizeToFitAR
-                        // let scaleMin = 1//Math.min(sclX, sclY) * this.ratio;
-                        // if(sclX < sclY){
-                        //     scaleMin = sclX* this.ratio
-                        // }else{
-
-                        //     scaleMin = sclY* this.ratio
-                        // }
-
-
-                        //element.scale.set(min)
-
-                        if (this.loaderContainer && this.loaderContainer.parent) {
-                                var newScaleX = newSize.width / this.innerResolution.width;
-                                this.loaderContainer.scale.x = newScaleX; //this.ratio
-                                var newScaleY = newSize.height / this.innerResolution.height;
-                                this.loaderContainer.scale.y = newScaleY; //this.ratio
-
-
-                                this.loaderContainer.x = this.desktopResolution.width / 2 - this.desktopResolution.width / 2 * newScaleX + 150 * newScaleX;
-                                this.loaderContainer.y = _config2.default.height / 2 + 50;
-                        }
-
-                        if (this.screenManager) {
-                                //  let sclX = (this.innerResolution.width)/(this.desktopResolution.width) ;
-                                //  let sclY = (this.innerResolution.height)/(this.desktopResolution.height) ;
-                                //  let min = Math.min(sclX, sclY);
-                                // this.screenManager.scale.set(min)
-
-
-                                var _newScaleX = newSize.width / this.innerResolution.width;
-                                this.screenManager.scale.x = _newScaleX; //this.ratio
-                                var _newScaleY = newSize.height / this.innerResolution.height;
-                                this.screenManager.scale.y = _newScaleY; //this.ratio
-
-                                //console.log(newScaleX)
-                                // 	// this.screenManager.pivot.x = this.innerResolution.width / 2 // this.screenManager.scale.x
-                                this.screenManager.x = this.desktopResolution.width / 2 - this.desktopResolution.width / 2 * _newScaleX; ///- (this.innerResolution.width / 2 *newScaleX) // this.screenManager.scale.y
-                                this.screenManager.pivot.y = this.innerResolution.height / 2 - this.innerResolution.height / 2 / _newScaleY; // this.screenManager.scale.y
-
-                                // 	this.screenManager.x = 0//window.innerWidth/2 * sclX - this.desktopResolution.width/2* sclX//this.innerResolution.width / 2 // this.screenManager.scale.x
-                                // 	this.screenManager.y = 0// window.innerHeight/2 * sclY - this.desktopResolution.height/2* sclY // this.screenManager.scale.y
-
-
-                                Game.GlobalScale.x = _config2.default.width / this.innerResolution.width;
-                                Game.GlobalScale.y = _config2.default.height / this.innerResolution.height;
-
-                                Game.GlobalContainerPosition.x = this.screenManager.x;
-                                Game.GlobalContainerPosition.y = this.screenManager.y;
-
-                                // 	//console.log(window.appScale)
-                                window.isPortrait = this.innerResolution.width < this.innerResolution.height * 1.2;
-
-                                this.screenManager.resize(this.resolution, this.innerResolution);
-                                this.borders.topRight.x = _config2.default.width + this.screenManager.x / this.screenManager.scale.x;
-                                this.borders.bottomRight.x = _config2.default.width + this.screenManager.x / this.screenManager.scale.x;
-                                this.borders.bottomRight.y = _config2.default.height;
-                                this.borders.bottomLeft.y = _config2.default.height;
-                        }
-                }
-        }, {
-                key: 'getBorder',
-                value: function getBorder(type, parent) {
-                        var toGlobal = this.screenManager.toGlobal(this.borders[type]);
-                        return parent.toLocal(toGlobal);
-                }
-                /**
-                 * 
-                 *  let sclX = this.innerResolution.width / config.width
-                    let sclY = this.innerResolution.height / config.height
-                        let scl = Math.min(sclX, sclY)
-                    const newSize = {
-                        width: this.desktopResolution.width * scl,
-                        height: this.desktopResolution.height * scl,
-                    };
-                      window.renderer.view.style.width = `${newSize.width}px`;
-                    window.renderer.view.style.height = `${newSize.height}px`;
-                
-                    window.renderer.view.style.left = `${this.innerResolution.width / 2 - (newSize.width) / 2}px`;
-                    window.renderer.view.style.top = `${this.innerResolution.height / 2 - (newSize.height) / 2}px`;
-                 * 
-                 * 
-                 * 
-                 */
-
-        }, {
-                key: 'update',
-                value: function update() {
-                        this.screenManager.update(this.dt);
-                        // window.renderer.render(this.stage);
-                }
-        }, {
-                key: 'start',
-                value: function start() {
-                        //	this.animationLoop.start();
-                }
-        }, {
-                key: 'stop',
-                value: function stop() {
-                        //	this.animationLoop.stop();
-                }
-        }]);
-        return Game;
-}();
-
-Game.GlobalScale = { x: 1, y: 1 };
-Game.GlobalContainerPosition = { x: 0, y: 0 };
-exports.default = Game;
-module.exports = exports['default'];
-
-/***/ }),
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -54714,10 +54715,10 @@ module.exports = __webpack_require__(12).Object.getPrototypeOf;
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
-var toObject = __webpack_require__(74);
-var $getPrototypeOf = __webpack_require__(75);
+var toObject = __webpack_require__(75);
+var $getPrototypeOf = __webpack_require__(76);
 
-__webpack_require__(76)('getPrototypeOf', function () {
+__webpack_require__(77)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
   };
@@ -54748,7 +54749,7 @@ module.exports = __webpack_require__(51).f('iterator');
 var $at = __webpack_require__(134)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(77)(String, 'String', function (iterated) {
+__webpack_require__(78)(String, 'String', function (iterated) {
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -54830,7 +54831,7 @@ module.exports = __webpack_require__(18) ? Object.defineProperties : function de
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(80);
+var cof = __webpack_require__(81);
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -54939,7 +54940,7 @@ var toIObject = __webpack_require__(20);
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(77)(Array, 'Array', function (iterated, kind) {
+module.exports = __webpack_require__(78)(Array, 'Array', function (iterated, kind) {
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -55009,7 +55010,7 @@ var global = __webpack_require__(15);
 var has = __webpack_require__(19);
 var DESCRIPTORS = __webpack_require__(18);
 var $export = __webpack_require__(16);
-var redefine = __webpack_require__(78);
+var redefine = __webpack_require__(79);
 var META = __webpack_require__(149).KEY;
 var $fails = __webpack_require__(28);
 var shared = __webpack_require__(42);
@@ -55152,9 +55153,9 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
-  __webpack_require__(82).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(83).f = gOPNExt.f = $getOwnPropertyNames;
   __webpack_require__(53).f = $propertyIsEnumerable;
-  __webpack_require__(81).f = $getOwnPropertySymbols;
+  __webpack_require__(82).f = $getOwnPropertySymbols;
 
   if (DESCRIPTORS && !__webpack_require__(45)) {
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
@@ -55304,7 +55305,7 @@ var meta = module.exports = {
 
 // all enumerable object keys, includes symbols
 var getKeys = __webpack_require__(48);
-var gOPS = __webpack_require__(81);
+var gOPS = __webpack_require__(82);
 var pIE = __webpack_require__(53);
 module.exports = function (it) {
   var result = getKeys(it);
@@ -55324,7 +55325,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(80);
+var cof = __webpack_require__(81);
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
@@ -55336,7 +55337,7 @@ module.exports = Array.isArray || function isArray(arg) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(20);
-var gOPN = __webpack_require__(82).f;
+var gOPN = __webpack_require__(83).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -55414,7 +55415,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function (test, buggy, set) {
       try {
-        set = __webpack_require__(71)(Function.call, __webpack_require__(54).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(72)(Function.call, __webpack_require__(54).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -58797,7 +58798,7 @@ module.exports = exports["default"];
 /* 167 */
 /***/ (function(module, exports) {
 
-module.exports = {"default":["image/ui/ui.json","image/texture/texture.json","image/particles/particles.json","image/entities/entities.json"]}
+module.exports = {"default":["image/texture/texture.json","image/particles/particles.json","image/ui/ui.json","image/entities/entities.json"]}
 
 /***/ }),
 /* 168 */
@@ -58807,7 +58808,7 @@ module.exports = {"default":["image/ui/ui.json","image/texture/texture.json","im
 
 
 Object.defineProperty(exports, "__esModule", {
-        value: true
+    value: true
 });
 
 var _getPrototypeOf = __webpack_require__(4);
@@ -58842,33 +58843,37 @@ var _dat = __webpack_require__(172);
 
 var dat = _interopRequireWildcard(_dat);
 
-var _ScreenManager2 = __webpack_require__(173);
+var _Demo = __webpack_require__(173);
+
+var _Demo2 = _interopRequireDefault(_Demo);
+
+var _Demo3 = __webpack_require__(183);
+
+var _Demo4 = _interopRequireDefault(_Demo3);
+
+var _Demo5 = __webpack_require__(184);
+
+var _Demo6 = _interopRequireDefault(_Demo5);
+
+var _Game = __webpack_require__(70);
+
+var _Game2 = _interopRequireDefault(_Game);
+
+var _MenuScene = __webpack_require__(190);
+
+var _MenuScene2 = _interopRequireDefault(_MenuScene);
+
+var _ScreenManager2 = __webpack_require__(191);
 
 var _ScreenManager3 = _interopRequireDefault(_ScreenManager2);
 
-var _ScreenTransition = __webpack_require__(174);
+var _ScreenTransition = __webpack_require__(192);
 
 var _ScreenTransition2 = _interopRequireDefault(_ScreenTransition);
 
 var _config = __webpack_require__(14);
 
 var _config2 = _interopRequireDefault(_config);
-
-var _Demo = __webpack_require__(179);
-
-var _Demo2 = _interopRequireDefault(_Demo);
-
-var _Demo3 = __webpack_require__(189);
-
-var _Demo4 = _interopRequireDefault(_Demo3);
-
-var _Demo5 = __webpack_require__(190);
-
-var _Demo6 = _interopRequireDefault(_Demo5);
-
-var _MenuScene = __webpack_require__(196);
-
-var _MenuScene2 = _interopRequireDefault(_MenuScene);
 
 var _utils = __webpack_require__(34);
 
@@ -58879,145 +58884,142 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MainScreenManager = function (_ScreenManager) {
-        (0, _inherits3.default)(MainScreenManager, _ScreenManager);
+    (0, _inherits3.default)(MainScreenManager, _ScreenManager);
 
-        function MainScreenManager() {
-                (0, _classCallCheck3.default)(this, MainScreenManager);
+    function MainScreenManager() {
+        (0, _classCallCheck3.default)(this, MainScreenManager);
 
-                var _this = (0, _possibleConstructorReturn3.default)(this, (MainScreenManager.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager)).call(this));
+        var _this = (0, _possibleConstructorReturn3.default)(this, (MainScreenManager.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager)).call(this));
 
-                _this.backgroundColor = new PIXI.Graphics().beginFill(0xffffff).drawRect(-2500, -2500, 5000, 5000);
-                _this.backgroundColor.tint = 0x52CDDA;
-                _this.backgroundPattern = new PIXI.TilingSprite(PIXI.Texture.from('pattern'), 64, 64);
-                _this.addChildAt(_this.backgroundPattern, 0);
-                _this.addChildAt(_this.backgroundColor, 0);
-                _this.backgroundPattern.anchor.set(0.5);
-                _this.backgroundPattern.width = 5000;
-                _this.backgroundPattern.height = 5000;
-                _this.backgroundPattern.alpha = 0.15;
+        _this.backgroundColor = new PIXI.Graphics().beginFill(0xffffff).drawRect(-2500, -2500, 5000, 5000);
+        _this.backgroundColor.tint = 0x52CDDA;
+        _this.backgroundPattern = new PIXI.TilingSprite(PIXI.Texture.from('pattern'), 64, 64);
+        _this.addChildAt(_this.backgroundPattern, 0);
+        _this.addChildAt(_this.backgroundColor, 0);
+        _this.backgroundPattern.anchor.set(0.5);
+        _this.backgroundPattern.width = 5000;
+        _this.backgroundPattern.height = 5000;
+        _this.backgroundPattern.alpha = 0.15;
 
-                //Generate Bitmap Font
-                PIXI.BitmapFont.from('counter', {
-                        fontFamily: 'retro',
-                        align: "center",
-                        dropShadow: true,
-                        dropShadowAngle: 1.5,
-                        fontSize: 24,
-                        dropShadowDistance: 3,
-                        fill: "#ffcd1a",
-                        fontWeight: "bold",
-                        letterSpacing: 5,
-                        strokeThickness: 3,
-                        wordWrap: true,
-                        wordWrapWidth: 300
-                });
+        //Generate Bitmap Font
+        PIXI.BitmapFont.from('counter', {
+            fontFamily: 'retro',
+            align: "center",
+            dropShadow: true,
+            dropShadowAngle: 1.5,
+            fontSize: 24,
+            dropShadowDistance: 3,
+            fill: "#ffcd1a",
+            fontWeight: "bold",
+            letterSpacing: 5,
+            strokeThickness: 3,
+            wordWrap: true,
+            wordWrapWidth: 300
+        });
 
-                _this.fpsLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
-                _this.addChild(_this.fpsLabel);
+        _this.fpsLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
+        _this.addChild(_this.fpsLabel);
 
-                _this.backgroundContainer = new PIXI.Container();
-                _this.addChild(_this.backgroundContainer);
-                _this.setChildIndex(_this.backgroundContainer, 0);
+        _this.backgroundContainer = new PIXI.Container();
+        _this.addChild(_this.backgroundContainer);
+        _this.setChildIndex(_this.backgroundContainer, 0);
 
-                _this.menu = new _MenuScene2.default('menu');
-                _this.addScreen(_this.menu);
+        _this.menu = new _MenuScene2.default('menu');
+        _this.addScreen(_this.menu);
 
-                _this.demo1 = new _Demo2.default('demo1');
-                _this.addScreen(_this.demo1);
+        _this.demo1 = new _Demo2.default('demo1');
+        _this.addScreen(_this.demo1);
 
-                _this.demo2 = new _Demo4.default('demo2');
-                _this.addScreen(_this.demo2);
+        _this.demo3 = new _Demo6.default('demo3');
+        _this.addScreen(_this.demo3);
 
-                _this.demo3 = new _Demo6.default('demo3');
-                _this.addScreen(_this.demo3);
+        _this.forceChange('menu');
 
-                _this.forceChange('menu');
+        _this.menu.onRedirect.add(function (id, param) {
+            _this.change(_this.demos[id], param);
 
-                _this.menu.onRedirect.add(function (id, param) {
-                        _this.change(_this.demos[id], param);
+            if (id == 1) {
+                _utils2.default.addColorTween(_this.backgroundColor, _this.backgroundColor.tint, 0, 1);
+            } else {
+                _utils2.default.addColorTween(_this.backgroundColor, _this.backgroundColor.tint, 0x52CDDA, 1);
+            }
+        });
 
-                        if (id == 2) {
-                                _utils2.default.addColorTween(_this.backgroundColor, _this.backgroundColor.tint, 0, 1);
-                        } else {
-                                _utils2.default.addColorTween(_this.backgroundColor, _this.backgroundColor.tint, 0x52CDDA, 1);
-                        }
-                });
+        _this.demos = ['demo1', 'demo3'];
+        _this.timeScale = 1;
+        _this.isPaused = false;
 
-                _this.demos = ['demo1', 'demo2', 'demo3'];
-                _this.timeScale = 1;
-                _this.isPaused = false;
-
-                var urlParams = new URLSearchParams(window.location.search);
-                if (urlParams) {
-                        var debug = urlParams.get('debug');
-                        if (debug) {
-                                _this.change(_this.demos[debug - 1], { param: 'test' });
-                        }
-                }
-
-                return _this;
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams) {
+            var debug = urlParams.get('debug');
+            if (debug) {
+                _this.change(_this.demos[debug - 1], { param: 'test' });
+            }
         }
 
-        (0, _createClass3.default)(MainScreenManager, [{
-                key: 'update',
-                value: function update(delta) {
-                        this.fpsLabel.text = 'FPS ' + Math.round(window.FPS);
-                        this.fpsLabel.x = _config2.default.width - this.fpsLabel.width - 5;
-                        this.fpsLabel.y = _config2.default.height - this.fpsLabel.height - 5;
+        return _this;
+    }
 
-                        if (this.isPaused) return;
-                        (0, _get3.default)(MainScreenManager.prototype.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager.prototype), 'update', this).call(this, delta * this.timeScale);
+    (0, _createClass3.default)(MainScreenManager, [{
+        key: 'update',
+        value: function update(delta) {
+            this.fpsLabel.text = 'FPS ' + Math.round(window.FPS);
+            this.fpsLabel.x = _config2.default.width - this.fpsLabel.width - 5;
+            this.fpsLabel.y = _config2.default.height - this.fpsLabel.height - 5;
 
-                        if (this.currentPopUp) {
-                                this.currentPopUp.update(delta * this.timeScale);
-                        }
-                        if (this.prevPopUp && this.prevPopUp.toRemove && this.prevPopUp.parent) {
-                                this.prevPopUp.parent.removeChild(this.prevPopUp);
-                                this.prevPopUp = null;
-                        }
+            if (this.isPaused) return;
+            (0, _get3.default)(MainScreenManager.prototype.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager.prototype), 'update', this).call(this, delta * this.timeScale);
 
-                        this.backgroundPattern.x = _config2.default.width / 2;
-                        this.backgroundPattern.y = _config2.default.height / 2;
+            if (this.currentPopUp) {
+                this.currentPopUp.update(delta * this.timeScale);
+            }
+            if (this.prevPopUp && this.prevPopUp.toRemove && this.prevPopUp.parent) {
+                this.prevPopUp.parent.removeChild(this.prevPopUp);
+                this.prevPopUp = null;
+            }
 
-                        this.backgroundPattern.tilePosition.x += delta * 15;
-                        this.backgroundPattern.tilePosition.y += delta * 15;
+            this.backgroundPattern.x = _config2.default.width / 2;
+            this.backgroundPattern.y = _config2.default.height / 2;
 
-                        this.backgroundColor.x = _config2.default.width / 2;
-                        this.backgroundColor.y = _config2.default.height / 2;
-                }
-        }, {
-                key: 'backScreen',
-                value: function backScreen() {
-                        (0, _get3.default)(MainScreenManager.prototype.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager.prototype), 'backScreen', this).call(this);
-                        _utils2.default.addColorTween(this.backgroundColor, this.backgroundColor.tint, 0x52CDDA, 1);
-                }
-        }, {
-                key: 'shake',
-                value: function shake() {
-                        var force = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-                        var steps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4;
-                        var time = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0.25;
+            this.backgroundPattern.tilePosition.x += delta * 15;
+            this.backgroundPattern.tilePosition.y += delta * 15;
 
-                        var timelinePosition = new TimelineLite();
-                        var positionForce = force * 50;
-                        var spliterForce = force * 20;
-                        var speed = time / steps;
-                        for (var i = steps; i >= 0; i--) {
-                                timelinePosition.append(TweenLite.to(this.screensContainer, speed, {
-                                        x: Math.random() * positionForce - positionForce / 2,
-                                        y: Math.random() * positionForce - positionForce / 2,
-                                        ease: "easeNoneLinear"
-                                }));
-                        };
+            this.backgroundColor.x = _config2.default.width / 2;
+            this.backgroundColor.y = _config2.default.height / 2;
+        }
+    }, {
+        key: 'backScreen',
+        value: function backScreen() {
+            (0, _get3.default)(MainScreenManager.prototype.__proto__ || (0, _getPrototypeOf2.default)(MainScreenManager.prototype), 'backScreen', this).call(this);
+            _utils2.default.addColorTween(this.backgroundColor, this.backgroundColor.tint, 0x52CDDA, 1);
+        }
+    }, {
+        key: 'shake',
+        value: function shake() {
+            var force = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+            var steps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4;
+            var time = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0.25;
 
-                        timelinePosition.append(TweenLite.to(this.screensContainer, speed, {
-                                x: 0,
-                                y: 0,
-                                ease: "easeeaseNoneLinear"
-                        }));
-                }
-        }]);
-        return MainScreenManager;
+            var timelinePosition = new TimelineLite();
+            var positionForce = force * 50;
+            var spliterForce = force * 20;
+            var speed = time / steps;
+            for (var i = steps; i >= 0; i--) {
+                timelinePosition.append(TweenLite.to(this.screensContainer, speed, {
+                    x: Math.random() * positionForce - positionForce / 2,
+                    y: Math.random() * positionForce - positionForce / 2,
+                    ease: "easeNoneLinear"
+                }));
+            };
+
+            timelinePosition.append(TweenLite.to(this.screensContainer, speed, {
+                x: 0,
+                y: 0,
+                ease: "easeeaseNoneLinear"
+            }));
+        }
+    }]);
+    return MainScreenManager;
 }(_ScreenManager3.default);
 
 exports.default = MainScreenManager;
@@ -59048,7 +59050,7 @@ module.exports = function getOwnPropertyDescriptor(it, key) {
 var toIObject = __webpack_require__(20);
 var $getOwnPropertyDescriptor = __webpack_require__(54).f;
 
-__webpack_require__(76)('getOwnPropertyDescriptor', function () {
+__webpack_require__(77)('getOwnPropertyDescriptor', function () {
   return function getOwnPropertyDescriptor(it, key) {
     return $getOwnPropertyDescriptor(toIObject(it), key);
   };
@@ -61600,6 +61602,1964 @@ var index = {
 
 
 Object.defineProperty(exports, "__esModule", {
+        value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _CardStack = __webpack_require__(174);
+
+var _CardStack2 = _interopRequireDefault(_CardStack);
+
+var _CardView = __webpack_require__(84);
+
+var _CardView2 = _interopRequireDefault(_CardView);
+
+var _Screen2 = __webpack_require__(35);
+
+var _Screen3 = _interopRequireDefault(_Screen2);
+
+var _StackView = __webpack_require__(180);
+
+var _StackView2 = _interopRequireDefault(_StackView);
+
+var _CardTweenTransition = __webpack_require__(181);
+
+var _CardTweenTransition2 = _interopRequireDefault(_CardTweenTransition);
+
+var _CardTransition = __webpack_require__(182);
+
+var _CardTransition2 = _interopRequireDefault(_CardTransition);
+
+var _config = __webpack_require__(14);
+
+var _config2 = _interopRequireDefault(_config);
+
+var _UIButton = __webpack_require__(36);
+
+var _UIButton2 = _interopRequireDefault(_UIButton);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Demo1 = function (_Screen) {
+        (0, _inherits3.default)(Demo1, _Screen);
+
+        function Demo1(label) {
+                (0, _classCallCheck3.default)(this, Demo1);
+
+                var _this = (0, _possibleConstructorReturn3.default)(this, (Demo1.__proto__ || (0, _getPrototypeOf2.default)(Demo1)).call(this, label));
+
+                _this.container = new PIXI.Container();
+                _this.addChild(_this.container);
+
+                _this.cardStack = new _CardStack2.default();
+                _this.cardStackView = new _StackView2.default(_this.cardStack);
+                _this.container.addChild(_this.cardStackView);
+                _this.cardStackView._name = 'normal';
+
+                _this.cemiteryStack = new _CardStack2.default();
+                _this.cemiteryStackView = new _StackView2.default(_this.cemiteryStack);
+                _this.container.addChild(_this.cemiteryStackView);
+                _this.cemiteryStackView._name = 'cemitery';
+
+                _this.trantitionType = Demo1.FROM_STACK;
+                _this.cardTransition = new _CardTransition2.default();
+                _this.addChild(_this.cardTransition);
+
+                _this.cardTransition.onCompleteTransition.add(_this.completeTransition.bind(_this));
+
+                _this.transitionTime = 1;
+                _this.transitionCounter = _this.transitionTime;
+
+                _this.cardTransitionTween = new _CardTweenTransition2.default();
+                _this.cardTransitionTween.onCompleteTransition.add(_this.completeTransition.bind(_this));
+                _this.addChild(_this.cardTransitionTween);
+
+                _this.currentTransition = _this.cardTransition;
+
+                var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
+                closeButton.onClick.add(function () {
+                        _this.screenManager.backScreen();
+                });
+                closeButton.x = 50;
+                closeButton.y = 50;
+                _this.addChild(closeButton);
+
+                _this.movableDecks = { active: false, sin: 0 };
+
+                _this.helpLabel = new PIXI.BitmapText("Positions are different everytime\nthis screen is opened", { fontName: 'counter' });
+                _this.addChild(_this.helpLabel);
+                _this.helpLabel.x = 100;
+                _this.helpLabel.y = 25;
+                return _this;
+        }
+
+        (0, _createClass3.default)(Demo1, [{
+                key: "build",
+                value: function build() {
+                        var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+                        this.cardTransition.reset();
+                        this.cardTransitionTween.reset();
+
+                        this.transitionTime = params.drawTime ? params.drawTime : 1;
+                        if (params.transition == 'tween') {
+                                this.currentTransition = this.cardTransitionTween;
+                                this.movableDecks.active = false;
+
+                                this.cardStackView.x = 50;
+                                this.cardStackView.y = 900;
+
+                                this.cemiteryStackView.x = _config2.default.width - 150;
+                                this.cemiteryStackView.y = Math.random() * 300 + 600;
+                        } else {
+                                this.currentTransition = this.cardTransition;
+                                this.movableDecks.active = true;
+
+                                this.cardStackView.x = 50;
+                                this.cardStackView.y = _config2.default.height - 250;
+                        }
+
+                        this.cardStack.reset();
+                        this.cardStackView.reset();
+                        this.cemiteryStack.reset();
+                        this.cemiteryStackView.reset();
+
+                        this.transitionCounter = this.transitionTime;
+
+                        this.cardStack.populate(144);
+                        this.cardStackView.drawStack(this.cardStack);
+                }
+        }, {
+                key: "completeTransition",
+                value: function completeTransition(card, targetView) {
+                        this.cardStackView.refreshStackView(true);
+                        this.cemiteryStackView.refreshStackView(true);
+
+                        targetView.addCard(card);
+                }
+        }, {
+                key: "sendCard",
+                value: function sendCard(fromStack, toStack) {
+                        //remove from one model to another
+                        toStack.stackModel.addCard(fromStack.stackModel.popCard());
+
+                        var card = fromStack.popCard();
+
+                        //start transition from stack to stack
+                        var originTransition = { x: fromStack.x + fromStack.topPosition.x, y: fromStack.y + fromStack.topPosition.y };
+                        var targetPosition = { x: toStack.x + toStack.topPosition.x, y: toStack.y + toStack.topPosition.y };
+
+                        this.currentTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
+                }
+        }, {
+                key: "sortTransition",
+                value: function sortTransition() {
+                        if (this.trantitionType == Demo1.FROM_STACK) {
+                                this.sendCard(this.cardStackView, this.cemiteryStackView);
+                                if (this.cardStack.cards.length <= 0) {
+                                        this.trantitionType = Demo1.FROM_CEMITERY;
+                                }
+                        } else {
+                                this.sendCard(this.cemiteryStackView, this.cardStackView);
+                                if (this.cemiteryStack.cards.length <= 0) {
+                                        this.trantitionType = Demo1.FROM_STACK;
+                                }
+                        }
+                }
+        }, {
+                key: "update",
+                value: function update(delta) {
+
+                        this.transitionCounter -= delta;
+                        if (this.transitionCounter <= 0) {
+                                this.transitionCounter = this.transitionTime;
+                                this.sortTransition();
+                        }
+                        if (this.movableDecks.active) {
+                                this.movableDecks.sin += delta * 2;
+                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 50;
+                                this.cemiteryStackView.y = _config2.default.height / 2 + Math.sin(this.movableDecks.sin) * 200;
+
+                                this.cardStackView.x = 50 + Math.sin(this.movableDecks.sin) * 50;
+                                this.cardStackView.y = 850;
+                        }
+                        if (this.currentTransition.update) {
+                                this.currentTransition.update(delta);
+                        }
+                }
+        }]);
+        return Demo1;
+}(_Screen3.default);
+
+Demo1.FROM_STACK = 0;
+Demo1.FROM_CEMITERY = 1;
+exports.default = Demo1;
+module.exports = exports["default"];
+
+/***/ }),
+/* 174 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _CardData = __webpack_require__(175);
+
+var _CardData2 = _interopRequireDefault(_CardData);
+
+var _utils = __webpack_require__(34);
+
+var _utils2 = _interopRequireDefault(_utils);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CardStack = function () {
+    function CardStack() {
+        (0, _classCallCheck3.default)(this, CardStack);
+
+        this.cards = [];
+    }
+
+    (0, _createClass3.default)(CardStack, [{
+        key: "populate",
+        value: function populate(total) {
+            for (var i = 0; i < total - 1; i++) {
+                this.addCard(i + 1);
+            }
+            _utils2.default.shuffle(this.cards);
+        }
+    }, {
+        key: "reset",
+        value: function reset() {
+            this.cards = [];
+        }
+    }, {
+        key: "addCard",
+        value: function addCard(id) {
+            this.cards.push(new _CardData2.default(id));
+        }
+    }, {
+        key: "popCard",
+        value: function popCard() {
+            if (this.cards.length) {
+                return this.cards.pop();
+            }
+        }
+    }]);
+    return CardStack;
+}();
+
+exports.default = CardStack;
+module.exports = exports["default"];
+
+/***/ }),
+/* 175 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CardData = function CardData(id) {
+    (0, _classCallCheck3.default)(this, CardData);
+
+    this.cardID = id;
+
+    this.spriteId = id < 10 ? '00' + id : id < 100 ? '0' + id : id.toString();
+};
+
+exports.default = CardData;
+module.exports = exports['default'];
+
+/***/ }),
+/* 176 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _defineProperty = __webpack_require__(71);
+
+var _defineProperty2 = _interopRequireDefault(_defineProperty);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (obj, key, value) {
+  if (key in obj) {
+    (0, _defineProperty2.default)(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+};
+
+/***/ }),
+/* 177 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(178), __esModule: true };
+
+/***/ }),
+/* 178 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(179);
+module.exports = __webpack_require__(12).Number.isNaN;
+
+
+/***/ }),
+/* 179 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 20.1.2.4 Number.isNaN(number)
+var $export = __webpack_require__(16);
+
+$export($export.S, 'Number', {
+  isNaN: function isNaN(number) {
+    // eslint-disable-next-line no-self-compare
+    return number != number;
+  }
+});
+
+
+/***/ }),
+/* 180 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _CardView = __webpack_require__(84);
+
+var _CardView2 = _interopRequireDefault(_CardView);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StackView = function (_PIXI$Container) {
+    (0, _inherits3.default)(StackView, _PIXI$Container);
+
+    function StackView(stackModel) {
+        (0, _classCallCheck3.default)(this, StackView);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (StackView.__proto__ || (0, _getPrototypeOf2.default)(StackView)).call(this));
+
+        _this.stackModel = stackModel;
+        _this.cards = [];
+
+        _this.baseCard = new _CardView2.default();
+        _this.baseCard.tint = 0x747F7F;
+        _this.addChild(_this.baseCard);
+        _this.stackContainer = new PIXI.Container();
+        _this.addChild(_this.stackContainer);
+
+        _this.currentFrontCardIndex = 0;
+
+        _this.cardsShowing = 144;
+
+        _this.quantityLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
+        _this.addChild(_this.quantityLabel);
+        _this.quantityLabel.x = 50;
+        _this.quantityLabel.y = 0;
+        _this.quantityLabel.anchor.set(0.5, 0);
+
+        _this.topPosition = { x: 0, y: 0 };
+        return _this;
+    }
+
+    (0, _createClass3.default)(StackView, [{
+        key: 'reset',
+        value: function reset() {
+            this.stackContainer.children = [];
+            this.cards = [];
+            this.quantityLabel.text = this.cards.length;
+            this.quantityLabel.y = 0;
+        }
+    }, {
+        key: 'drawStack',
+        value: function drawStack(stack) {
+            for (var i = 0; i < stack.cards.length; i++) {
+                this.cards.push(new _CardView2.default());
+                this.cards[i].y = i * 5;
+                this.cards[i].updateTexture(stack.cards[i].spriteId);
+                this.stackContainer.addChild(this.cards[i]);
+            }
+
+            this.quantityLabel.text = this.cards.length;
+            this.refreshStackView();
+        }
+    }, {
+        key: 'addCard',
+        value: function addCard(card) {
+            var skipRefresh = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+            this.cards.push(card);
+            this.stackContainer.addChild(card);
+
+            this.quantityLabel.text = this.cards.length;
+            if (!skipRefresh) {
+                this.refreshStackView();
+            }
+        }
+    }, {
+        key: 'popCard',
+        value: function popCard() {
+            var skipRefresh = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+            if (this.cards.length) {
+                var card = this.cards.pop();
+                this.refreshStackView();
+                this.stackContainer.removeChild(card);
+                card.visible = true;
+                this.quantityLabel.text = this.cards.length;
+
+                return card;
+            }
+        }
+    }, {
+        key: 'refreshStackView',
+        value: function refreshStackView() {
+            this.refreshVisbles();
+            this.refreshPositions();
+        }
+    }, {
+        key: 'refreshPositions',
+        value: function refreshPositions() {
+            var posAccum = 0;
+            for (var i = 0; i < this.cards.length; i++) {
+                if (this.cards[i].visible) {
+                    this.cards[i].x = 0;
+                    this.cards[i].y = ++posAccum * -5;
+
+                    this.topPosition.x = this.cards[i].x;
+                    this.topPosition.y = this.cards[i].y;
+                }
+            }
+            this.quantityLabel.y = this.topPosition.y;
+        }
+    }, {
+        key: 'refreshVisbles',
+        value: function refreshVisbles() {
+            for (var i = 0; i < this.cards.length; i++) {
+                if (i < this.cards.length - this.cardsShowing) {
+                    this.cards[i].visible = false;
+                } else {
+                    this.cards[i].visible = true;
+                }
+            }
+        }
+    }, {
+        key: 'globalTopPosition',
+        get: function get() {
+            return { x: this.topPosition.x + this.x, y: this.topPosition.y + this.y };
+        }
+    }]);
+    return StackView;
+}(PIXI.Container);
+
+exports.default = StackView;
+module.exports = exports['default'];
+
+/***/ }),
+/* 181 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _signals = __webpack_require__(29);
+
+var _signals2 = _interopRequireDefault(_signals);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CardTweenTransition = function (_PIXI$Container) {
+    (0, _inherits3.default)(CardTweenTransition, _PIXI$Container);
+
+    function CardTweenTransition() {
+        (0, _classCallCheck3.default)(this, CardTweenTransition);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (CardTweenTransition.__proto__ || (0, _getPrototypeOf2.default)(CardTweenTransition)).call(this));
+
+        _this.onCompleteTransition = new _signals2.default.Signal();
+        return _this;
+    }
+
+    (0, _createClass3.default)(CardTweenTransition, [{
+        key: "reset",
+        value: function reset() {
+            if (this.currentTransition) {
+                TweenLite.killTweensOf(this.currentTransition.card, true);
+                TweenLite.killTweensOf(this.currentTransition.card.scale, true);
+
+                this.onCompleteTransition.dispatch(this.currentTransition.card, this.currentTransition.targetStack);
+            }
+        }
+    }, {
+        key: "fromTo",
+        value: function fromTo(card, startPosition, endPosition, targetStack, duration) {
+            var _this2 = this;
+
+            this.currentTransition = { card: card, targetStack: targetStack };
+            TweenLite.killTweensOf(card, true);
+            TweenLite.killTweensOf(card.scale, true);
+
+            this.addChild(card);
+
+            card.x = startPosition.x;
+            card.y = startPosition.y;
+
+            var angle = Math.atan2(endPosition.y - startPosition.y, endPosition.x - startPosition.x) + Math.random() * 0.5 - 0.25;
+            var distance = this.distance(startPosition.x, startPosition.y, endPosition.x, endPosition.y);
+
+            TweenLite.to(card, duration * 0.5, {
+                x: Math.cos(angle) * distance * 0.5 + startPosition.x,
+                y: Math.sin(angle) * distance * 0.5 + startPosition.y,
+                ease: Cubic.easeOut
+            });
+
+            TweenLite.to(card.scale, duration * 0.5, {
+                x: 1.5,
+                y: 1.5,
+                ease: Back.easeOut
+            });
+
+            TweenLite.to(card, duration * 0.5, {
+                delay: duration * 0.5,
+                x: endPosition.x, y: endPosition.y, onComplete: function onComplete() {
+                    _this2.onCompleteTransition.dispatch(card, targetStack);
+                }, ease: Cubic.easeIn
+            });
+
+            TweenLite.to(card.scale, duration * 0.5, {
+                delay: duration * 0.5,
+                x: 1,
+                y: 1
+            });
+        }
+    }, {
+        key: "distance",
+        value: function distance(x1, y1, x2, y2) {
+            return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        }
+    }]);
+    return CardTweenTransition;
+}(PIXI.Container);
+
+exports.default = CardTweenTransition;
+module.exports = exports["default"];
+
+/***/ }),
+/* 182 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _signals = __webpack_require__(29);
+
+var _signals2 = _interopRequireDefault(_signals);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CardTransition = function (_PIXI$Container) {
+    (0, _inherits3.default)(CardTransition, _PIXI$Container);
+
+    function CardTransition() {
+        (0, _classCallCheck3.default)(this, CardTransition);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (CardTransition.__proto__ || (0, _getPrototypeOf2.default)(CardTransition)).call(this));
+
+        _this.onCompleteTransition = new _signals2.default.Signal();
+
+        _this.activeTransitions = [];
+        return _this;
+    }
+
+    (0, _createClass3.default)(CardTransition, [{
+        key: "reset",
+        value: function reset() {
+            var _this2 = this;
+
+            this.activeTransitions.forEach(function (transition) {
+                _this2.onCompleteTransition.dispatch(transition.card, transition.targetStack);
+            });
+            this.activeTransitions = [];
+        }
+    }, {
+        key: "fromTo",
+        value: function fromTo(card, startPosition, endPosition, targetStack, duration) {
+            this.addChild(card);
+
+            card.x = startPosition.x;
+            card.y = startPosition.y;
+
+            var angle = Math.atan2(endPosition.y - startPosition.y, endPosition.x - startPosition.x) + Math.random();
+            var distance = this.distance(startPosition.x, startPosition.y, endPosition.x, endPosition.y);
+
+            this.activeTransitions.push({
+                card: card,
+                startPosition: startPosition,
+                endPosition: endPosition,
+                targetStack: targetStack,
+                duration: duration,
+                midPoint: { x: Math.cos(angle) * distance / 2, y: Math.sin(angle) * distance / 2 },
+                velocity: { x: 0, y: 0 },
+                distance: distance,
+                currentDuration: duration
+            });
+        }
+    }, {
+        key: "update",
+        value: function update(delta) {
+
+            for (var index = 0; index < this.activeTransitions.length; index++) {
+                var transition = this.activeTransitions[index];
+                transition.currentDuration -= delta;
+                if (transition.currentDuration <= delta) {
+                    this.activeTransitions.splice(index, 1);
+                    transition.card.scale.set(1);
+                    this.onCompleteTransition.dispatch(transition.card, transition.targetStack);
+                    continue;
+                }
+
+                var angle = Math.atan2(transition.targetStack.globalTopPosition.y - transition.card.y, transition.targetStack.globalTopPosition.x - transition.card.x);
+                var distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.globalTopPosition.x, transition.targetStack.globalTopPosition.y);
+
+                transition.velocity.x = Math.cos(angle) * (distance / transition.currentDuration) * delta;
+                transition.velocity.y = Math.sin(angle) * (distance / transition.currentDuration) * delta;
+
+                transition.card.x += transition.velocity.x;
+                transition.card.y += transition.velocity.y;
+
+                var distanceFromMiddle = this.distance(transition.currentDuration, 0, transition.duration, 0);
+
+                transition.card.scale.set(Math.abs(distanceFromMiddle / transition.duration) * 0.25 + 1);
+            }
+        }
+    }, {
+        key: "distance",
+        value: function distance(x1, y1, x2, y2) {
+            return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        }
+    }]);
+    return CardTransition;
+}(PIXI.Container);
+
+exports.default = CardTransition;
+module.exports = exports["default"];
+
+/***/ }),
+/* 183 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _Screen2 = __webpack_require__(35);
+
+var _Screen3 = _interopRequireDefault(_Screen2);
+
+var _UIButton = __webpack_require__(36);
+
+var _UIButton2 = _interopRequireDefault(_UIButton);
+
+var _UIList = __webpack_require__(85);
+
+var _UIList2 = _interopRequireDefault(_UIList);
+
+var _utils = __webpack_require__(34);
+
+var _utils2 = _interopRequireDefault(_utils);
+
+var _config = __webpack_require__(14);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Demo2 = function (_Screen) {
+    (0, _inherits3.default)(Demo2, _Screen);
+
+    function Demo2(label) {
+        (0, _classCallCheck3.default)(this, Demo2);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (Demo2.__proto__ || (0, _getPrototypeOf2.default)(Demo2)).call(this, label));
+
+        _this.container = new PIXI.Container();
+        _this.addChild(_this.container);
+
+        var lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+        _this.loremArray = lorem.split(" ");
+        _this.emojiArray = ['🙂', '😀', '😃', '😄', '😁', '🤓', '😎', '🥰', '🤩'];
+
+        _this.font1 = new PIXI.TextStyle({
+            fontFamily: 'retro',
+            align: "center",
+            dropShadow: true,
+            dropShadowAngle: 1.5,
+            fontSize: 24,
+            dropShadowDistance: 3,
+            fill: "#ffcd1a",
+            letterSpacing: 3,
+            strokeThickness: 3
+        });
+
+        var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
+        closeButton.onClick.add(function () {
+            _this.screenManager.backScreen();
+        });
+        closeButton.x = 50;
+        closeButton.y = 50;
+        _this.addChild(closeButton);
+
+        _this.textBoxes = [];
+
+        _this.spawnTextTimer = 2;
+        _this.currentSpawnTextTimer = 0.1;
+        return _this;
+    }
+
+    (0, _createClass3.default)(Demo2, [{
+        key: 'addTextBox',
+        value: function addTextBox(source) {
+            var bracketsIndex = source.indexOf('{');
+
+            var brackets = [];
+            var stringIndex = 0;
+            this.textStructure = [];
+            if (bracketsIndex == -1) {
+                this.textStructure.push({ type: 'text', source: source });
+            }
+            while (bracketsIndex >= 0) {
+
+                if (bracketsIndex == -1) {
+                    break;
+                }
+                var bracketsEnd = source.indexOf('}', bracketsIndex + 1);
+                brackets.push({ start: bracketsIndex + 1, end: bracketsEnd });
+                stringIndex = bracketsEnd + 1;
+                bracketsIndex = source.indexOf('{', bracketsIndex + 1);
+            }
+
+            for (var index = 0; index < brackets.length; index++) {
+                var element = brackets[index];
+                if (element.start > 0) {
+                    if (index > 0) {
+                        this.textStructure.push({ type: 'text', source: source.substring(brackets[index - 1].end + 1, element.start - 1) });
+                    } else {
+                        this.textStructure.push({ type: 'text', source: source.substring(0, element.start - 1) });
+                    }
+                }
+                this.textStructure.push({ type: 'sprite', source: source.substring(element.start, element.end) });
+                if (index >= brackets.length - 1) {
+                    this.textStructure.push({ type: 'text', source: source.substring(element.end + 1, source.length) });
+                }
+            }
+
+            var boxList = new PIXI.Container();
+
+            var xPos = 0;
+            var offsetY = 0;
+            var lineHeight = 45;
+            for (var _index = 0; _index < this.textStructure.length; _index++) {
+                if (this.textStructure[_index].type == 'text') {
+                    var text = new PIXI.Text("0", this.font1);
+                    text.text = this.textStructure[_index].source;
+                    if (xPos + text.width > _config2.default.width) {
+                        offsetY += 50;
+                        xPos = 0;
+                    }
+                    text.x = xPos;
+                    text.y = offsetY;
+                    boxList.addChild(text);
+                    xPos += text.width;
+                } else if (this.textStructure[_index].type == 'sprite') {
+                    //i know im repeating code here
+                    var sprite = new PIXI.Sprite();
+                    sprite.texture = PIXI.Texture.from(this.textStructure[_index].source);
+                    if (xPos + sprite.width > _config2.default.width) {
+                        offsetY += 50;
+                        xPos = 0;
+                    }
+                    sprite.x = xPos;
+                    sprite.y = offsetY;
+                    sprite.scale.set(lineHeight / sprite.height);
+                    boxList.addChild(sprite);
+                    xPos += sprite.width;
+                }
+            }
+
+            boxList.lifeSpan = this.spawnTextTimer * 1.5;
+            this.container.addChild(boxList);
+            this.textBoxes.push(boxList);
+        }
+    }, {
+        key: 'build',
+        value: function build() {}
+    }, {
+        key: 'generateText',
+        value: function generateText() {
+            var length = Math.random() * 5 + 5;
+
+            var str = '';
+            for (var index = 0; index < length; index++) {
+                var type = Math.random();
+                if (type < 0.2) {
+                    var spriteID = Math.ceil(Math.random() * 150);
+                    var id = spriteID < 10 ? '00' + spriteID : spriteID < 100 ? '0' + spriteID : spriteID.toString();
+                    str += '{' + id + '} ';
+                } else if (type < 0.9) {
+                    str += this.loremArray[Math.floor(Math.random() * this.loremArray.length)] + ' ';
+                } else {
+                    str += this.emojiArray[Math.floor(Math.random() * this.emojiArray.length)] + ' ';
+                }
+            }
+
+            return str;
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+
+            if (this.currentSpawnTextTimer > 0) {
+                this.currentSpawnTextTimer -= delta;
+                if (this.currentSpawnTextTimer <= 0) {
+
+                    this.currentSpawnTextTimer = this.spawnTextTimer * Math.random();
+                    this.addTextBox(this.generateText());
+                }
+            }
+
+            for (var index = this.textBoxes.length - 1; index >= 0; index--) {
+                var element = this.textBoxes[index];
+
+                if (index > 0) {
+                    element.y = _utils2.default.lerp(element.y, this.textBoxes[index - 1].y + this.textBoxes[index - 1].height + 50, 0.5);
+                } else {
+
+                    element.y = _utils2.default.lerp(element.y, 150, 0.5);
+                }
+                element.x = _config2.default.width / 2 - element.width / 2;
+                element.lifeSpan -= delta;
+
+                if (element.lifeSpan <= 0) {
+                    this.container.removeChild(element);
+                    this.textBoxes.splice(index, 1);
+                }
+            }
+        }
+    }]);
+    return Demo2;
+}(_Screen3.default);
+
+exports.default = Demo2;
+module.exports = exports['default'];
+
+/***/ }),
+/* 184 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+        value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _Screen2 = __webpack_require__(35);
+
+var _Screen3 = _interopRequireDefault(_Screen2);
+
+var _UIButton = __webpack_require__(36);
+
+var _UIButton2 = _interopRequireDefault(_UIButton);
+
+var _ParticleEmitter = __webpack_require__(185);
+
+var _ParticleEmitter2 = _interopRequireDefault(_ParticleEmitter);
+
+var _ParticleDescriptor = __webpack_require__(87);
+
+var _ParticleDescriptor2 = _interopRequireDefault(_ParticleDescriptor);
+
+var _AlphaBehaviour = __webpack_require__(187);
+
+var _AlphaBehaviour2 = _interopRequireDefault(_AlphaBehaviour);
+
+var _SinoidBehaviour = __webpack_require__(188);
+
+var _SinoidBehaviour2 = _interopRequireDefault(_SinoidBehaviour);
+
+var _ColorBehaviour = __webpack_require__(189);
+
+var _ColorBehaviour2 = _interopRequireDefault(_ColorBehaviour);
+
+var _config = __webpack_require__(14);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Demo3 = function (_Screen) {
+        (0, _inherits3.default)(Demo3, _Screen);
+
+        function Demo3(label) {
+                (0, _classCallCheck3.default)(this, Demo3);
+
+                var _this = (0, _possibleConstructorReturn3.default)(this, (Demo3.__proto__ || (0, _getPrototypeOf2.default)(Demo3)).call(this, label));
+
+                _this.font1 = new PIXI.TextStyle({
+                        fontFamily: 'fredokaone',
+                        align: "center",
+                        dropShadow: true,
+                        dropShadowAngle: 1.5,
+                        fontSize: 24,
+                        dropShadowDistance: 3,
+                        fill: 0xFFFFFF,
+                        fontWeight: "bold",
+                        letterSpacing: 3,
+                        strokeThickness: 3
+                });
+
+                var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
+                closeButton.onClick.add(function () {
+                        _this.screenManager.backScreen();
+                });
+                closeButton.x = 50;
+                closeButton.y = 50;
+                _this.addChild(closeButton);
+
+                _this.particleContainer = new PIXI.ParticleContainer({ tint: true });
+                _this.addChild(_this.particleContainer);
+
+                _this.particleContainerEmitter = new _ParticleEmitter2.default(_this.particleContainer);
+                _this.particleContainerEmitter.frequency = 1 / 60;
+
+                _this.container = new PIXI.Container();
+                _this.addChild(_this.container);
+
+                _this.containerEmitter = new _ParticleEmitter2.default(_this.container);
+                _this.containerEmitter.frequency = 1 / 60;
+
+                _this.containerEmitterSmall = new _ParticleEmitter2.default(_this.container);
+                _this.containerEmitterSmall.frequency = 0.2;
+                _this.containerEmitterSmall.maxParticles = 10;
+
+                _this.containerEmitterSmall.x = _config2.default.width * 0.75;
+                _this.containerEmitterSmall.y = _config2.default.height * 0.75;
+
+                _this.particleContainerSmall = new _ParticleEmitter2.default(_this.container);
+                _this.particleContainerSmall.frequency = 0.2;
+                _this.particleContainerSmall.maxParticles = 10;
+
+                _this.blueFireEmitter = new _ParticleEmitter2.default(_this.container);
+                _this.blueFireEmitter.frequency = 1 / 60;
+                _this.blueFireEmitter.maxParticles = 1200;
+
+                _this.particleContainerSmall.x = _config2.default.width * 0.25;
+                _this.particleContainerSmall.y = _config2.default.height * 0.75;
+
+                _this.largeFireDescriptor = new _ParticleDescriptor2.default({
+                        velocityX: [-20, 20],
+                        velocityY: [-25, -55],
+                        gravity: [-20, -10],
+                        scale: [1, 3],
+                        lifeSpan: [2, 5],
+                        blendMode: PIXI.BLEND_MODES.ADD,
+                        texture: PIXI.Texture.from('star1')
+                });
+
+                _this.largeFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [2, 4] });
+                _this.largeFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [10, 40] });
+                _this.largeFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [2, 4], startValue: 0xff0000, endValue: 0xffff00 });
+
+                _this.smallFireDescriptor = new _ParticleDescriptor2.default({
+                        velocityX: [-10, 10],
+                        velocityY: [-10, -25],
+                        gravity: [-20, -10],
+                        scale: [1, 3],
+                        lifeSpan: [2, 5],
+                        blendMode: PIXI.BLEND_MODES.ADD,
+                        texture: PIXI.Texture.from('star1')
+                });
+
+                _this.smallFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [1, 3] });
+                _this.smallFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
+                _this.smallFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0xff0000, endValue: 0xffff00 });
+
+                _this.blueFireDescriptor = new _ParticleDescriptor2.default({
+                        velocityX: [-10, 10],
+                        velocityY: [-80, -25],
+                        gravity: [-20, -60],
+                        scale: [8, 3],
+                        lifeSpan: [2, 5],
+                        blendMode: PIXI.BLEND_MODES.ADD,
+                        texture: PIXI.Texture.from('star1')
+                });
+
+                _this.blueFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [8, 3] });
+                _this.blueFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
+                _this.blueFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0x11c0ff, endValue: 0xffff00 });
+
+                _this.emitTime = 0;
+
+                _this.emittersRotation = 0;
+
+                _this.particleCounter1 = new PIXI.Text("0", _this.font1);
+                _this.addChild(_this.particleCounter1);
+                _this.particleCounter1.anchor.set(0.5, 0);
+
+                _this.particleCounter1small = new PIXI.Text("0", _this.font1);
+                _this.addChild(_this.particleCounter1small);
+                _this.particleCounter1small.anchor.set(0.5, 0);
+
+                _this.particleCounter2 = new PIXI.Text("0", _this.font1);
+                _this.addChild(_this.particleCounter2);
+                _this.particleCounter2.anchor.set(0.5, 0);
+
+                _this.particleCounter2small = new PIXI.Text("0", _this.font1);
+                _this.addChild(_this.particleCounter2small);
+                _this.particleCounter2small.anchor.set(0.5, 0);
+
+                _this.particleCounter1.x = _config2.default.width * 0.25;
+                _this.particleCounter1.y = _config2.default.height * 0.35 + 20;
+
+                _this.particleCounter1small.x = _config2.default.width * 0.25;
+                _this.particleCounter1small.y = _config2.default.height * 0.75 + 20;
+
+                _this.particleCounter2.x = _config2.default.width * 0.75;
+                _this.particleCounter2.y = _config2.default.height * 0.35 + 20;
+
+                _this.particleCounter2small.x = _config2.default.width * 0.75;
+                _this.particleCounter2small.y = _config2.default.height * 0.75 + 20;
+
+                _this.helpLabel = new PIXI.BitmapText("Uses two types of containers\nparticle container is faster but limited", { fontName: 'counter' });
+                _this.addChild(_this.helpLabel);
+                _this.helpLabel.x = 100;
+                _this.helpLabel.y = 25;
+                return _this;
+        }
+
+        (0, _createClass3.default)(Demo3, [{
+                key: 'build',
+                value: function build(params) {
+                        if (params.single) {
+                                this.particleContainerEmitter.active = false;
+                                this.containerEmitter.active = false;
+                                this.blueFireEmitter.active = false;
+                        } else {
+                                this.particleContainerEmitter.active = true;
+                                this.containerEmitter.active = true;
+                                this.blueFireEmitter.active = true;
+                        }
+
+                        this.particleContainerEmitter.reset();
+                        this.containerEmitter.reset();
+                        this.containerEmitterSmall.reset();
+                        this.particleContainerSmall.reset();
+                        this.blueFireEmitter.reset();
+                }
+        }, {
+                key: 'update',
+                value: function update(delta) {
+
+                        this.emittersRotation += delta * 2;
+                        this.emittersRotation %= Math.PI * 2;
+
+                        this.particleContainerEmitter.x = _config2.default.width * 0.25 + Math.cos(this.emittersRotation) * 100;
+                        this.particleContainerEmitter.y = _config2.default.height * 0.35 + Math.sin(this.emittersRotation) * 100;
+
+                        this.containerEmitter.x = _config2.default.width * 0.75 + Math.cos(this.emittersRotation) * 100;
+                        this.containerEmitter.y = _config2.default.height * 0.35 + Math.sin(this.emittersRotation) * 100;
+
+                        this.blueFireEmitter.x = _config2.default.width / 2 + Math.cos(this.emittersRotation) * _config2.default.width / 2;
+                        this.blueFireEmitter.y = _config2.default.height;
+
+                        this.particleCounter1.visible = this.particleContainerEmitter.active;
+                        this.particleCounter1small.visible = this.particleContainerSmall.active;
+                        this.particleCounter2.visible = this.containerEmitter.active;
+                        this.particleCounter2small.visible = this.containerEmitterSmall.active;
+
+                        this.particleCounter1.text = this.particleContainerEmitter.particles.length + '\nparticles container';
+                        this.particleCounter1small.text = this.particleContainerSmall.particles.length + '\nparticles container';
+                        this.particleCounter2.text = this.containerEmitter.particles.length + '\nnormal container\n+blend modes';
+                        this.particleCounter2small.text = this.containerEmitterSmall.particles.length + '\nnormal container\n+blend modes';
+
+                        if (this.particleContainerEmitter.canEmit) {
+                                this.particleContainerEmitter.emit(this.largeFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 8);
+                        }
+
+                        if (this.containerEmitter.canEmit) {
+                                this.containerEmitter.emit(this.largeFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 8);
+                        }
+
+                        if (this.containerEmitterSmall.canEmit) {
+                                this.containerEmitterSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
+                        }
+                        if (this.particleContainerSmall.canEmit) {
+                                this.particleContainerSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
+                        }
+                        if (this.blueFireEmitter.canEmit) {
+                                this.blueFireEmitter.emit(this.blueFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
+                        }
+
+                        this.particleContainerEmitter.update(delta);
+                        this.containerEmitter.update(delta);
+                        this.containerEmitterSmall.update(delta);
+                        this.particleContainerSmall.update(delta);
+                        this.blueFireEmitter.update(delta);
+                }
+        }]);
+        return Demo3;
+}(_Screen3.default);
+
+exports.default = Demo3;
+module.exports = exports['default'];
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _Pool = __webpack_require__(86);
+
+var _Pool2 = _interopRequireDefault(_Pool);
+
+var _Particle = __webpack_require__(186);
+
+var _Particle2 = _interopRequireDefault(_Particle);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ParticleEmmiter = function () {
+    function ParticleEmmiter(container) {
+        (0, _classCallCheck3.default)(this, ParticleEmmiter);
+
+        this.container = container;
+        this.position = { x: 0, y: 0 };
+        this.particles = [];
+        this.frequency = 0.1;
+        this.emitTimer = 0;
+        this.maxParticles = 1500;
+        this.active = true;
+    }
+
+    (0, _createClass3.default)(ParticleEmmiter, [{
+        key: 'reset',
+        value: function reset() {
+            for (var index = this.particles.length - 1; index >= 0; index--) {
+                var particle = this.particles[index];
+                _Pool2.default.instance.returnElement(particle);
+                this.container.removeChild(particle.sprite);
+                this.particles.splice(index, 1);
+            }
+        }
+    }, {
+        key: 'emit',
+        value: function emit(particleDescriptor, position, quant) {
+
+            for (var index = 0; index < quant; index++) {
+                var particle = _Pool2.default.instance.getElement(_Particle2.default);
+                particle.build(particleDescriptor);
+                particle.x = Math.random() * (position.maxX - position.minX) + position.minX + this.x;
+                particle.y = Math.random() * (position.maxY - position.minY) + position.minY + this.y;
+
+                this.container.addChild(particle.sprite);
+                this.particles.push(particle);
+
+                this.emitTimer = this.frequency;
+                if (this.particles.length > this.maxParticles) {
+                    var first = this.particles.shift();
+                    _Pool2.default.instance.returnElement(first);
+                    this.container.removeChild(first.sprite);
+                }
+            }
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+            this.emitTimer -= delta;
+            for (var index = this.particles.length - 1; index >= 0; index--) {
+                var particle = this.particles[index];
+                particle.update(delta);
+                if (particle.shouldDestroy) {
+                    _Pool2.default.instance.returnElement(particle);
+                    this.container.removeChild(particle.sprite);
+                    this.particles.splice(index, 1);
+                }
+            }
+        }
+    }, {
+        key: 'x',
+        get: function get() {
+            return this.position.x;
+        },
+        set: function set(value) {
+            this.position.x = value;
+        }
+    }, {
+        key: 'y',
+        get: function get() {
+            return this.position.y;
+        },
+        set: function set(value) {
+            this.position.y = value;
+        }
+    }, {
+        key: 'canEmit',
+        get: function get() {
+            return this.emitTimer <= 0 && this.active;
+        }
+    }]);
+    return ParticleEmmiter;
+}();
+
+exports.default = ParticleEmmiter;
+module.exports = exports['default'];
+
+/***/ }),
+/* 186 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _ParticleDescriptor = __webpack_require__(87);
+
+var _ParticleDescriptor2 = _interopRequireDefault(_ParticleDescriptor);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Particle = function () {
+    function Particle() {
+        (0, _classCallCheck3.default)(this, Particle);
+
+        this.descriptor = new _ParticleDescriptor2.default();
+        this.sprite = new PIXI.Sprite(PIXI.Texture.WHITE);
+    }
+
+    (0, _createClass3.default)(Particle, [{
+        key: 'build',
+        value: function build(descriptor) {
+            this.descriptor.clone(descriptor);
+            this.sprite.texture = this.descriptor.texture;
+            this.sprite.anchor.set(0.5);
+            this.sprite.scale.set(this.descriptor.scale);
+            this.sprite.blendMode = this.descriptor.blendMode;
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+            var _this = this;
+
+            this.descriptor.update(delta);
+            this.sprite.x += this.descriptor.velocityX * delta + this.descriptor.velocityOffsetX * delta;
+            this.sprite.y += this.descriptor.velocityY * delta + this.descriptor.velocityOffsetY * delta;
+
+            this.descriptor.velocityY += this.descriptor.gravity * delta;
+
+            this.descriptor.behaviours.forEach(function (element) {
+                if (element.type == 'descriptor') {
+                    if (_this.descriptor[element.property] !== undefined) {
+                        _this.descriptor[element.property] = element.currentValue;
+                    }
+                } else if (element.type == 'sprite') {
+                    if (_this.sprite[element.property] !== undefined) {
+                        _this.sprite[element.property] = element.currentValue;
+                    }
+                }
+            });
+        }
+    }, {
+        key: 'x',
+        set: function set(value) {
+            this.sprite.x = value;
+        }
+    }, {
+        key: 'y',
+        set: function set(value) {
+            this.sprite.y = value;
+        }
+    }, {
+        key: 'shouldDestroy',
+        get: function get() {
+            return this.descriptor.shouldDestroy;
+        }
+    }]);
+    return Particle;
+}();
+
+exports.default = Particle;
+module.exports = exports['default'];
+
+/***/ }),
+/* 187 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _get2 = __webpack_require__(33);
+
+var _get3 = _interopRequireDefault(_get2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _ParticleBehaviour2 = __webpack_require__(55);
+
+var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var AlphaBehaviour = function (_ParticleBehaviour) {
+    (0, _inherits3.default)(AlphaBehaviour, _ParticleBehaviour);
+
+    function AlphaBehaviour(time) {
+        (0, _classCallCheck3.default)(this, AlphaBehaviour);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (AlphaBehaviour.__proto__ || (0, _getPrototypeOf2.default)(AlphaBehaviour)).call(this));
+
+        _this.time = time;
+        _this.startValue = 1;
+        _this.endValue = 0;
+        return _this;
+    }
+
+    (0, _createClass3.default)(AlphaBehaviour, [{
+        key: "build",
+        value: function build(params) {
+
+            this.startValue = _ParticleBehaviour3.default.findValue(params.startValue) | 1;
+            this.endValue = _ParticleBehaviour3.default.findValue(params.endValue) | 0.1;
+            this.time = _ParticleBehaviour3.default.findValue(params.time) | 5;
+        }
+    }, {
+        key: "update",
+        value: function update(delta) {
+            (0, _get3.default)(AlphaBehaviour.prototype.__proto__ || (0, _getPrototypeOf2.default)(AlphaBehaviour.prototype), "update", this).call(this, delta);
+        }
+    }]);
+    return AlphaBehaviour;
+}(_ParticleBehaviour3.default);
+
+exports.default = AlphaBehaviour;
+module.exports = exports["default"];
+
+/***/ }),
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _ParticleBehaviour2 = __webpack_require__(55);
+
+var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SinoidBehaviour = function (_ParticleBehaviour) {
+    (0, _inherits3.default)(SinoidBehaviour, _ParticleBehaviour);
+
+    function SinoidBehaviour() {
+        (0, _classCallCheck3.default)(this, SinoidBehaviour);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (SinoidBehaviour.__proto__ || (0, _getPrototypeOf2.default)(SinoidBehaviour)).call(this));
+
+        _this.property = 'velocityOffsetX';
+        _this.type = 'descriptor';
+
+        _this.angle = Math.random() * Math.PI * 2;
+        return _this;
+    }
+
+    (0, _createClass3.default)(SinoidBehaviour, [{
+        key: 'build',
+        value: function build(params) {
+            this.speed = _ParticleBehaviour3.default.findValue(params.speed) | 1;
+            this.length = _ParticleBehaviour3.default.findValue(params.length) | 0.1;
+        }
+    }, {
+        key: 'reset',
+        value: function reset() {
+            this.angle = Math.random() * Math.PI * 2;
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+
+            this.angle += delta * this.speed;
+            this.currentValue = Math.sin(this.angle) * this.length;
+        }
+    }]);
+    return SinoidBehaviour;
+}(_ParticleBehaviour3.default);
+
+exports.default = SinoidBehaviour;
+module.exports = exports['default'];
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _get2 = __webpack_require__(33);
+
+var _get3 = _interopRequireDefault(_get2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _ParticleBehaviour2 = __webpack_require__(55);
+
+var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ColorBehaviour = function (_ParticleBehaviour) {
+    (0, _inherits3.default)(ColorBehaviour, _ParticleBehaviour);
+
+    function ColorBehaviour(time) {
+        (0, _classCallCheck3.default)(this, ColorBehaviour);
+
+        var _this = (0, _possibleConstructorReturn3.default)(this, (ColorBehaviour.__proto__ || (0, _getPrototypeOf2.default)(ColorBehaviour)).call(this));
+
+        _this.property = 'tint';
+        _this.type = 'sprite';
+
+        _this.time = time;
+        _this.startValue = 1;
+        _this.endValue = 0;
+
+        _this.currentRGB = { r: 0, g: 0, b: 0 };
+        return _this;
+    }
+
+    (0, _createClass3.default)(ColorBehaviour, [{
+        key: 'build',
+        value: function build(params) {
+            this.startValue = this.toRGB(_ParticleBehaviour3.default.findValue(params.startValue));
+            this.endValue = this.toRGB(_ParticleBehaviour3.default.findValue(params.endValue));
+            this.time = _ParticleBehaviour3.default.findValue(params.time) | 5;
+            this.currentValue = this.rgbToColor(this.startValue.r, this.startValue.g, this.startValue.b);
+        }
+    }, {
+        key: 'update',
+        value: function update(delta) {
+            (0, _get3.default)(ColorBehaviour.prototype.__proto__ || (0, _getPrototypeOf2.default)(ColorBehaviour.prototype), 'update', this).call(this, delta);
+
+            this.currentRGB.r = Math.floor(this.normalValue * (this.endValue.r - this.startValue.r) + this.startValue.r);
+            this.currentRGB.g = Math.floor(this.normalValue * (this.endValue.g - this.startValue.g) + this.startValue.g);
+            this.currentRGB.b = Math.floor(this.normalValue * (this.endValue.b - this.startValue.b) + this.startValue.b);
+
+            this.currentValue = this.rgbToColor(this.currentRGB.r, this.currentRGB.g, this.currentRGB.b);
+        }
+    }, {
+        key: 'toRGB',
+        value: function toRGB(rgb) {
+            var r = rgb >> 16 & 0xFF;
+            var g = rgb >> 8 & 0xFF;
+            var b = rgb & 0xFF;
+            return {
+                r: r,
+                g: g,
+                b: b
+            };
+        }
+    }, {
+        key: 'rgbToColor',
+        value: function rgbToColor(r, g, b) {
+            return r << 16 | g << 8 | b;
+        }
+    }]);
+    return ColorBehaviour;
+}(_ParticleBehaviour3.default);
+
+exports.default = ColorBehaviour;
+module.exports = exports['default'];
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+        value: true
+});
+
+var _getPrototypeOf = __webpack_require__(4);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(5);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(6);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _pixi = __webpack_require__(3);
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+var _Screen2 = __webpack_require__(35);
+
+var _Screen3 = _interopRequireDefault(_Screen2);
+
+var _UIButton = __webpack_require__(36);
+
+var _UIButton2 = _interopRequireDefault(_UIButton);
+
+var _UIList = __webpack_require__(85);
+
+var _UIList2 = _interopRequireDefault(_UIList);
+
+var _config = __webpack_require__(14);
+
+var _config2 = _interopRequireDefault(_config);
+
+var _signals = __webpack_require__(29);
+
+var _signals2 = _interopRequireDefault(_signals);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MenuScene = function (_Screen) {
+        (0, _inherits3.default)(MenuScene, _Screen);
+
+        function MenuScene(label) {
+                (0, _classCallCheck3.default)(this, MenuScene);
+
+                var _this = (0, _possibleConstructorReturn3.default)(this, (MenuScene.__proto__ || (0, _getPrototypeOf2.default)(MenuScene)).call(this, label));
+
+                _this.menuList = new _UIList2.default();
+                _this.addChild(_this.menuList);
+
+                _this.menuList.w = 400;
+                _this.menuList.h = 650;
+
+                _this.menuList.x = _config2.default.width / 2;
+                _this.menuList.y = _config2.default.height / 2 - 200;
+
+                _this.titleLabel = new PIXI.TextStyle({
+                        fontFamily: 'retro',
+                        align: "center",
+                        dropShadow: true,
+                        dropShadowAngle: 1.5,
+                        fontSize: 44,
+                        dropShadowDistance: 3,
+                        fill: ["#ff52f1", "#D9436B"],
+                        fillGradientType: 1,
+                        fontWeight: "bold",
+                        letterSpacing: 1,
+                        strokeThickness: 3
+                });
+
+                _this.buttonLabel1 = new PIXI.TextStyle({
+                        fontFamily: 'retro',
+                        align: "center",
+                        dropShadow: true,
+                        dropShadowAngle: 1.5,
+                        fontSize: 20,
+                        dropShadowDistance: 3,
+                        fill: 0xFFFFFF,
+                        fontWeight: "bold",
+                        letterSpacing: 1,
+                        strokeThickness: 3
+                });
+
+                _this.onRedirect = new _signals2.default.Signal();
+
+                _this.topLabel = new PIXI.Text("Hello,\nMy name is Jeff", _this.titleLabel);
+                _this.addChild(_this.topLabel);
+                _this.topLabel.x = _config2.default.width / 2;
+                _this.topLabel.y = 180;
+                _this.topLabel.anchor.set(0.5, 0);
+                _this.topLabel.sin = 0;
+
+                var demo1Button = _this.menuList.addElement(new _UIButton2.default(null, 0x05EC15, 400, 100));
+                demo1Button.addLabel('Card transition\nusing TweenLite', _this.buttonLabel1);
+                demo1Button.onClick.add(function () {
+                        _this.onRedirect.dispatch(0, { transition: 'tween' });
+                });
+
+                var demo1Button2 = _this.menuList.addElement(new _UIButton2.default(null, 0xBD8AF2, 400, 100));
+                demo1Button2.addLabel('Card transition not\nusing TweenLite\n(Cool)', _this.buttonLabel1);
+                demo1Button2.onClick.add(function () {
+                        _this.onRedirect.dispatch(0, { transition: 'update' });
+                });
+
+                var demo1Button3 = _this.menuList.addElement(new _UIButton2.default(null, 0xD9436B, 400, 100));
+                demo1Button3.addLabel('Card transition not\nusing TweenLite\n(AND SUPER FAST)', _this.buttonLabel1);
+                demo1Button3.onClick.add(function () {
+                        _this.onRedirect.dispatch(0, { transition: 'update', drawTime: 0.1 });
+                });
+
+                var demo3Button = _this.menuList.addElement(new _UIButton2.default(null, 0xF05832, 400, 100));
+                demo3Button.addLabel('Fire using\n10 Sprites', _this.buttonLabel1);
+                demo3Button.onClick.add(function () {
+                        _this.onRedirect.dispatch(1, { single: true });
+                });
+
+                var demo3Button2 = _this.menuList.addElement(new _UIButton2.default(null, 0xD9436B, 400, 100));
+                demo3Button2.addLabel('More Particles', _this.buttonLabel1);
+                demo3Button2.onClick.add(function () {
+                        _this.onRedirect.dispatch(1, { single: false });
+                });
+
+                _this.menuList.updateVerticalList();
+                _this.menuList.sin = Math.PI;
+                return _this;
+        }
+
+        (0, _createClass3.default)(MenuScene, [{
+                key: 'update',
+                value: function update(delta) {
+                        this.topLabel.sin += delta * 3;
+                        this.topLabel.sin %= Math.PI * 2;
+
+                        this.topLabel.rotation = Math.sin(this.topLabel.sin) * 0.5;
+                        this.topLabel.scale.set((Math.cos(this.topLabel.sin) * 0.5 + 1.5) * 0.5);
+
+                        this.menuList.sin += delta;
+                        this.menuList.sin %= Math.PI * 2;
+                        this.menuList.y = _config2.default.height / 2 - 200 + Math.sin(this.menuList.sin) * 30;
+                }
+        }]);
+        return MenuScene;
+}(_Screen3.default);
+
+exports.default = MenuScene;
+module.exports = exports['default'];
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
@@ -61729,7 +63689,7 @@ exports.default = ScreenManager;
 module.exports = exports['default'];
 
 /***/ }),
-/* 174 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61759,7 +63719,7 @@ var _inherits2 = __webpack_require__(6);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _gsap = __webpack_require__(175);
+var _gsap = __webpack_require__(193);
 
 var _gsap2 = _interopRequireDefault(_gsap);
 
@@ -61902,21 +63862,21 @@ exports.default = ScreenTransition;
 module.exports = exports['default'];
 
 /***/ }),
-/* 175 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TimelineLite_js__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TimelineMax_js__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TweenMax_js__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CSSPlugin_js__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__AttrPlugin_js__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RoundPropsPlugin_js__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__DirectionalRotationPlugin_js__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TimelineLite_js__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TimelineMax_js__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__TweenMax_js__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CSSPlugin_js__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__AttrPlugin_js__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RoundPropsPlugin_js__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__DirectionalRotationPlugin_js__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(94);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return __WEBPACK_IMPORTED_MODULE_3__TweenMax_js__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TweenLite", function() { return __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__["l"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TweenMax", function() { return __WEBPACK_IMPORTED_MODULE_3__TweenMax_js__["a"]; });
@@ -61974,7 +63934,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 194 */
 /***/ (function(module, exports) {
 
 module.exports = function(originalModule) {
@@ -62004,22 +63964,22 @@ module.exports = function(originalModule) {
 
 
 /***/ }),
-/* 177 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export TweenMax */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TweenMax; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TweenLite_js__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TweenMaxBase_js__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CSSPlugin_js__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__AttrPlugin_js__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RoundPropsPlugin_js__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DirectionalRotationPlugin_js__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TimelineMax_js__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TweenMaxBase_js__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CSSPlugin_js__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__AttrPlugin_js__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RoundPropsPlugin_js__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DirectionalRotationPlugin_js__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TimelineMax_js__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__BezierPlugin_js__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__EasePack_js__ = __webpack_require__(94);
 /* unused harmony reexport TweenLite */
 /* unused harmony reexport TimelineLite */
 /* unused harmony reexport TimelineMax */
@@ -62079,7 +64039,7 @@ TweenMax._autoActivated = [__WEBPACK_IMPORTED_MODULE_6__TimelineLite_js__["a" /*
 
 
 /***/ }),
-/* 178 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62768,1969 +64728,6 @@ var TweenMaxBase = TweenMax;
 
 
 
-
-/***/ }),
-/* 179 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-        value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _CardStack = __webpack_require__(180);
-
-var _CardStack2 = _interopRequireDefault(_CardStack);
-
-var _CardView = __webpack_require__(90);
-
-var _CardView2 = _interopRequireDefault(_CardView);
-
-var _Screen2 = __webpack_require__(35);
-
-var _Screen3 = _interopRequireDefault(_Screen2);
-
-var _StackView = __webpack_require__(186);
-
-var _StackView2 = _interopRequireDefault(_StackView);
-
-var _CardTweenTransition = __webpack_require__(187);
-
-var _CardTweenTransition2 = _interopRequireDefault(_CardTweenTransition);
-
-var _CardTransition = __webpack_require__(188);
-
-var _CardTransition2 = _interopRequireDefault(_CardTransition);
-
-var _config = __webpack_require__(14);
-
-var _config2 = _interopRequireDefault(_config);
-
-var _UIButton = __webpack_require__(36);
-
-var _UIButton2 = _interopRequireDefault(_UIButton);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Demo1 = function (_Screen) {
-        (0, _inherits3.default)(Demo1, _Screen);
-
-        function Demo1(label) {
-                (0, _classCallCheck3.default)(this, Demo1);
-
-                var _this = (0, _possibleConstructorReturn3.default)(this, (Demo1.__proto__ || (0, _getPrototypeOf2.default)(Demo1)).call(this, label));
-
-                _this.container = new PIXI.Container();
-                _this.addChild(_this.container);
-
-                _this.cardStack = new _CardStack2.default();
-                _this.cardStackView = new _StackView2.default(_this.cardStack);
-                _this.container.addChild(_this.cardStackView);
-                _this.cardStackView._name = 'normal';
-
-                _this.cemiteryStack = new _CardStack2.default();
-                _this.cemiteryStackView = new _StackView2.default(_this.cemiteryStack);
-                _this.container.addChild(_this.cemiteryStackView);
-                _this.cemiteryStackView._name = 'cemitery';
-
-                _this.trantitionType = Demo1.FROM_STACK;
-                _this.cardTransition = new _CardTransition2.default();
-                _this.addChild(_this.cardTransition);
-
-                _this.cardTransition.onCompleteTransition.add(_this.completeTransition.bind(_this));
-
-                _this.transitionTime = 1;
-                _this.transitionCounter = _this.transitionTime;
-
-                _this.cardTransitionTween = new _CardTweenTransition2.default();
-                _this.cardTransitionTween.onCompleteTransition.add(_this.completeTransition.bind(_this));
-                _this.addChild(_this.cardTransitionTween);
-
-                _this.currentTransition = _this.cardTransition;
-
-                var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
-                closeButton.onClick.add(function () {
-                        _this.screenManager.backScreen();
-                });
-                closeButton.x = 50;
-                closeButton.y = 50;
-                _this.addChild(closeButton);
-
-                _this.movableDecks = { active: false, sin: 0 };
-
-                _this.helpLabel = new PIXI.BitmapText("Positions are different everytime\nthis screen is opened", { fontName: 'counter' });
-                _this.addChild(_this.helpLabel);
-                _this.helpLabel.x = 100;
-                _this.helpLabel.y = 25;
-                return _this;
-        }
-
-        (0, _createClass3.default)(Demo1, [{
-                key: "build",
-                value: function build() {
-                        var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-                        this.cardTransition.reset();
-                        this.cardTransitionTween.reset();
-
-                        this.transitionTime = params.drawTime ? params.drawTime : 1;
-                        if (params.transition == 'tween') {
-                                this.currentTransition = this.cardTransitionTween;
-                                this.movableDecks.active = false;
-
-                                this.cardStackView.x = 50;
-                                this.cardStackView.y = 900;
-
-                                this.cemiteryStackView.x = _config2.default.width - 150;
-                                this.cemiteryStackView.y = Math.random() * 300 + 600;
-                        } else {
-                                this.currentTransition = this.cardTransition;
-                                this.movableDecks.active = true;
-
-                                this.cardStackView.x = 50;
-                                this.cardStackView.y = _config2.default.height - 250;
-                        }
-
-                        this.cardStack.reset();
-                        this.cardStackView.reset();
-                        this.cemiteryStack.reset();
-                        this.cemiteryStackView.reset();
-
-                        this.transitionCounter = this.transitionTime;
-
-                        this.cardStack.populate(144);
-                        this.cardStackView.drawStack(this.cardStack);
-                }
-        }, {
-                key: "completeTransition",
-                value: function completeTransition(card, targetView) {
-                        this.cardStackView.refreshStackView(true);
-                        this.cemiteryStackView.refreshStackView(true);
-
-                        targetView.addCard(card);
-                }
-        }, {
-                key: "sendCard",
-                value: function sendCard(fromStack, toStack) {
-                        //remove from one model to another
-                        toStack.stackModel.addCard(fromStack.stackModel.popCard());
-
-                        var card = fromStack.popCard();
-
-                        //start transition from stack to stack
-                        var originTransition = { x: fromStack.x + fromStack.topPosition.x, y: fromStack.y + fromStack.topPosition.y };
-                        var targetPosition = { x: toStack.x + toStack.topPosition.x, y: toStack.y + toStack.topPosition.y };
-
-                        this.currentTransition.fromTo(card, originTransition, targetPosition, toStack, 2);
-                }
-        }, {
-                key: "sortTransition",
-                value: function sortTransition() {
-                        if (this.trantitionType == Demo1.FROM_STACK) {
-                                this.sendCard(this.cardStackView, this.cemiteryStackView);
-                                if (this.cardStack.cards.length <= 0) {
-                                        this.trantitionType = Demo1.FROM_CEMITERY;
-                                }
-                        } else {
-                                this.sendCard(this.cemiteryStackView, this.cardStackView);
-                                if (this.cemiteryStack.cards.length <= 0) {
-                                        this.trantitionType = Demo1.FROM_STACK;
-                                }
-                        }
-                }
-        }, {
-                key: "update",
-                value: function update(delta) {
-
-                        this.transitionCounter -= delta;
-                        if (this.transitionCounter <= 0) {
-                                this.transitionCounter = this.transitionTime;
-                                this.sortTransition();
-                        }
-                        if (this.movableDecks.active) {
-                                this.movableDecks.sin += delta * 2;
-                                this.cemiteryStackView.x = _config2.default.width / 2 + Math.cos(this.movableDecks.sin) * 200 + 50;
-                                this.cemiteryStackView.y = _config2.default.height / 2 + Math.sin(this.movableDecks.sin) * 200;
-
-                                this.cardStackView.x = 50 + Math.sin(this.movableDecks.sin) * 50;
-                                this.cardStackView.y = 850;
-                        }
-                        if (this.currentTransition.update) {
-                                this.currentTransition.update(delta);
-                        }
-                }
-        }]);
-        return Demo1;
-}(_Screen3.default);
-
-Demo1.FROM_STACK = 0;
-Demo1.FROM_CEMITERY = 1;
-exports.default = Demo1;
-module.exports = exports["default"];
-
-/***/ }),
-/* 180 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _CardData = __webpack_require__(181);
-
-var _CardData2 = _interopRequireDefault(_CardData);
-
-var _utils = __webpack_require__(34);
-
-var _utils2 = _interopRequireDefault(_utils);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CardStack = function () {
-    function CardStack() {
-        (0, _classCallCheck3.default)(this, CardStack);
-
-        this.cards = [];
-    }
-
-    (0, _createClass3.default)(CardStack, [{
-        key: "populate",
-        value: function populate(total) {
-            for (var i = 0; i < total - 1; i++) {
-                this.addCard(i + 1);
-            }
-            _utils2.default.shuffle(this.cards);
-        }
-    }, {
-        key: "reset",
-        value: function reset() {
-            this.cards = [];
-        }
-    }, {
-        key: "addCard",
-        value: function addCard(id) {
-            this.cards.push(new _CardData2.default(id));
-        }
-    }, {
-        key: "popCard",
-        value: function popCard() {
-            if (this.cards.length) {
-                return this.cards.pop();
-            }
-        }
-    }]);
-    return CardStack;
-}();
-
-exports.default = CardStack;
-module.exports = exports["default"];
-
-/***/ }),
-/* 181 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CardData = function CardData(id) {
-    (0, _classCallCheck3.default)(this, CardData);
-
-    this.cardID = id;
-
-    this.spriteId = id < 10 ? '00' + id : id < 100 ? '0' + id : id.toString();
-};
-
-exports.default = CardData;
-module.exports = exports['default'];
-
-/***/ }),
-/* 182 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _defineProperty = __webpack_require__(70);
-
-var _defineProperty2 = _interopRequireDefault(_defineProperty);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (obj, key, value) {
-  if (key in obj) {
-    (0, _defineProperty2.default)(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-};
-
-/***/ }),
-/* 183 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(184), __esModule: true };
-
-/***/ }),
-/* 184 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(185);
-module.exports = __webpack_require__(12).Number.isNaN;
-
-
-/***/ }),
-/* 185 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 20.1.2.4 Number.isNaN(number)
-var $export = __webpack_require__(16);
-
-$export($export.S, 'Number', {
-  isNaN: function isNaN(number) {
-    // eslint-disable-next-line no-self-compare
-    return number != number;
-  }
-});
-
-
-/***/ }),
-/* 186 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _CardView = __webpack_require__(90);
-
-var _CardView2 = _interopRequireDefault(_CardView);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var StackView = function (_PIXI$Container) {
-    (0, _inherits3.default)(StackView, _PIXI$Container);
-
-    function StackView(stackModel) {
-        (0, _classCallCheck3.default)(this, StackView);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (StackView.__proto__ || (0, _getPrototypeOf2.default)(StackView)).call(this));
-
-        _this.stackModel = stackModel;
-        _this.cards = [];
-
-        _this.baseCard = new _CardView2.default();
-        _this.baseCard.tint = 0x747F7F;
-        _this.addChild(_this.baseCard);
-        _this.stackContainer = new PIXI.Container();
-        _this.addChild(_this.stackContainer);
-
-        _this.currentFrontCardIndex = 0;
-
-        _this.cardsShowing = 144;
-
-        _this.quantityLabel = new PIXI.BitmapText("0", { fontName: 'counter' });
-        _this.addChild(_this.quantityLabel);
-        _this.quantityLabel.x = 50;
-        _this.quantityLabel.y = 0;
-        _this.quantityLabel.anchor.set(0.5, 0);
-
-        _this.topPosition = { x: 0, y: 0 };
-        return _this;
-    }
-
-    (0, _createClass3.default)(StackView, [{
-        key: 'reset',
-        value: function reset() {
-            this.stackContainer.children = [];
-            this.cards = [];
-            this.quantityLabel.text = this.cards.length;
-            this.quantityLabel.y = 0;
-        }
-    }, {
-        key: 'drawStack',
-        value: function drawStack(stack) {
-            for (var i = 0; i < stack.cards.length; i++) {
-                this.cards.push(new _CardView2.default());
-                this.cards[i].y = i * 5;
-                this.cards[i].updateTexture(stack.cards[i].spriteId);
-                this.stackContainer.addChild(this.cards[i]);
-            }
-
-            this.quantityLabel.text = this.cards.length;
-            this.refreshStackView();
-        }
-    }, {
-        key: 'addCard',
-        value: function addCard(card) {
-            var skipRefresh = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
-            this.cards.push(card);
-            this.stackContainer.addChild(card);
-
-            this.quantityLabel.text = this.cards.length;
-            if (!skipRefresh) {
-                this.refreshStackView();
-            }
-        }
-    }, {
-        key: 'popCard',
-        value: function popCard() {
-            var skipRefresh = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-            if (this.cards.length) {
-                var card = this.cards.pop();
-                this.refreshStackView();
-                this.stackContainer.removeChild(card);
-                card.visible = true;
-                this.quantityLabel.text = this.cards.length;
-
-                return card;
-            }
-        }
-    }, {
-        key: 'refreshStackView',
-        value: function refreshStackView() {
-            this.refreshVisbles();
-            this.refreshPositions();
-        }
-    }, {
-        key: 'refreshPositions',
-        value: function refreshPositions() {
-            var posAccum = 0;
-            for (var i = 0; i < this.cards.length; i++) {
-                if (this.cards[i].visible) {
-                    this.cards[i].x = 0;
-                    this.cards[i].y = ++posAccum * -5;
-
-                    this.topPosition.x = this.cards[i].x;
-                    this.topPosition.y = this.cards[i].y;
-                }
-            }
-            this.quantityLabel.y = this.topPosition.y;
-        }
-    }, {
-        key: 'refreshVisbles',
-        value: function refreshVisbles() {
-            for (var i = 0; i < this.cards.length; i++) {
-                if (i < this.cards.length - this.cardsShowing) {
-                    this.cards[i].visible = false;
-                } else {
-                    this.cards[i].visible = true;
-                }
-            }
-        }
-    }, {
-        key: 'globalTopPosition',
-        get: function get() {
-            return { x: this.topPosition.x + this.x, y: this.topPosition.y + this.y };
-        }
-    }]);
-    return StackView;
-}(PIXI.Container);
-
-exports.default = StackView;
-module.exports = exports['default'];
-
-/***/ }),
-/* 187 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _signals = __webpack_require__(29);
-
-var _signals2 = _interopRequireDefault(_signals);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CardTweenTransition = function (_PIXI$Container) {
-    (0, _inherits3.default)(CardTweenTransition, _PIXI$Container);
-
-    function CardTweenTransition() {
-        (0, _classCallCheck3.default)(this, CardTweenTransition);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (CardTweenTransition.__proto__ || (0, _getPrototypeOf2.default)(CardTweenTransition)).call(this));
-
-        _this.onCompleteTransition = new _signals2.default.Signal();
-        return _this;
-    }
-
-    (0, _createClass3.default)(CardTweenTransition, [{
-        key: "reset",
-        value: function reset() {
-            if (this.currentTransition) {
-                TweenLite.killTweensOf(this.currentTransition.card, true);
-                TweenLite.killTweensOf(this.currentTransition.card.scale, true);
-
-                this.onCompleteTransition.dispatch(this.currentTransition.card, this.currentTransition.targetStack);
-            }
-        }
-    }, {
-        key: "fromTo",
-        value: function fromTo(card, startPosition, endPosition, targetStack, duration) {
-            var _this2 = this;
-
-            this.currentTransition = { card: card, targetStack: targetStack };
-            TweenLite.killTweensOf(card, true);
-            TweenLite.killTweensOf(card.scale, true);
-
-            this.addChild(card);
-
-            card.x = startPosition.x;
-            card.y = startPosition.y;
-
-            var angle = Math.atan2(endPosition.y - startPosition.y, endPosition.x - startPosition.x) + Math.random() * 0.5 - 0.25;
-            var distance = this.distance(startPosition.x, startPosition.y, endPosition.x, endPosition.y);
-
-            TweenLite.to(card, duration * 0.5, {
-                x: Math.cos(angle) * distance * 0.5 + startPosition.x,
-                y: Math.sin(angle) * distance * 0.5 + startPosition.y,
-                ease: Cubic.easeOut
-            });
-
-            TweenLite.to(card.scale, duration * 0.5, {
-                x: 1.5,
-                y: 1.5,
-                ease: Back.easeOut
-            });
-
-            TweenLite.to(card, duration * 0.5, {
-                delay: duration * 0.5,
-                x: endPosition.x, y: endPosition.y, onComplete: function onComplete() {
-                    _this2.onCompleteTransition.dispatch(card, targetStack);
-                }, ease: Cubic.easeIn
-            });
-
-            TweenLite.to(card.scale, duration * 0.5, {
-                delay: duration * 0.5,
-                x: 1,
-                y: 1
-            });
-        }
-    }, {
-        key: "distance",
-        value: function distance(x1, y1, x2, y2) {
-            return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-        }
-    }]);
-    return CardTweenTransition;
-}(PIXI.Container);
-
-exports.default = CardTweenTransition;
-module.exports = exports["default"];
-
-/***/ }),
-/* 188 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _signals = __webpack_require__(29);
-
-var _signals2 = _interopRequireDefault(_signals);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CardTransition = function (_PIXI$Container) {
-    (0, _inherits3.default)(CardTransition, _PIXI$Container);
-
-    function CardTransition() {
-        (0, _classCallCheck3.default)(this, CardTransition);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (CardTransition.__proto__ || (0, _getPrototypeOf2.default)(CardTransition)).call(this));
-
-        _this.onCompleteTransition = new _signals2.default.Signal();
-
-        _this.activeTransitions = [];
-        return _this;
-    }
-
-    (0, _createClass3.default)(CardTransition, [{
-        key: "reset",
-        value: function reset() {
-            var _this2 = this;
-
-            this.activeTransitions.forEach(function (transition) {
-                _this2.onCompleteTransition.dispatch(transition.card, transition.targetStack);
-            });
-            this.activeTransitions = [];
-        }
-    }, {
-        key: "fromTo",
-        value: function fromTo(card, startPosition, endPosition, targetStack, duration) {
-            this.addChild(card);
-
-            card.x = startPosition.x;
-            card.y = startPosition.y;
-
-            var angle = Math.atan2(endPosition.y - startPosition.y, endPosition.x - startPosition.x) + Math.random();
-            var distance = this.distance(startPosition.x, startPosition.y, endPosition.x, endPosition.y);
-
-            this.activeTransitions.push({
-                card: card,
-                startPosition: startPosition,
-                endPosition: endPosition,
-                targetStack: targetStack,
-                duration: duration,
-                midPoint: { x: Math.cos(angle) * distance / 2, y: Math.sin(angle) * distance / 2 },
-                velocity: { x: 0, y: 0 },
-                distance: distance,
-                currentDuration: duration
-            });
-        }
-    }, {
-        key: "update",
-        value: function update(delta) {
-
-            for (var index = 0; index < this.activeTransitions.length; index++) {
-                var transition = this.activeTransitions[index];
-                transition.currentDuration -= delta;
-                if (transition.currentDuration <= delta) {
-                    this.activeTransitions.splice(index, 1);
-                    transition.card.scale.set(1);
-                    this.onCompleteTransition.dispatch(transition.card, transition.targetStack);
-                    continue;
-                }
-
-                var angle = Math.atan2(transition.targetStack.globalTopPosition.y - transition.card.y, transition.targetStack.globalTopPosition.x - transition.card.x);
-                var distance = this.distance(transition.card.x, transition.card.y, transition.targetStack.globalTopPosition.x, transition.targetStack.globalTopPosition.y);
-
-                transition.velocity.x = Math.cos(angle) * (distance / transition.currentDuration) * delta;
-                transition.velocity.y = Math.sin(angle) * (distance / transition.currentDuration) * delta;
-
-                transition.card.x += transition.velocity.x;
-                transition.card.y += transition.velocity.y;
-
-                var distanceFromMiddle = this.distance(transition.currentDuration, 0, transition.duration, 0);
-
-                transition.card.scale.set(Math.abs(distanceFromMiddle / transition.duration) * 0.25 + 1);
-            }
-        }
-    }, {
-        key: "distance",
-        value: function distance(x1, y1, x2, y2) {
-            return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-        }
-    }]);
-    return CardTransition;
-}(PIXI.Container);
-
-exports.default = CardTransition;
-module.exports = exports["default"];
-
-/***/ }),
-/* 189 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _Screen2 = __webpack_require__(35);
-
-var _Screen3 = _interopRequireDefault(_Screen2);
-
-var _UIButton = __webpack_require__(36);
-
-var _UIButton2 = _interopRequireDefault(_UIButton);
-
-var _UIList = __webpack_require__(91);
-
-var _UIList2 = _interopRequireDefault(_UIList);
-
-var _utils = __webpack_require__(34);
-
-var _utils2 = _interopRequireDefault(_utils);
-
-var _config = __webpack_require__(14);
-
-var _config2 = _interopRequireDefault(_config);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Demo2 = function (_Screen) {
-    (0, _inherits3.default)(Demo2, _Screen);
-
-    function Demo2(label) {
-        (0, _classCallCheck3.default)(this, Demo2);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (Demo2.__proto__ || (0, _getPrototypeOf2.default)(Demo2)).call(this, label));
-
-        _this.container = new PIXI.Container();
-        _this.addChild(_this.container);
-
-        var lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-        _this.loremArray = lorem.split(" ");
-        _this.emojiArray = ['🙂', '😀', '😃', '😄', '😁', '🤓', '😎', '🥰', '🤩'];
-
-        _this.font1 = new PIXI.TextStyle({
-            fontFamily: 'retro',
-            align: "center",
-            dropShadow: true,
-            dropShadowAngle: 1.5,
-            fontSize: 24,
-            dropShadowDistance: 3,
-            fill: "#ffcd1a",
-            letterSpacing: 3,
-            strokeThickness: 3
-        });
-
-        var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
-        closeButton.onClick.add(function () {
-            _this.screenManager.backScreen();
-        });
-        closeButton.x = 50;
-        closeButton.y = 50;
-        _this.addChild(closeButton);
-
-        _this.textBoxes = [];
-
-        _this.spawnTextTimer = 2;
-        _this.currentSpawnTextTimer = 0.1;
-        return _this;
-    }
-
-    (0, _createClass3.default)(Demo2, [{
-        key: 'addTextBox',
-        value: function addTextBox(source) {
-            var bracketsIndex = source.indexOf('{');
-
-            var brackets = [];
-            var stringIndex = 0;
-            this.textStructure = [];
-            if (bracketsIndex == -1) {
-                this.textStructure.push({ type: 'text', source: source });
-            }
-            while (bracketsIndex >= 0) {
-
-                if (bracketsIndex == -1) {
-                    break;
-                }
-                var bracketsEnd = source.indexOf('}', bracketsIndex + 1);
-                brackets.push({ start: bracketsIndex + 1, end: bracketsEnd });
-                stringIndex = bracketsEnd + 1;
-                bracketsIndex = source.indexOf('{', bracketsIndex + 1);
-            }
-
-            for (var index = 0; index < brackets.length; index++) {
-                var element = brackets[index];
-                if (element.start > 0) {
-                    if (index > 0) {
-                        this.textStructure.push({ type: 'text', source: source.substring(brackets[index - 1].end + 1, element.start - 1) });
-                    } else {
-                        this.textStructure.push({ type: 'text', source: source.substring(0, element.start - 1) });
-                    }
-                }
-                this.textStructure.push({ type: 'sprite', source: source.substring(element.start, element.end) });
-                if (index >= brackets.length - 1) {
-                    this.textStructure.push({ type: 'text', source: source.substring(element.end + 1, source.length) });
-                }
-            }
-
-            var boxList = new PIXI.Container();
-
-            var xPos = 0;
-            var offsetY = 0;
-            var lineHeight = 45;
-            for (var _index = 0; _index < this.textStructure.length; _index++) {
-                if (this.textStructure[_index].type == 'text') {
-                    var text = new PIXI.Text("0", this.font1);
-                    text.text = this.textStructure[_index].source;
-                    if (xPos + text.width > _config2.default.width) {
-                        offsetY += 50;
-                        xPos = 0;
-                    }
-                    text.x = xPos;
-                    text.y = offsetY;
-                    boxList.addChild(text);
-                    xPos += text.width;
-                } else if (this.textStructure[_index].type == 'sprite') {
-                    //i know im repeating code here
-                    var sprite = new PIXI.Sprite();
-                    sprite.texture = PIXI.Texture.from(this.textStructure[_index].source);
-                    if (xPos + sprite.width > _config2.default.width) {
-                        offsetY += 50;
-                        xPos = 0;
-                    }
-                    sprite.x = xPos;
-                    sprite.y = offsetY;
-                    sprite.scale.set(lineHeight / sprite.height);
-                    boxList.addChild(sprite);
-                    xPos += sprite.width;
-                }
-            }
-
-            boxList.lifeSpan = this.spawnTextTimer * 1.5;
-            this.container.addChild(boxList);
-            this.textBoxes.push(boxList);
-        }
-    }, {
-        key: 'build',
-        value: function build() {}
-    }, {
-        key: 'generateText',
-        value: function generateText() {
-            var length = Math.random() * 5 + 5;
-
-            var str = '';
-            for (var index = 0; index < length; index++) {
-                var type = Math.random();
-                if (type < 0.2) {
-                    var spriteID = Math.ceil(Math.random() * 150);
-                    var id = spriteID < 10 ? '00' + spriteID : spriteID < 100 ? '0' + spriteID : spriteID.toString();
-                    str += '{' + id + '} ';
-                } else if (type < 0.9) {
-                    str += this.loremArray[Math.floor(Math.random() * this.loremArray.length)] + ' ';
-                } else {
-                    str += this.emojiArray[Math.floor(Math.random() * this.emojiArray.length)] + ' ';
-                }
-            }
-
-            return str;
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-
-            if (this.currentSpawnTextTimer > 0) {
-                this.currentSpawnTextTimer -= delta;
-                if (this.currentSpawnTextTimer <= 0) {
-
-                    this.currentSpawnTextTimer = this.spawnTextTimer * Math.random();
-                    this.addTextBox(this.generateText());
-                }
-            }
-
-            for (var index = this.textBoxes.length - 1; index >= 0; index--) {
-                var element = this.textBoxes[index];
-
-                if (index > 0) {
-                    element.y = _utils2.default.lerp(element.y, this.textBoxes[index - 1].y + this.textBoxes[index - 1].height + 50, 0.5);
-                } else {
-
-                    element.y = _utils2.default.lerp(element.y, 150, 0.5);
-                }
-                element.x = _config2.default.width / 2 - element.width / 2;
-                element.lifeSpan -= delta;
-
-                if (element.lifeSpan <= 0) {
-                    this.container.removeChild(element);
-                    this.textBoxes.splice(index, 1);
-                }
-            }
-        }
-    }]);
-    return Demo2;
-}(_Screen3.default);
-
-exports.default = Demo2;
-module.exports = exports['default'];
-
-/***/ }),
-/* 190 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-        value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _Screen2 = __webpack_require__(35);
-
-var _Screen3 = _interopRequireDefault(_Screen2);
-
-var _UIButton = __webpack_require__(36);
-
-var _UIButton2 = _interopRequireDefault(_UIButton);
-
-var _ParticleEmitter = __webpack_require__(191);
-
-var _ParticleEmitter2 = _interopRequireDefault(_ParticleEmitter);
-
-var _ParticleDescriptor = __webpack_require__(93);
-
-var _ParticleDescriptor2 = _interopRequireDefault(_ParticleDescriptor);
-
-var _AlphaBehaviour = __webpack_require__(193);
-
-var _AlphaBehaviour2 = _interopRequireDefault(_AlphaBehaviour);
-
-var _SinoidBehaviour = __webpack_require__(194);
-
-var _SinoidBehaviour2 = _interopRequireDefault(_SinoidBehaviour);
-
-var _ColorBehaviour = __webpack_require__(195);
-
-var _ColorBehaviour2 = _interopRequireDefault(_ColorBehaviour);
-
-var _config = __webpack_require__(14);
-
-var _config2 = _interopRequireDefault(_config);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Demo3 = function (_Screen) {
-        (0, _inherits3.default)(Demo3, _Screen);
-
-        function Demo3(label) {
-                (0, _classCallCheck3.default)(this, Demo3);
-
-                var _this = (0, _possibleConstructorReturn3.default)(this, (Demo3.__proto__ || (0, _getPrototypeOf2.default)(Demo3)).call(this, label));
-
-                _this.font1 = new PIXI.TextStyle({
-                        fontFamily: 'fredokaone',
-                        align: "center",
-                        dropShadow: true,
-                        dropShadowAngle: 1.5,
-                        fontSize: 24,
-                        dropShadowDistance: 3,
-                        fill: 0xFFFFFF,
-                        fontWeight: "bold",
-                        letterSpacing: 3,
-                        strokeThickness: 3
-                });
-
-                var closeButton = new _UIButton2.default('icon-home', 0xFF4858, 80, 80);
-                closeButton.onClick.add(function () {
-                        _this.screenManager.backScreen();
-                });
-                closeButton.x = 50;
-                closeButton.y = 50;
-                _this.addChild(closeButton);
-
-                _this.particleContainer = new PIXI.ParticleContainer({ tint: true });
-                _this.addChild(_this.particleContainer);
-
-                _this.particleContainerEmitter = new _ParticleEmitter2.default(_this.particleContainer);
-                _this.particleContainerEmitter.frequency = 1 / 60;
-
-                _this.container = new PIXI.Container();
-                _this.addChild(_this.container);
-
-                _this.containerEmitter = new _ParticleEmitter2.default(_this.container);
-                _this.containerEmitter.frequency = 1 / 60;
-
-                _this.containerEmitterSmall = new _ParticleEmitter2.default(_this.container);
-                _this.containerEmitterSmall.frequency = 0.2;
-                _this.containerEmitterSmall.maxParticles = 10;
-
-                _this.containerEmitterSmall.x = _config2.default.width * 0.75;
-                _this.containerEmitterSmall.y = _config2.default.height * 0.75;
-
-                _this.particleContainerSmall = new _ParticleEmitter2.default(_this.container);
-                _this.particleContainerSmall.frequency = 0.2;
-                _this.particleContainerSmall.maxParticles = 10;
-
-                _this.blueFireEmitter = new _ParticleEmitter2.default(_this.container);
-                _this.blueFireEmitter.frequency = 1 / 60;
-                _this.blueFireEmitter.maxParticles = 1200;
-
-                _this.particleContainerSmall.x = _config2.default.width * 0.25;
-                _this.particleContainerSmall.y = _config2.default.height * 0.75;
-
-                _this.largeFireDescriptor = new _ParticleDescriptor2.default({
-                        velocityX: [-20, 20],
-                        velocityY: [-25, -55],
-                        gravity: [-20, -10],
-                        scale: [1, 3],
-                        lifeSpan: [2, 5],
-                        blendMode: PIXI.BLEND_MODES.ADD,
-                        texture: PIXI.Texture.from('star1')
-                });
-
-                _this.largeFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [2, 4] });
-                _this.largeFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [10, 40] });
-                _this.largeFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [2, 4], startValue: 0xff0000, endValue: 0xffff00 });
-
-                _this.smallFireDescriptor = new _ParticleDescriptor2.default({
-                        velocityX: [-10, 10],
-                        velocityY: [-10, -25],
-                        gravity: [-20, -10],
-                        scale: [1, 3],
-                        lifeSpan: [2, 5],
-                        blendMode: PIXI.BLEND_MODES.ADD,
-                        texture: PIXI.Texture.from('star1')
-                });
-
-                _this.smallFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [1, 3] });
-                _this.smallFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
-                _this.smallFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0xff0000, endValue: 0xffff00 });
-
-                _this.blueFireDescriptor = new _ParticleDescriptor2.default({
-                        velocityX: [-10, 10],
-                        velocityY: [-80, -25],
-                        gravity: [-20, -60],
-                        scale: [8, 3],
-                        lifeSpan: [2, 5],
-                        blendMode: PIXI.BLEND_MODES.ADD,
-                        texture: PIXI.Texture.from('star1')
-                });
-
-                _this.blueFireDescriptor.addBaseBehaviours(_AlphaBehaviour2.default, { time: [8, 3] });
-                _this.blueFireDescriptor.addBaseBehaviours(_SinoidBehaviour2.default, { speed: 1, length: [5, 10] });
-                _this.blueFireDescriptor.addBaseBehaviours(_ColorBehaviour2.default, { time: [1, 3], startValue: 0x11c0ff, endValue: 0xffff00 });
-
-                _this.emitTime = 0;
-
-                _this.emittersRotation = 0;
-
-                _this.particleCounter1 = new PIXI.Text("0", _this.font1);
-                _this.addChild(_this.particleCounter1);
-                _this.particleCounter1.anchor.set(0.5, 0);
-
-                _this.particleCounter1small = new PIXI.Text("0", _this.font1);
-                _this.addChild(_this.particleCounter1small);
-                _this.particleCounter1small.anchor.set(0.5, 0);
-
-                _this.particleCounter2 = new PIXI.Text("0", _this.font1);
-                _this.addChild(_this.particleCounter2);
-                _this.particleCounter2.anchor.set(0.5, 0);
-
-                _this.particleCounter2small = new PIXI.Text("0", _this.font1);
-                _this.addChild(_this.particleCounter2small);
-                _this.particleCounter2small.anchor.set(0.5, 0);
-
-                _this.particleCounter1.x = _config2.default.width * 0.25;
-                _this.particleCounter1.y = _config2.default.height * 0.35 + 20;
-
-                _this.particleCounter1small.x = _config2.default.width * 0.25;
-                _this.particleCounter1small.y = _config2.default.height * 0.75 + 20;
-
-                _this.particleCounter2.x = _config2.default.width * 0.75;
-                _this.particleCounter2.y = _config2.default.height * 0.35 + 20;
-
-                _this.particleCounter2small.x = _config2.default.width * 0.75;
-                _this.particleCounter2small.y = _config2.default.height * 0.75 + 20;
-
-                _this.helpLabel = new PIXI.BitmapText("Uses two types of containers\nparticle container is faster but limited", { fontName: 'counter' });
-                _this.addChild(_this.helpLabel);
-                _this.helpLabel.x = 100;
-                _this.helpLabel.y = 25;
-                return _this;
-        }
-
-        (0, _createClass3.default)(Demo3, [{
-                key: 'build',
-                value: function build(params) {
-                        if (params.single) {
-                                this.particleContainerEmitter.active = false;
-                                this.containerEmitter.active = false;
-                                this.blueFireEmitter.active = false;
-                        } else {
-                                this.particleContainerEmitter.active = true;
-                                this.containerEmitter.active = true;
-                                this.blueFireEmitter.active = true;
-                        }
-
-                        this.particleContainerEmitter.reset();
-                        this.containerEmitter.reset();
-                        this.containerEmitterSmall.reset();
-                        this.particleContainerSmall.reset();
-                        this.blueFireEmitter.reset();
-                }
-        }, {
-                key: 'update',
-                value: function update(delta) {
-
-                        this.emittersRotation += delta * 2;
-                        this.emittersRotation %= Math.PI * 2;
-
-                        this.particleContainerEmitter.x = _config2.default.width * 0.25 + Math.cos(this.emittersRotation) * 100;
-                        this.particleContainerEmitter.y = _config2.default.height * 0.35 + Math.sin(this.emittersRotation) * 100;
-
-                        this.containerEmitter.x = _config2.default.width * 0.75 + Math.cos(this.emittersRotation) * 100;
-                        this.containerEmitter.y = _config2.default.height * 0.35 + Math.sin(this.emittersRotation) * 100;
-
-                        this.blueFireEmitter.x = _config2.default.width / 2 + Math.cos(this.emittersRotation) * _config2.default.width / 2;
-                        this.blueFireEmitter.y = _config2.default.height;
-
-                        this.particleCounter1.visible = this.particleContainerEmitter.active;
-                        this.particleCounter1small.visible = this.particleContainerSmall.active;
-                        this.particleCounter2.visible = this.containerEmitter.active;
-                        this.particleCounter2small.visible = this.containerEmitterSmall.active;
-
-                        this.particleCounter1.text = this.particleContainerEmitter.particles.length + '\nparticles container';
-                        this.particleCounter1small.text = this.particleContainerSmall.particles.length + '\nparticles container';
-                        this.particleCounter2.text = this.containerEmitter.particles.length + '\nnormal container\n+blend modes';
-                        this.particleCounter2small.text = this.containerEmitterSmall.particles.length + '\nnormal container\n+blend modes';
-
-                        if (this.particleContainerEmitter.canEmit) {
-                                this.particleContainerEmitter.emit(this.largeFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 8);
-                        }
-
-                        if (this.containerEmitter.canEmit) {
-                                this.containerEmitter.emit(this.largeFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 8);
-                        }
-
-                        if (this.containerEmitterSmall.canEmit) {
-                                this.containerEmitterSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
-                        }
-                        if (this.particleContainerSmall.canEmit) {
-                                this.particleContainerSmall.emit(this.smallFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
-                        }
-                        if (this.blueFireEmitter.canEmit) {
-                                this.blueFireEmitter.emit(this.blueFireDescriptor, { minX: 0, maxX: 30, minY: 0, maxY: 5 }, 1);
-                        }
-
-                        this.particleContainerEmitter.update(delta);
-                        this.containerEmitter.update(delta);
-                        this.containerEmitterSmall.update(delta);
-                        this.particleContainerSmall.update(delta);
-                        this.blueFireEmitter.update(delta);
-                }
-        }]);
-        return Demo3;
-}(_Screen3.default);
-
-exports.default = Demo3;
-module.exports = exports['default'];
-
-/***/ }),
-/* 191 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _Pool = __webpack_require__(92);
-
-var _Pool2 = _interopRequireDefault(_Pool);
-
-var _Particle = __webpack_require__(192);
-
-var _Particle2 = _interopRequireDefault(_Particle);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ParticleEmmiter = function () {
-    function ParticleEmmiter(container) {
-        (0, _classCallCheck3.default)(this, ParticleEmmiter);
-
-        this.container = container;
-        this.position = { x: 0, y: 0 };
-        this.particles = [];
-        this.frequency = 0.1;
-        this.emitTimer = 0;
-        this.maxParticles = 1500;
-        this.active = true;
-    }
-
-    (0, _createClass3.default)(ParticleEmmiter, [{
-        key: 'reset',
-        value: function reset() {
-            for (var index = this.particles.length - 1; index >= 0; index--) {
-                var particle = this.particles[index];
-                _Pool2.default.instance.returnElement(particle);
-                this.container.removeChild(particle.sprite);
-                this.particles.splice(index, 1);
-            }
-        }
-    }, {
-        key: 'emit',
-        value: function emit(particleDescriptor, position, quant) {
-
-            for (var index = 0; index < quant; index++) {
-                var particle = _Pool2.default.instance.getElement(_Particle2.default);
-                particle.build(particleDescriptor);
-                particle.x = Math.random() * (position.maxX - position.minX) + position.minX + this.x;
-                particle.y = Math.random() * (position.maxY - position.minY) + position.minY + this.y;
-
-                this.container.addChild(particle.sprite);
-                this.particles.push(particle);
-
-                this.emitTimer = this.frequency;
-                if (this.particles.length > this.maxParticles) {
-                    var first = this.particles.shift();
-                    _Pool2.default.instance.returnElement(first);
-                    this.container.removeChild(first.sprite);
-                }
-            }
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-            this.emitTimer -= delta;
-            for (var index = this.particles.length - 1; index >= 0; index--) {
-                var particle = this.particles[index];
-                particle.update(delta);
-                if (particle.shouldDestroy) {
-                    _Pool2.default.instance.returnElement(particle);
-                    this.container.removeChild(particle.sprite);
-                    this.particles.splice(index, 1);
-                }
-            }
-        }
-    }, {
-        key: 'x',
-        get: function get() {
-            return this.position.x;
-        },
-        set: function set(value) {
-            this.position.x = value;
-        }
-    }, {
-        key: 'y',
-        get: function get() {
-            return this.position.y;
-        },
-        set: function set(value) {
-            this.position.y = value;
-        }
-    }, {
-        key: 'canEmit',
-        get: function get() {
-            return this.emitTimer <= 0 && this.active;
-        }
-    }]);
-    return ParticleEmmiter;
-}();
-
-exports.default = ParticleEmmiter;
-module.exports = exports['default'];
-
-/***/ }),
-/* 192 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _ParticleDescriptor = __webpack_require__(93);
-
-var _ParticleDescriptor2 = _interopRequireDefault(_ParticleDescriptor);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Particle = function () {
-    function Particle() {
-        (0, _classCallCheck3.default)(this, Particle);
-
-        this.descriptor = new _ParticleDescriptor2.default();
-        this.sprite = new PIXI.Sprite(PIXI.Texture.WHITE);
-    }
-
-    (0, _createClass3.default)(Particle, [{
-        key: 'build',
-        value: function build(descriptor) {
-            this.descriptor.clone(descriptor);
-            this.sprite.texture = this.descriptor.texture;
-            this.sprite.anchor.set(0.5);
-            this.sprite.scale.set(this.descriptor.scale);
-            this.sprite.blendMode = this.descriptor.blendMode;
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-            var _this = this;
-
-            this.descriptor.update(delta);
-            this.sprite.x += this.descriptor.velocityX * delta + this.descriptor.velocityOffsetX * delta;
-            this.sprite.y += this.descriptor.velocityY * delta + this.descriptor.velocityOffsetY * delta;
-
-            this.descriptor.velocityY += this.descriptor.gravity * delta;
-
-            this.descriptor.behaviours.forEach(function (element) {
-                if (element.type == 'descriptor') {
-                    if (_this.descriptor[element.property] !== undefined) {
-                        _this.descriptor[element.property] = element.currentValue;
-                    }
-                } else if (element.type == 'sprite') {
-                    if (_this.sprite[element.property] !== undefined) {
-                        _this.sprite[element.property] = element.currentValue;
-                    }
-                }
-            });
-        }
-    }, {
-        key: 'x',
-        set: function set(value) {
-            this.sprite.x = value;
-        }
-    }, {
-        key: 'y',
-        set: function set(value) {
-            this.sprite.y = value;
-        }
-    }, {
-        key: 'shouldDestroy',
-        get: function get() {
-            return this.descriptor.shouldDestroy;
-        }
-    }]);
-    return Particle;
-}();
-
-exports.default = Particle;
-module.exports = exports['default'];
-
-/***/ }),
-/* 193 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _get2 = __webpack_require__(33);
-
-var _get3 = _interopRequireDefault(_get2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _ParticleBehaviour2 = __webpack_require__(56);
-
-var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var AlphaBehaviour = function (_ParticleBehaviour) {
-    (0, _inherits3.default)(AlphaBehaviour, _ParticleBehaviour);
-
-    function AlphaBehaviour(time) {
-        (0, _classCallCheck3.default)(this, AlphaBehaviour);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (AlphaBehaviour.__proto__ || (0, _getPrototypeOf2.default)(AlphaBehaviour)).call(this));
-
-        _this.time = time;
-        _this.startValue = 1;
-        _this.endValue = 0;
-        return _this;
-    }
-
-    (0, _createClass3.default)(AlphaBehaviour, [{
-        key: "build",
-        value: function build(params) {
-
-            this.startValue = _ParticleBehaviour3.default.findValue(params.startValue) | 1;
-            this.endValue = _ParticleBehaviour3.default.findValue(params.endValue) | 0.1;
-            this.time = _ParticleBehaviour3.default.findValue(params.time) | 5;
-        }
-    }, {
-        key: "update",
-        value: function update(delta) {
-            (0, _get3.default)(AlphaBehaviour.prototype.__proto__ || (0, _getPrototypeOf2.default)(AlphaBehaviour.prototype), "update", this).call(this, delta);
-        }
-    }]);
-    return AlphaBehaviour;
-}(_ParticleBehaviour3.default);
-
-exports.default = AlphaBehaviour;
-module.exports = exports["default"];
-
-/***/ }),
-/* 194 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _ParticleBehaviour2 = __webpack_require__(56);
-
-var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SinoidBehaviour = function (_ParticleBehaviour) {
-    (0, _inherits3.default)(SinoidBehaviour, _ParticleBehaviour);
-
-    function SinoidBehaviour() {
-        (0, _classCallCheck3.default)(this, SinoidBehaviour);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (SinoidBehaviour.__proto__ || (0, _getPrototypeOf2.default)(SinoidBehaviour)).call(this));
-
-        _this.property = 'velocityOffsetX';
-        _this.type = 'descriptor';
-
-        _this.angle = Math.random() * Math.PI * 2;
-        return _this;
-    }
-
-    (0, _createClass3.default)(SinoidBehaviour, [{
-        key: 'build',
-        value: function build(params) {
-            this.speed = _ParticleBehaviour3.default.findValue(params.speed) | 1;
-            this.length = _ParticleBehaviour3.default.findValue(params.length) | 0.1;
-        }
-    }, {
-        key: 'reset',
-        value: function reset() {
-            this.angle = Math.random() * Math.PI * 2;
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-
-            this.angle += delta * this.speed;
-            this.currentValue = Math.sin(this.angle) * this.length;
-        }
-    }]);
-    return SinoidBehaviour;
-}(_ParticleBehaviour3.default);
-
-exports.default = SinoidBehaviour;
-module.exports = exports['default'];
-
-/***/ }),
-/* 195 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _get2 = __webpack_require__(33);
-
-var _get3 = _interopRequireDefault(_get2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _ParticleBehaviour2 = __webpack_require__(56);
-
-var _ParticleBehaviour3 = _interopRequireDefault(_ParticleBehaviour2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ColorBehaviour = function (_ParticleBehaviour) {
-    (0, _inherits3.default)(ColorBehaviour, _ParticleBehaviour);
-
-    function ColorBehaviour(time) {
-        (0, _classCallCheck3.default)(this, ColorBehaviour);
-
-        var _this = (0, _possibleConstructorReturn3.default)(this, (ColorBehaviour.__proto__ || (0, _getPrototypeOf2.default)(ColorBehaviour)).call(this));
-
-        _this.property = 'tint';
-        _this.type = 'sprite';
-
-        _this.time = time;
-        _this.startValue = 1;
-        _this.endValue = 0;
-
-        _this.currentRGB = { r: 0, g: 0, b: 0 };
-        return _this;
-    }
-
-    (0, _createClass3.default)(ColorBehaviour, [{
-        key: 'build',
-        value: function build(params) {
-            this.startValue = this.toRGB(_ParticleBehaviour3.default.findValue(params.startValue));
-            this.endValue = this.toRGB(_ParticleBehaviour3.default.findValue(params.endValue));
-            this.time = _ParticleBehaviour3.default.findValue(params.time) | 5;
-            this.currentValue = this.rgbToColor(this.startValue.r, this.startValue.g, this.startValue.b);
-        }
-    }, {
-        key: 'update',
-        value: function update(delta) {
-            (0, _get3.default)(ColorBehaviour.prototype.__proto__ || (0, _getPrototypeOf2.default)(ColorBehaviour.prototype), 'update', this).call(this, delta);
-
-            this.currentRGB.r = Math.floor(this.normalValue * (this.endValue.r - this.startValue.r) + this.startValue.r);
-            this.currentRGB.g = Math.floor(this.normalValue * (this.endValue.g - this.startValue.g) + this.startValue.g);
-            this.currentRGB.b = Math.floor(this.normalValue * (this.endValue.b - this.startValue.b) + this.startValue.b);
-
-            this.currentValue = this.rgbToColor(this.currentRGB.r, this.currentRGB.g, this.currentRGB.b);
-        }
-    }, {
-        key: 'toRGB',
-        value: function toRGB(rgb) {
-            var r = rgb >> 16 & 0xFF;
-            var g = rgb >> 8 & 0xFF;
-            var b = rgb & 0xFF;
-            return {
-                r: r,
-                g: g,
-                b: b
-            };
-        }
-    }, {
-        key: 'rgbToColor',
-        value: function rgbToColor(r, g, b) {
-            return r << 16 | g << 8 | b;
-        }
-    }]);
-    return ColorBehaviour;
-}(_ParticleBehaviour3.default);
-
-exports.default = ColorBehaviour;
-module.exports = exports['default'];
-
-/***/ }),
-/* 196 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-        value: true
-});
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _pixi = __webpack_require__(3);
-
-var PIXI = _interopRequireWildcard(_pixi);
-
-var _Screen2 = __webpack_require__(35);
-
-var _Screen3 = _interopRequireDefault(_Screen2);
-
-var _config = __webpack_require__(14);
-
-var _config2 = _interopRequireDefault(_config);
-
-var _UIList = __webpack_require__(91);
-
-var _UIList2 = _interopRequireDefault(_UIList);
-
-var _UIButton = __webpack_require__(36);
-
-var _UIButton2 = _interopRequireDefault(_UIButton);
-
-var _signals = __webpack_require__(29);
-
-var _signals2 = _interopRequireDefault(_signals);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var MenuScene = function (_Screen) {
-        (0, _inherits3.default)(MenuScene, _Screen);
-
-        function MenuScene(label) {
-                (0, _classCallCheck3.default)(this, MenuScene);
-
-                var _this = (0, _possibleConstructorReturn3.default)(this, (MenuScene.__proto__ || (0, _getPrototypeOf2.default)(MenuScene)).call(this, label));
-
-                _this.menuList = new _UIList2.default();
-                _this.addChild(_this.menuList);
-
-                _this.menuList.w = 400;
-                _this.menuList.h = 650;
-
-                _this.menuList.x = _config2.default.width / 2;
-                _this.menuList.y = _config2.default.height / 2 - 200;
-
-                _this.titleLabel = new PIXI.TextStyle({
-                        fontFamily: 'retro',
-                        align: "center",
-                        dropShadow: true,
-                        dropShadowAngle: 1.5,
-                        fontSize: 44,
-                        dropShadowDistance: 3,
-                        fill: ["#ff52f1", "#D9436B"],
-                        fillGradientType: 1,
-                        fontWeight: "bold",
-                        letterSpacing: 1,
-                        strokeThickness: 3
-                });
-
-                _this.buttonLabel1 = new PIXI.TextStyle({
-                        fontFamily: 'retro',
-                        align: "center",
-                        dropShadow: true,
-                        dropShadowAngle: 1.5,
-                        fontSize: 20,
-                        dropShadowDistance: 3,
-                        fill: 0xFFFFFF,
-                        fontWeight: "bold",
-                        letterSpacing: 1,
-                        strokeThickness: 3
-                });
-
-                _this.onRedirect = new _signals2.default.Signal();
-
-                _this.topLabel = new PIXI.Text("Hello,\nMy name is Jeff", _this.titleLabel);
-                _this.addChild(_this.topLabel);
-                _this.topLabel.x = _config2.default.width / 2;
-                _this.topLabel.y = 180;
-                _this.topLabel.anchor.set(0.5, 0);
-                _this.topLabel.sin = 0;
-
-                var demo1Button = _this.menuList.addElement(new _UIButton2.default(null, 0x05EC15, 400, 100));
-                demo1Button.addLabel('Cards using TweenLite\n', _this.buttonLabel1);
-                demo1Button.onClick.add(function () {
-                        _this.onRedirect.dispatch(0, { transition: 'tween' });
-                });
-
-                var demo1Button2 = _this.menuList.addElement(new _UIButton2.default(null, 0xBD8AF2, 400, 100));
-                demo1Button2.addLabel('Cards not using TweenLite\n(Cool)', _this.buttonLabel1);
-                demo1Button2.onClick.add(function () {
-                        _this.onRedirect.dispatch(0, { transition: 'update' });
-                });
-
-                var demo1Button3 = _this.menuList.addElement(new _UIButton2.default(null, 0xD9436B, 400, 100));
-                demo1Button3.addLabel('Cards not using TweenLite\n(AND SUPER FAST)', _this.buttonLabel1);
-                demo1Button3.onClick.add(function () {
-                        _this.onRedirect.dispatch(0, { transition: 'update', drawTime: 0.1 });
-                });
-
-                var demo2Button = _this.menuList.addElement(new _UIButton2.default(null, 0xDBD800, 400, 100));
-                demo2Button.addLabel('Label Maker', _this.buttonLabel1);
-                demo2Button.onClick.add(function () {
-                        _this.onRedirect.dispatch(1);
-                });
-                var demo3Button = _this.menuList.addElement(new _UIButton2.default(null, 0xF05832, 400, 100));
-                demo3Button.addLabel('Fire using\n10 Sprites', _this.buttonLabel1);
-                demo3Button.onClick.add(function () {
-                        _this.onRedirect.dispatch(2, { single: true });
-                });
-
-                var demo3Button2 = _this.menuList.addElement(new _UIButton2.default(null, 0xD9436B, 400, 100));
-                demo3Button2.addLabel('More Particles', _this.buttonLabel1);
-                demo3Button2.onClick.add(function () {
-                        _this.onRedirect.dispatch(2, { single: false });
-                });
-
-                _this.menuList.updateVerticalList();
-                _this.menuList.sin = Math.PI;
-                return _this;
-        }
-
-        (0, _createClass3.default)(MenuScene, [{
-                key: 'update',
-                value: function update(delta) {
-                        this.topLabel.sin += delta * 3;
-                        this.topLabel.sin %= Math.PI * 2;
-
-                        this.topLabel.rotation = Math.sin(this.topLabel.sin) * 0.5;
-                        this.topLabel.scale.set((Math.cos(this.topLabel.sin) * 0.5 + 1.5) * 0.5);
-
-                        this.menuList.sin += delta;
-                        this.menuList.sin %= Math.PI * 2;
-                        this.menuList.y = _config2.default.height / 2 - 200 + Math.sin(this.menuList.sin) * 30;
-                }
-        }]);
-        return MenuScene;
-}(_Screen3.default);
-
-exports.default = MenuScene;
-module.exports = exports['default'];
 
 /***/ })
 /******/ ]);
